@@ -1,0 +1,151 @@
+﻿body
+{
+	font-family: Segoe UI, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 9pt;
+}
+hr
+{
+	border: solid 1px #eeeeee;
+	margin-bottom: 50px;
+}
+input
+{
+	font-family: Segoe UI, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 9pt;
+}
+a
+{
+	text-decoration: none;
+}
+h2, h3
+{
+	font-weight: normal;
+}
+.title
+{
+	padding: 10px;
+	height: 220px;
+	font-size: x-large;
+}
+.title .detail
+{
+	margin-top: 20px;
+	font-size: small;
+}
+.title .detail code
+{
+	font-size: small;
+}
+.title .detail a
+{
+	color: White;
+}
+.purple-title
+{
+	background-color: #666699;
+	color: #FFFFFF;
+}
+.orange-title
+{
+	background-color: #FF9933;
+	color: #FFFFFF;
+}
+.blue-title
+{
+	background-color: #0066CC;
+	color: #FFFFFF;
+}
+.green-title
+{
+	background-color: #009900;
+	color: #FFFFFF;
+}
+.darkred-title
+{
+	background-color: #CC3300;
+	color: #FFFFFF;
+}
+.content
+{
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	background-color: InfoBackground;
+	line-height: 1.5;
+}
+.box
+{
+	border: solid 1px #999999;
+	padding: 2px 5px 2px 5px;
+	color: InfoText;
+	background-color: InfoBackground;
+}
+.code
+{
+	float: right;
+	font-style: italic;
+	font-size: x-small;
+	color: Blue;
+}
+.path
+{
+	font-style: italic;
+	color: #008000;
+}
+.expression
+{
+	color: #FF3300;
+}
+.ui-selecting
+{
+	color: MenuText;
+	background-color: InactiveCaption;
+}
+.ui-selected
+{
+	color: MenuText;
+	background-color: ActiveCaption;
+}
+#result
+{
+	color: Blue;
+}
+#message
+{
+	padding: 5px;
+	color: #666666;
+}
+td .textbox
+{
+	width: 50px;
+}
+
+.unchanged-item
+{
+}
+.inserted-item
+{
+	color: Green;
+}
+.updated-item
+{
+	font-weight: bold;
+}
+.icon
+{
+	display: inline-block;
+}
+
+.header
+{
+	font-size: large;
+	font-weight: bold;
+}
+.footer
+{
+	text-align: right;
+}
+.span-button
+{
+	color: Blue;
+	cursor: pointer;
+}

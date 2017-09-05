@@ -1,0 +1,417 @@
+.GridStyle
+{
+    BORDER-RIGHT: black 0px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: black 0px solid;
+    BORDER-BOTTOM: black 0px solid;
+    BACKGROUND-COLOR: white
+}
+.BRGridHeaderCell
+{
+    BORDER-RIGHT: #e2decd 0px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #e2decd 0px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 0px;
+    OVERFLOW: hidden;
+    BORDER-LEFT: buttonshadow 0px solid;
+    WIDTH: 100%;
+    CURSOR: default;
+    COLOR: white;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: buttonshadow 0px solid;
+    FONT-FAMILY: Tahoma, Verdana;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    BACKGROUND-COLOR: #1081c8;
+    moz-box-flex: 1
+}
+.BRGridHeader
+{
+    BORDER-RIGHT: #1081c8 0px solid;
+    BORDER-TOP: #1081c8 0px solid;
+    FONT-WEIGHT: bold;
+    TEXT-TRANSFORM: capitalize;
+    BORDER-LEFT: #1081c8 0px solid;
+    CURSOR: default;
+    COLOR: black;
+    BORDER-BOTTOM: #1081c8 0px solid;
+    ;
+    TOP: expression(this.offsetParent.scrollTop);
+    BACKGROUND-COLOR: #1081c8
+}
+.BRGridItemRow
+{
+    BORDER-RIGHT: #f3efe4 0px solid;
+    BORDER-TOP: #f3efe4 0px solid;
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: #f3efe4 0px solid;
+    CURSOR: default;
+    BORDER-BOTTOM: #f3efe4 0px solid;
+    BACKGROUND-COLOR: #b4e1ff
+}
+.BRGridAItemRow
+{
+    BORDER-RIGHT: #f3efe4 0px solid;
+    BORDER-TOP: #f3efe4 0px solid;
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: #f3efe4 0px solid;
+    CURSOR: default;
+    BORDER-BOTTOM: #f3efe4 0px solid;
+    BACKGROUND-COLOR: #caeaff
+}
+.BRGridItemRowCell
+{
+    BORDER-RIGHT: gray 0px solid;
+    PADDING-RIGHT: 2px;
+    DISPLAY: inline;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 0px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana, Arial ,Tahoma;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    TEXT-ALIGN: left
+}
+.BRGridItemRowCellDecimal
+{
+    BORDER-RIGHT: gray 0px solid;
+    PADDING-RIGHT: 5px;
+    DISPLAY: inline;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 0px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana, Arial ,Tahoma;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    TEXT-ALIGN: right
+}
+.BRGridItemRowCellInteger
+{
+    BORDER-RIGHT: gray 0px solid;
+    PADDING-RIGHT: 5px;
+    DISPLAY: inline;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 0px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana, Arial ,Tahoma;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    TEXT-ALIGN: right
+}
+.BRGridCustomItemRowCell
+{
+    PADDING-RIGHT: 5px;
+    DISPLAY: inline;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 11px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana, Arial ,Tahoma;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    TEXT-ALIGN: left
+}
+.BRGridAItemRowCell
+{
+    BORDER-RIGHT: black 0px solid;
+    PADDING-RIGHT: 5px;
+    DISPLAY: inline;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 11px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana, Arial ,Tahoma;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    BACKGROUND-COLOR: #e2decd;
+    TEXT-ALIGN: left
+}
+.BRGridResizeBox
+{
+    BORDER-RIGHT: gray 0px solid;
+    Z-INDEX: 1000;
+    RIGHT: 0px;
+    OVERFLOW: visible;
+    WIDTH: 2px;
+    CURSOR: e-resize;
+    POSITION: relative;
+    TOP: 0%;
+    HEIGHT: 70%
+}
+.BRGridSnoBox
+{
+    BORDER-RIGHT: buttonshadow 0px solid;
+    BORDER-TOP: buttonshadow 0px solid;
+    DISPLAY: inline;
+    FONT-SIZE: 11px;
+    ;
+    LEFT: expression(this.offsetParent.scrollLeft);
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: buttonshadow 0px solid;
+    CURSOR: default;
+    COLOR: white;
+    BORDER-BOTTOM: buttonshadow 0px solid;
+    FONT-FAMILY: Tahoma, Verdana;
+    BACKGROUND-COLOR: #1081c8;
+    TEXT-ALIGN: center
+}
+.BRGridGroupHeader
+{
+}
+.BRGridRowOnclick
+{
+    COLOR: white;
+    BACKGROUND-COLOR: #316ac5
+}
+.BRGridGroupItemsDiv
+{
+}
+.BRGridGrpHeader
+{
+    BORDER-RIGHT: white 0px solid;
+    BORDER-TOP: buttonshadow 0px solid;
+    FONT-SIZE: 11px;
+    BACKGROUND: #1081c8;
+    BORDER-LEFT: buttonshadow 0px solid;
+    ;
+    WIDTH: expression(this.parentElement.children[1].offsetWidth<(this.parentElement.children[1].children[this.parentElement.children[1].children.length-1].offsetWidth+this.parentElement.children[1].children[this.parentElement.children[1].children.length-1].offsetLeft)?(this.parentElement.children[1].children[this.parentElement.children[1].children.length-1].offsetWidth+this.parentElement.children[1].children[this.parentElement.children[1].children.length-1].offsetLeft):this.parentElement.children[1].offsetWidth);
+    COLOR: black;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: white 0px solid;
+    FONT-FAMILY: Verdana, Tahoma, Arial
+}
+.BRGridGrpHeaderFF
+{
+    BORDER-RIGHT: white 0px solid;
+    BORDER-TOP: buttonshadow 0px solid;
+    FONT-SIZE: 11px;
+    BACKGROUND: #1081c8;
+    BORDER-LEFT: buttonshadow 0px solid;
+    COLOR: blue;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: white 0px solid;
+    FONT-FAMILY: Verdana, Tahoma, Arial
+}
+.BRGridGrpItems
+{
+}
+.BRGridGrpItemsFF
+{
+    BACKGROUND-COLOR: #ffffee
+}
+.BRGridGrpItemRow
+{
+    BORDER-RIGHT: #e2decd 0px solid;
+    BORDER-TOP: #e2decd 0px solid;
+    BORDER-LEFT: #e2decd 0px solid;
+    ;
+    WIDTH: expression(this.parentElement.offsetWidth);
+    CURSOR: default;
+    BORDER-BOTTOM: #e2decd 0px solid;
+    BACKGROUND-COLOR: white
+}
+.BRGridGrpAItemRow
+{
+    BORDER-RIGHT: #e2decd 0px solid;
+    BORDER-TOP: #e2decd 0px solid;
+    BORDER-LEFT: #e2decd 0px solid;
+    ;
+    WIDTH: expression(this.parentElement.offsetWidth);
+    CURSOR: default;
+    BORDER-BOTTOM: #e2decd 0px solid;
+    BACKGROUND-COLOR: #ffffee
+}
+.BRGridGrpAItemRowFF
+{
+    BORDER-RIGHT: #e2decd 0px solid;
+    BORDER-TOP: #e2decd 0px solid;
+    BORDER-LEFT: #e2decd 0px solid;
+    WIDTH: 100%;
+    CURSOR: default;
+    BORDER-BOTTOM: #e2decd 0px solid;
+    BACKGROUND-COLOR: #ffffee
+}
+.BRGridGrpItemCell
+{
+    BORDER-RIGHT: gray 0px solid;
+    DISPLAY: inline;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 11px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana, Arial ,Tahoma;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    TEXT-ALIGN: left
+}
+.BRGridGrpMinus
+{
+    PADDING-LEFT: 6px;
+    PADDING-BOTTOM: 0px;
+    VERTICAL-ALIGN: middle;
+    PADDING-TOP: 0px
+}
+.BRGridGrpPlus
+{
+}
+.BRGridGrpButtonP
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 13px;
+    BACKGROUND: url(../Images/Tree_View_Plus.gif) no-repeat 0px 50%;
+    PADDING-BOTTOM: 3px;
+    VERTICAL-ALIGN: top;
+    OVERFLOW: visible;
+    CURSOR: default;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana ,Tahoma ,Arial;
+    TOP: 0px
+}
+.BRGridGrpButtonM
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 13px;
+    BACKGROUND: url(../Images/Tree_View_Minus.gif) no-repeat 0px 50%;
+    PADDING-BOTTOM: 3px;
+    VERTICAL-ALIGN: top;
+    OVERFLOW: visible;
+    CURSOR: default;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana ,Tahoma ,Arial;
+    TOP: 0px
+}
+.BRGridColMOverTop
+{
+    BORDER-RIGHT: #e2decd 0px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #e2decd 0px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    BACKGROUND: #ffffff;
+    PADDING-BOTTOM: 0px;
+    OVERFLOW: hidden;
+    BORDER-LEFT: buttonshadow 0px solid;
+    WIDTH: 100%;
+    CURSOR: default;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: buttonshadow 0px solid;
+    FONT-FAMILY: Tahoma, Verdana;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    moz-box-flex: 1
+}
+.BRGridColMOutTop
+{
+    BACKGROUND: #0099ff
+}
+.BRGridColMOverBottom
+{
+    BORDER-RIGHT: thick;
+    BORDER-TOP: thick;
+    BACKGROUND-IMAGE: none;
+    VISIBILITY: inherit;
+    BORDER-LEFT: thick;
+    BORDER-BOTTOM: thick;
+    BACKGROUND-REPEAT: repeat;
+    BACKGROUND-COLOR: transparent
+}
+.BRGridColMOutBottom .BRGridHeaderCell
+{
+    BACKGROUND: #cbc7b8
+}
+.BRGridSortBoxDesc
+{
+    BACKGROUND: url(../grid.png) no-repeat -40px 50%
+}
+.BRGridSortBoxAsc
+{
+    BACKGROUND: url(../grid.png) no-repeat -20px 50%
+}
+.BRGridCorner
+{
+    BORDER-RIGHT: black 0px solid;
+    BACKGROUND: #1081c8;
+    LEFT: 0px;
+    OVERFLOW: hidden;
+    COLOR: white;
+    BORDER-BOTTOM: black 0px solid;
+    ;
+    TOP: expression(this.offsetParent.scrollTop)
+}
+.BRGridGrpHeaderBox
+{
+    BORDER-RIGHT: buttonshadow 0px solid;
+    PADDING-LEFT: 6px;
+    BACKGROUND: #dbeadb;
+    LEFT: 0px;
+    PADDING-BOTTOM: 1px;
+    COLOR: white;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: buttonshadow 0px solid
+}
+.BRGridGrpRowBox
+{
+    BACKGROUND: #1081c8;
+    COLOR: white
+}
+.BRGridNoDataError
+{
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    VERTICAL-ALIGN: middle;
+    WIDTH: 100px;
+    WHITE-SPACE: nowrap;
+    TOP: 25px;
+    HEIGHT: 10px;
+    TEXT-ALIGN: center
+}
+.BRGridHeaderPressed
+{
+    FONT-WEIGHT: bold;
+    BORDER-LEFT-COLOR: threeddarkshadow;
+    BORDER-BOTTOM-COLOR: buttonhighlight;
+    TEXT-TRANSFORM: capitalize;
+    COLOR: black;
+    BORDER-TOP-COLOR: threeddarkshadow;
+    BACKGROUND-COLOR: transparent;
+    BORDER-RIGHT-COLOR: buttonhighlight
+}
+.BRGridAmoutCell
+{
+    BORDER-RIGHT: #e2decd 0px solid;
+    DISPLAY: inline;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 11px;
+    VERTICAL-ALIGN: middle;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana, Arial ,Tahoma;
+    WHITE-SPACE: nowrap;
+    HEIGHT: 100%;
+    TEXT-OVERFLOW: ellipsis;
+    TEXT-ALIGN: right
+}

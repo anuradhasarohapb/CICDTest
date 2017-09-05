@@ -1,0 +1,1147 @@
+/*@import url(http://fonts.googleapis.com/css?family=Droid+Sans);*/
+@import url('../DHTMLX/codebase/dhtmlx.css');
+  body, html 
+  { 
+    margin: 0; 
+    padding: 0; 
+    background: #fdffb8; 
+    color: #000; 
+    height: 100%; 
+    font-family: 'Droid Sans','Tahoma';
+  }
+
+/*button {
+	-webkit-box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	background-color:#EEE;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border:1px solid #999;
+	color:#666;
+	font-family:'Lucida Grande',Tahoma,Verdana,Arial,Sans-serif;
+	font-size:11px;
+	font-weight:700;
+	padding:2px 6px;
+	height:28px
+}*/
+      
+.BRComboStandard
+{
+	background-color: Transparent;
+	width:94%; 
+	height:150px; 
+	position:absolute; 
+	z-index:900;
+	vertical-align:bottom;
+}
+.BRComboChanged
+{
+	background-color: Transparent;
+	width:26.5%; 
+	height:150px; 
+	position:absolute; 
+	z-index:900;
+	vertical-align:bottom;
+}
+.buttona
+{
+	font-size:12px;
+	font-family:Arial;
+	white-space:nowrap;
+	height:24px;
+}
+.Button
+{
+-webkit-box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	background-color:#dedede;    
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border:1px solid #999;
+
+	font-family:'Lucida Grande',Tahoma,Verdana,Arial,Sans-serif;
+	font-size:12px;
+	font-weight:700;
+	padding:5px 5px 6px 7px; /* Links */
+	width:98%;
+}
+
+.ButtonSmall
+{
+
+    display:block;
+    float:left;
+    margin:0 0 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+    border-color:Silver;
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:10px;
+    line-height:100%;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:1px 1px 1px 1px; /* Links */
+	width:98%;
+	
+}
+.GridHeaderMainModule
+{
+	BACKGROUND-COLOR: #D47C2B;
+	color:White;
+	font-size: 12px; 
+	font-weight: Bold; 
+	text-indent: 5pt;
+	height:20px;
+	vertical-align:middle;
+	text-transform:capitalize;
+    position:relative;
+    top: expression(document.getElementById("divMainModule").scrollTop-2);
+    z-index: 20;
+}
+.GridHeaderSubModule
+{
+    BACKGROUND-COLOR: #D47C2B;
+	color:White;
+	font-size: 12px; 
+	font-weight: Bold; 
+	text-indent: 5pt;
+	height:20px;
+	vertical-align:middle;
+	text-transform:capitalize;
+    position:relative;
+    top: expression(document.getElementById("divSubModule").scrollTop-2);
+    z-index: 20;
+}
+.BREditWindowTitle
+{
+    FONT-WEIGHT: bolder;
+    COLOR: white;
+    HEIGHT: 30px;
+    BACKGROUND-COLOR: darkblue;
+}
+
+.BREditNormalButton
+{
+    BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: white 1px solid;
+    BORDER-LEFT: white 1px solid;
+    BORDER-BOTTOM: gray 1px solid
+}
+
+.BREditPressedButton
+{
+    BORDER-RIGHT: 1px inset;
+    BORDER-TOP: 1px inset;
+    BORDER-LEFT: 1px inset;
+    BORDER-BOTTOM: 1px inset
+}
+
+.BREditOverButton
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: white 1px solid;
+    BORDER-LEFT: white 1px solid;
+    BORDER-BOTTOM: 1px outset
+}
+
+.BREditWindow
+{
+    BORDER-RIGHT: 3px ridge;
+    BORDER-TOP: 3px ridge;
+    BORDER-LEFT: 3px ridge;
+    WIDTH: 300px;
+    BORDER-BOTTOM: 3px ridge;
+    HEIGHT: 200px;
+    BACKGROUND-COLOR: white
+}
+
+.BREditWindowStatus
+{
+    BORDER-RIGHT: 1px inset;
+    BORDER-TOP: 1px inset;
+    MARGIN: 2px;
+    BORDER-LEFT: 1px inset;
+    BORDER-BOTTOM: 1px inset;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: lightgrey
+}
+
+
+ .ErrorTextBox
+{
+	border: 1px #7F9DB9 solid; 
+	font-size:12px;
+	vertical-align: middle; 
+	background-color:#F9F6E0;
+}
+
+.ErrMessage
+{
+
+}
+
+ /*Newly Updated Styles */
+
+body 
+{	
+	font-family: 'Droid Sans','Tahoma', 'sans-serif';  
+	font-size: 12px; 
+	font-weight: normal; 
+    text-transform:capitalize;
+	color: #000000;
+	text-align: left;
+	vertical-align:top;
+}
+
+A
+{
+    color: #000000;
+    text-decoration:none;
+    cursor: hand;
+    cursor:pointer;
+    border:"0"
+}
+
+A:Visited
+{
+    color: #000000;
+    text-decoration:none;
+    border:0;
+}
+
+A:hover 
+{
+   color: #D47C2B;
+   text-decoration:none;
+   cursor: hand;
+    cursor:pointer;
+   border:0;
+}
+
+.TotalPgBorder
+{
+	border: #D47C2B; 
+	border-style: solid; 
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	BACKGROUND-COLOR: #FDFFB8;
+}
+
+
+
+.TotalPgBorderRight
+{
+	border: #D47C2B; 
+	border-style: solid; 
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	BACKGROUND-COLOR: #FDFFB8;
+}
+
+
+.PgTitle
+{
+	font-size: 14px; 
+	font-weight: bold; 
+	color:White; 
+	text-indent:5px; 
+	vertical-align:top; 
+	BACKGROUND-COLOR: #D47C2B;
+}
+
+.PgHeaderTitle
+{
+	font-size: 18px; 
+	font-weight: bold; 
+	color:White; 
+	text-indent:5px; 
+	vertical-align: middle; 
+	BACKGROUND-COLOR: #003A6C;
+}
+
+.RgtSideTable
+{
+	BACKGROUND-COLOR: #fdffb8;
+	border: #D47C2B; 
+	border-style: solid; 
+	border-top-width: 0px;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.DataTable
+{
+	padding-bottom: 1px;
+	BACKGROUND-COLOR: #fdffb8;
+	border: 1px #d47c2b solid;
+}
+
+.DataTableRemarks
+{
+	padding-bottom: 1px;
+	BACKGROUND-COLOR: #EDF6FB;
+}
+
+.DataTableTitle
+{
+	BACKGROUND-COLOR: #d47c2b;
+	color:White;
+	font-size: 12px; 
+	font-weight: Bold; 
+	text-indent: 5pt;
+	height:15px;
+	vertical-align:middle;
+	text-transform:capitalize;
+}
+
+.DataTableTitle_
+{
+	BACKGROUND-COLOR: #4390E1;
+	color:White;
+	font-size: 12px; 
+	font-weight: Bold; 
+	text-indent: 5pt;
+	height:15px;
+	vertical-align:middle;
+	text-transform:capitalize;
+}
+.BhndTheScene
+{
+	padding-bottom: 1px;
+	BACKGROUND-COLOR: #F2F2F2;
+	border: 1px #949494 solid;
+}
+
+.BhndTheSceneTitle
+{
+	BACKGROUND-COLOR: #D5D4D4;
+	font-weight: Bold; 
+	text-indent: 5pt; 
+	height:20px;
+	text-transform:capitalize;
+}
+
+.LabelA
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-size:12px;
+	text-align:left;
+	text-transform:capitalize;
+}
+
+.Label
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-size:12px;
+	text-align:left;
+	text-transform:capitalize;
+}
+
+.DataGrid
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-size:12px;
+	font-weight: Bold; 
+	text-align:left;
+	text-transform:capitalize;
+}
+
+
+.MandatoryA
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-weight: Bold; 
+	font-size:12px;
+	text-align:left;
+	text-transform:capitalize;
+	color:Blue; 
+}
+.Mandatory
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-weight: Bold; 
+	font-size:12px;
+	text-align:left;
+	text-transform:capitalize;
+	color:Blue; 
+}
+
+.CondMandatoryA
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-weight: Bold; 
+	font-size:12px;
+	text-align:left;
+	text-transform:capitalize;
+	color:Black; 
+}
+
+.CondMandatory
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-weight: Bold; 
+	font-size:12px;
+	text-align:left;
+	text-transform:capitalize;
+	color:Black; 
+}
+
+.CondMandatoryLogin
+{
+	font-family: 'Droid Sans','Tahoma', sans-serif; 
+	font-weight: Bold; 
+	font-size:13px;
+	text-align:left;
+	text-transform:capitalize;
+	color:White; 
+}
+
+.TextBox
+{
+	border: 1px #7F9DB9 solid; 
+	font-size:11px;
+	vertical-align: middle; 
+	background-color:White;
+	font-family:'Droid Sans','Tahoma', sans-serif;
+    font-weight:bold;
+    color: #000000;
+}
+
+.TextBoxLogin
+{
+	border: 1px #7F9DB9 solid; 
+	font-size:12px;
+	vertical-align: middle; 
+	background-color:White;
+	font-family:'Droid Sans','Tahoma', sans-serif;
+	height:15px;
+    font-weight:bold;
+    color: #000000;
+}
+
+.TextBoxAlgnRgt
+{
+	border: 1px #7F9DB9 solid;
+	font-size:12px; 
+	vertical-align: middle; 
+	text-align:right;
+	background-color:White;
+	font-family:'Droid Sans','Tahoma', sans-serif;
+    font-weight:bold;
+    color:#000000;
+}
+
+.ComboBox
+{
+	border: 1px #7F9DB9 solid;
+	font-size:12px; 
+	vertical-align: middle;
+	background-color:White;
+	font-family:'Droid Sans','Tahoma', sans-serif;	
+    font-weight:bold;
+    color:#000000;
+}
+
+.ComboBox-disabled {
+	background-color: white;
+	border: #3532ff 1px solid;
+    font-weight:bold;
+	color: #000000;
+	cursor: default;
+} 
+
+.ButtonText
+{
+	font-size: 13px; 
+	font-weight: bold;
+	text-align:center;
+	text-transform:capitalize;
+	white-space:nowrap;
+	font-family:'Droid Sans','Tahoma', sans-serif;
+}
+A.ButtonText:link
+{
+	font-size: 11px; 
+	font-weight: bold;
+	text-align:left;
+	text-transform:capitalize;
+}
+
+A.ButtonText:hover
+{
+	font-size: 11px; 
+	font-weight: bold;
+	text-align:left;
+	text-transform:capitalize;
+}
+
+A.ButtonText:visited
+{
+	font-size: 11px; 
+	font-weight: bold;
+	text-align:left;
+	text-transform:capitalize;
+}
+
+.BottomDisplayMsg
+{
+	font-size: 11px; 
+	color: #000000; 
+	padding-left:5px;
+	font-weight: bold;
+	vertical-align:  middle ;
+	BACKGROUND-COLOR: #D3EBF9;
+	height:25px;
+}
+
+ 
+
+.LoginDeclaration
+{
+	font-size: 11px; 
+	color:White;
+	font-family:Tahoma;
+}
+
+.LoginFields:link
+{
+	font-size: 11px; 
+	color: #000000; 
+	text-Decoration:none; 
+	height:20px;
+}
+.LoginFields:hover
+{
+	font-size: 11px; 
+	color: #015E99; 
+	text-Decoration:underline; 
+	height:20px;
+}
+.LoginFields:visited
+{
+	font-size: 11px; 
+	color: #000000; 
+	text-Decoration:none; 
+	height:20px;
+}
+
+.LoginFields 
+{
+	font-weight: bold; 
+	color:#000000; 
+	padding-top: 0px; 
+	height:20px; 
+	vertical-align:middle;
+}
+
+
+.LoginPgTitle
+{
+	font-size: 18px; 
+	font-style: normal; 
+	font-weight: bold; 
+	vertical-align:middle; 
+	padding-left:10px
+}
+
+.Copyright
+{
+	font-size: 11px; 
+	text-align:right;
+	color:White;
+	font-family:Tahoma;	
+}
+
+.rightAlign
+{
+ text-align:right ;
+ vertical-align :top ;
+}
+.tdAlign
+{
+	text-align:right;
+	padding-right:10px;
+	text-indent:5px;
+
+}
+.cursor
+{
+    cursor:move;
+}
+
+.buttonCursor
+{
+    cursor:pointer;
+    
+}
+
+.divButton
+{
+    position:absolute;    
+    left:283px;
+    top:3px;
+    height:31px;
+}
+
+.GridHeader
+{
+	background:#507CD1;
+	color:White;
+	font-weight:bold;
+}
+
+.HiddenStyle
+{
+    border: 1px #7F9DB9 solid; 
+	font-size:12px;
+	vertical-align: middle; 
+    display:none;
+}
+
+.DBContentDiv
+{ 
+   
+   border-left-width :1px; 
+   border-left-color:#65B8EC;
+   border-right-width:1px;
+   border-right-color:#65B8EC;
+   border-left-style:solid;
+   border-right-style:solid;
+   text-align:left;
+ }
+.DBGridViewStyle
+{   
+    
+    font-family:Tahoma, Verdana;
+    padding:1px 3px 1px 3px;
+    background-color:#FDFFB8;
+    cursor:default;
+    
+}
+.BoldItem
+{
+    font-weight:bold;        
+}
+.ErrorMsg
+{
+	 color:Red;
+}
+
+.DBGridViewRowStyle{padding:0px 3px 0px 3px;background-color:#FDFFB8;font-size:9px;font-weight:normal; font-family:Tahoma, Verdana;}
+.TaskbarDivStyle {position:absolute;top:572px;font-family:Arial;font-weight:bold; left:100px;visibility:hidden;cursor:default}
+.DBItemHeader{font-family:Tahoma , Verdana; font-size:11px;font-weight:bold;vertical-align:middle;background-color:#65B8EC}
+.DBItemFooter{background-color:#65B8EC;}
+.DBDataGridFixedHeader {font-family:Tahoma ,Arial,Verdana;font-size:10px;font-weight:bold;background-color: #AED5EE; position:relative; top:expression(this.offsetParent.scrollTop);} 
+.DBGridViewAlterRowStyle{background-color:#E3E3E3;font-size:10px;font-family:Tahoma, Verdana;padding:0px 3px 0px 3px}
+.DBTaskbarText{font-family:Tahoma, Verdana;font-size:10;font-weight:bold;vertical-align:middle;}
+ 
+		div.rounded{background:#65B8EC;}
+
+.CboTableStyle{  border:none 0px #000000}
+.CboStyle{}
+.CboLabelStyle{cursor:default}
+.CboLabelDivStyle{border:solid 1px #7f9db9;font-family:Verdana,Tahoma, Arial}
+.CboTableDivStyle{}
+.CboArrowStyle{}
+.CboArrowDivStyle{}
+.CboTableRowStyle{cursor:default;border:0;border-style:none; background-color:#E8E8E8;font-family:Verdana,Tahoma, Arial;font-size:10px;}
+.CboTableARowStyle{cursor:default;border:0;border-style:none; background-color:#FDFFB8;font-family:Verdana,Tahoma, Arial;font-size:10px}
+.CboMouseOverStyle{background:blue}
+.CboMouseOutStyle{}
+.CboCellStyle{ nowrap:nowrap;cursor:default; border-right:solid 1px #000000}		
+.DtWithoutBotBorder{padding-bottom: 1px;BACKGROUND-COLOR: #EDF6FB;border: #D47C2B;border-style: solid;border-top-width: 1px;border-left-width: 1px;	border-right-width: 1px;border-bottom-width: 0px;}
+
+.HiddenStyleDate{border-style:solid;border-color:#99A1A9;border-width:1px;font-size:12px;vertical-align: middle;display:none;}
+
+.LftSideTable
+{
+	BACKGROUND-COLOR: #fdffb8;
+	border: #7DC5EE; 
+	border-style: solid; 
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+}
+
+.LftMnuTitle
+{
+	background:#7DC5EE;
+	font-weight: bold; 
+	text-indent: 5pt; 
+	vertical-align: middle;  
+	BACKGROUND-COLOR: #7DC5EE;
+	text-transform:capitalize; 
+	border:0;  
+	height:22px; 
+	border: #7DC5EE; 
+	border-style:solid; 
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom:solid 1px white;
+	height:22px; 
+}
+
+.LftMnuTitleOver
+{
+	font-weight: bold; 
+	text-indent: 5pt; 
+	vertical-align: middle;  
+	BACKGROUND-COLOR: #A9D5EF;
+	text-transform:capitalize; 
+	border: #A9D5EF; 
+	border-style:solid; 
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom:solid 1px white;
+	height:22px; 
+	cursor:hand;
+	cursor:pointer;
+}
+
+.LftMnuTitleDown
+{
+	font-weight: bold; 
+	text-indent: 5pt; 
+	color:White;
+	vertical-align: middle;  
+	BACKGROUND-COLOR: #D47C2B;
+	text-transform:capitalize; 
+	border:#D47C2B; 
+	border-style: solid; 
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px; 
+	height:22px; 
+	cursor:hand;
+	cursor:pointer;
+}
+
+
+
+.LftSideSubMnu
+{
+	text-indent: 5pt; 
+	font-size:12px;  
+	vertical-align: middle;
+	background-color:#fdffb8;
+	text-transform:capitalize;
+	border:0;
+	height:20px;
+	text-align:left; 
+	cursor:hand;
+	cursor:pointer;
+}
+
+.LftSideSubMnuOver
+{
+	text-indent: 5pt; 
+	font-size:12px; 
+	vertical-align: middle;
+	background-color:#DCEDF7;
+	text-transform:capitalize;
+	border:0;
+	height:20px;
+	text-align:left; 
+	cursor:hand;
+	cursor:pointer;
+}
+
+.LftSideSubMnuDown
+{
+	text-indent: 5pt;	
+	font-size:12px; 	
+	vertical-align:middle; 
+	background-color:#AFD0E4;
+	text-transform:capitalize;
+	border:0;
+	height:20px;
+	text-align:left; 
+	cursor:hand;
+	cursor:pointer;
+}
+
+.CalendarLayoutStyle
+{
+	border:solid 2px #65B8EC;
+	background-color:#65B8EC;
+	font-family:Arial; 
+	font-size:11px;
+	width:190px;
+	font-weight:normal;
+}
+.CalendarMainHeading
+{
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	height:20px;
+}
+
+.CalendarDayHeaderStyle
+{
+	background-color:#747474;
+	font-weight:bold; 
+	color:White;
+	height:20px;
+	font-size:10px;
+}
+
+.CalendarDayStyle
+{
+	background-color:#FDFFB8;
+	color:Black;
+	font-weight:normal; 
+	height:20px;
+	border:solid 1px #65B8EC;
+}
+
+.CalendarFooterStyle
+{
+	background-color:#65B8EC;
+	font-size:11px;
+	padding-left:5px;
+	height:20px;
+	vertical-align:middle;
+}
+
+.CalendarOtherMonthDayStyle
+{
+	background-color:#E6E6E6;
+	color:Black; 
+	height:20px;
+	border:solid 1px #65B8EC;
+}
+
+.CalendarSelectedDayStyle
+{
+	background-color:#D8EBF5;
+	color:Black;
+	border:solid 1px #65B8EC;
+	font-weight:normal; 
+	height:20px;
+}
+
+.AddItemtLayout
+{ 
+	background-color:#EFF0F2; 
+	border:solid 1px #D47C2B;
+	font:Arial normal 12px; 
+	font-weight:normal; 
+}
+
+.AddItemtTitleHover
+{   
+	font-weight:Bold;
+	cursor:hand; 
+	cursor:pointer; 
+}
+
+.AddItemsHover
+{ 
+	background-color:#D47C2B; 
+	color:White;
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	cursor:hand;
+	cursor:pointer; 
+}
+
+.Node
+{
+	font:Arial normal 12px;
+	color:Black;
+	height:20px;
+}
+
+.HoverNode
+{
+	cursor:hand;
+	cursor:pointer;
+	color:White;
+	background-color:#316AC5;
+}
+
+.SelectedNode
+{
+	background:#CCCCCC;
+	color:Black;
+}
+
+.StmtViewHeader
+{
+	color: black;
+	font-weight: Bold;   
+	vertical-align:middle; 
+	font-size:12px;
+	padding-right:3px;
+    padding-left:3px;
+}
+.DataTableTitleSV
+{
+	BACKGROUND-COLOR: #D47C2B;
+	color:White;
+	font-weight: Bold; 
+	text-indent: 5pt;
+	height:20px;
+	vertical-align:middle;
+	text-transform:capitalize;
+}
+
+
+.BRPageGridTotalBorder
+{ 
+	BACKGROUND-COLOR: #FDFFB8;
+	font-family:Tahoma, Verdana ;
+	text-align:left;
+	font-size:11px;
+	color:Black; 
+	text-indent:5px;
+	vertical-align:top;
+	border:solid 1px #808080;
+}
+
+.BRPageGridHeader1
+{
+	BACKGROUND-COLOR:#ebeadb;
+	border-left:solid 1px #ACA899;
+	border-bottom:solid 1px #ACA899;
+	height:20px;
+	font-size:11px;font-family:Tahoma, Verdana ;
+}
+.BRPageGridHeaderIE8
+{
+	BACKGROUND-COLOR:#ebeadb;
+	border-left:solid 1px #ACA899;
+	border-bottom:solid 1px #ACA899;
+	height:20px;	
+	top: expression(document.getElementById("divPageGrid").scrollTop-2);	
+	text-align:left;
+	WHITE-SPACE: nowrap;
+	font-size:11px;font-family:Tahoma, Verdana ;
+}
+.BRPageGridHeader
+{
+	BACKGROUND-COLOR:#ebeadb;
+	border-left:solid 1px #ACA899;
+	border-bottom:solid 1px #ACA899;
+	height:20px;
+	position:relative;
+	top: expression(document.getElementById("divPageGrid").scrollTop-2);
+	z-index: 20;
+	text-align:left;
+	WHITE-SPACE: nowrap;
+	font-size:11px;font-family:Tahoma, Verdana ;
+}
+.BRPageModuleHeader
+{
+	BACKGROUND-COLOR:#ebeadb;
+	text-indent:5px;
+	height:20px;
+	position:relative;
+	top: expression(document.getElementById("hdndivModule").scrollTop-2);
+	z-index: 20;
+	text-align:left;
+	WHITE-SPACE: nowrap;
+	font-size:11px;font-family:Tahoma, Verdana ;
+}
+
+.BRPageGridItemCell  {background-color: #B4E1FF;font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 0px #ACA899; border-bottom:solid 0px #E2DECD;  height:19px;}
+.BRPageGridPaidItemCell  {background-color: #CCFFCC;font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 1px #ACA899; border-bottom:solid 1px #E2DECD;  height:19px;}
+.BRPageGridPaid2ItemCell  {background-color: #FFFFDA;font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 1px #ACA899; border-bottom:solid 1px #E2DECD;  height:19px;}
+.BRPageGridPaid3ItemCell  {background-color: #FFBFBF;font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 1px #ACA899; border-bottom:solid 1px #E2DECD;  height:19px;}
+
+.BRPageGridAItemCell {background-color: #CAEAFF; font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 0px #ACA899; border-bottom:solid 0px #E2DECD;  height:19px;}
+.BRPageGridAPaidItemCell {background-color: #CCFFCC; font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 1px #ACA899; border-bottom:solid 1px #E2DECD;  height:19px;}
+.BRPageGridAPaid2ItemCell {background-color: #FFFFDA; font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 1px #ACA899; border-bottom:solid 1px #E2DECD;  height:19px;}
+.BRPageGridAPaid3ItemCell {background-color: #FFBFBF; font-size:11px;font-family:Tahoma, Verdana ;border-left:solid 1px #ACA899; border-bottom:solid 1px #E2DECD;  height:19px;}
+
+.BRPageGridSnoBox1 { text-align:center; font-size:11px; color:White;font-family:Tahoma, Verdana ;BACKGROUND-COLOR: #D47C2B; border-bottom:solid 0px #ACA899; width:20px;z-index: 30;position:relative;top: expression(document.getElementById("divPageGrid").scrollTop-2);left: expression(document.getElementById("divPageGrid").scrollLeft-2);  }/*position:relative;top: expression(document.getElementById("divPageGrid").scrollTop-2);left: expression(document.getElementById("divPageGrid").scrollLeft); */
+.BRPageGridSnoBox { text-align:center;font-size:11px;color:White; font-family:Tahoma, Verdana ; BACKGROUND-COLOR: #D47C2B; border-bottom:solid 0px #ACA899; width:20px;z-index: 10; left: expression(document.getElementById("divPageGrid").scrollLeft-2);position: relative;}/*left: expression(document.getElementById("divPageGrid").scrollLeft);position: relative;*/
+.BRPageGridRowOnclick { background-color:#316AC5; }
+
+.BRPageGridTotalItemCell {background-color: #FCFAF6; font-size:11px;font-family:Tahoma, Verdana; font-weight:bold; border-left:solid 0px #ACA899; border-bottom:solid 1px #E2DECD;  height:19px; }
+
+.BRF2SnoBox1one { text-align:center; font-size:11px; color:White; font-family:Tahoma, Verdana ;BACKGROUND-COLOR: #D47C2B; border-bottom:solid 0px #ACA899; width:20px;z-index: 30;position:relative;top: expression(document.getElementById("onedivPageGrid").scrollTop-2);left: expression(document.getElementById("onedivPageGrid").scrollLeft-2);  }/*position:relative;top: expression(document.getElementById("divPageGrid").scrollTop-2);left: expression(document.getElementById("divPageGrid").scrollLeft); */
+.BRF2SnoBox1two { text-align:center; font-size:11px; color:White;font-family:Tahoma, Verdana ;BACKGROUND-COLOR: #D47C2B; border-bottom:solid 0px #ACA899; width:20px;z-index: 30;position:relative;top: expression(document.getElementById("twodivPageGrid").scrollTop-2);left: expression(document.getElementById("twodivPageGrid").scrollLeft-2);  }/*position:relative;top: expression(document.getElementById("divPageGrid").scrollTop-2);left: expression(document.getElementById("divPageGrid").scrollLeft); */
+.BRF2SnoBoxone { text-align:center;font-size:11px; color:White;font-family:Tahoma, Verdana ; BACKGROUND-COLOR: #D47C2B; border-bottom:solid 0px #ACA899; width:20px;z-index: 10; left: expression(document.getElementById("onedivPageGrid").scrollLeft-2);position: relative;}/*left: expression(document.getElementById("divPageGrid").scrollLeft);position: relative;*/
+.BRF2SnoBoxtwo { text-align:center;font-size:11px; color:White;font-family:Tahoma, Verdana ; BACKGROUND-COLOR: #D47C2B; border-bottom:solid 0px #ACA899; width:20px;z-index: 10; left: expression(document.getElementById("twodivPageGrid").scrollLeft-2);position: relative;}/*left: expression(document.getElementById("divPageGrid").scrollLeft);position: relative;*/
+.BRF2Headerone
+{
+	BACKGROUND-COLOR:#D47C2B;
+	border-left:solid 0px #ACA899;
+	border-bottom:solid 0px #ACA899;
+	height:20px;
+	position:relative;
+	color:White;
+	top: expression(document.getElementById("onedivPageGrid").scrollTop-2);
+	z-index: 20;
+	text-align:left;
+	WHITE-SPACE: nowrap;
+	font-size:11px;font-family:Tahoma, Verdana ;
+}
+.BRF2Headertwo
+{
+	BACKGROUND-COLOR:#D47C2B;
+	/*D47C2B*/
+	border-left:solid 0px #ACA899;
+	border-bottom:solid 0px #ACA899;
+	height:20px;
+	color:White;
+	position:relative;
+	top: expression(document.getElementById("twodivPageGrid").scrollTop-2);
+	z-index: 20;
+	text-align:left;
+	WHITE-SPACE: nowrap;
+	font-size:11px;font-family:Tahoma, Verdana ;
+}
+
+.BRPageGridPageNavRow
+{
+	background-color:#D47C2B;
+	border-top:solid 0px #ACA899;
+	color:Black;
+	font-size:11px;
+	font-family:Tahoma, Verdana ;
+	vertical-align:middle;
+	height:20px;	
+	padding-left:5px;
+}
+
+.BRPageGridPageNavSymbols
+{
+	font-size:12px;
+	color:Black;
+	font-family:Webdings; 
+	text-align:center;
+	vertical-align:middle; 
+}
+.BRPageGridPageNavSymbolsMozilla
+{
+	font-size:20px;
+	height:0.5px;
+	font-weight: Bold;
+	font-family:Webdings; 
+	text-align:center;
+	vertical-align:middle; 
+}
+
+.BRPageGridPageNavTextBox
+{
+	border: 1px #7F9DB9 solid;
+	font-size:10px;
+	height:16px;
+	vertical-align: middle;
+	text-align:center;
+}
+.BRPageGridLabel
+{
+	font-family:Tahoma, Verdana ;
+	text-align:left;
+	font-size:11px;
+	color:Red;
+}
+.BRPageGridtdAlign
+{
+	text-align:right;
+	font-size:11px;
+	font-family:Tahoma, Verdana ;
+}
+/* This is for reminder popup window body tag */
+.PopupWindow
+{
+	margin: 0; 
+    padding: 0; 
+    background: #FDFFB8; 
+    color: #000; 
+    height: 100%; 
+    padding-bottom:3px;
+	padding-left:8px;
+    padding-right:8px;
+    padding-top:5px;	
+}
+/*This for displaying WF status Textbox*/
+.StatusTextBox
+{
+	height: 15px;
+	border: 1px #7F9DB9 solid; 
+	font-size:12px;
+	vertical-align: middle; 
+	font-weight: bold;
+	background-color:White;
+	color:Black;
+}
+
+.ProcessStatusTextBox
+{	
+	border: 1px #7F9DB9 solid; 
+	font-size:12px;
+	vertical-align: middle; 
+	font-weight: bold;
+	background-color:White;
+	color:Black;
+}
+
+/* Background color style of DropDownList */
+.BRRunStyle
+{
+	background-color: #888888;
+}
+
+/* Foreground color style of DropDownList */
+.BRRunForeColorStyle
+{
+	color:green;
+	font-size: 9px; 
+	font-family:Verdana;
+}
+
+/* Background color style of DropDownList Selected Item */
+.BRRunSelectColorStyle
+{
+	background-color:#000000;
+}
+
+/* Foreground color style of DropDownList Selected Item */
+.BRRunTextStyle
+{
+	text-decoration:underline;
+	font-weight:bold;
+	padding:0px;
+}
+.LftList
+{
+	border: #7DC5EE; 
+	border-style:solid; 
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom:solid 1px;
+	text-align:center;
+}
+
+.intro_canvas{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translateY(-50%); 
+    -moz-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%); 
+    transform: translateY(-50%);
+    text-align:center;
+}

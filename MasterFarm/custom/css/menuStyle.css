@@ -1,0 +1,301 @@
+.Blank
+{
+}
+
+.StartMenuGroup
+{
+ background-color:#BC651C; 
+}
+
+.StartImageItem
+{
+	padding-top:3px;
+}
+
+.StartTextItem
+{
+	/*background-image:url(../images/menu/blue_background.gif);*/
+    background-color:#BC651C; 
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding:3px;	
+}
+
+.DoubleMenuGroup
+{
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=2); 
+}
+
+.QMenuGroup
+{
+	background-color:#FDFFB8;
+	border:solid 1px #ACA899;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=3); 
+}
+
+.QMenuItem
+{
+	background-color:#FDFFB8;
+	color:black;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding:2px;
+	cursor:default;
+}
+
+.QMenuItemOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding:2px;
+	cursor:default;
+}
+
+.TopItem
+{
+	/*background-image:url(../images/menu/topitem_blue_background.gif);*/
+    background-color:#BC651C; 
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:20px;
+	cursor:default;
+}
+
+.BottomItem
+{
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;	
+	padding:2px;
+	cursor:default;
+}
+
+.BottomItemOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding:2px;
+	cursor:default;
+}
+
+.BottomItemDown
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding-top:4px;
+	cursor:default;
+}
+
+.LeftMenuGroup
+{
+	background-color:#FDFFB8;
+	border-left:solid 1px #D3E5FA;
+}
+
+.LeftMenuItemBold
+{
+	background-color:#FDFFB8;
+	color:Black;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:5px;
+	cursor:default;
+}
+
+.LeftMenuItemBoldOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:5px;
+	cursor:default;
+}
+
+.ListBarItemDefault
+{
+	text-align: left;
+}
+
+.ListBarItemSelected
+{
+	text-align: left;
+	color: blue;
+}
+
+.ListBarItemHover
+{
+	text-align: left;
+	color: red;
+}
+.LeftMenuItemBoldExpanded
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:5px;
+	cursor:default;
+}
+
+.LeftMenuItem
+{
+	background-color:#FDFFB8;
+	color:Black;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding-left:5px;
+	cursor:default;
+}
+
+.LeftMenuItemOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding-left:5px;
+	cursor:default;
+}
+
+.RightMenuGroup
+{
+	background-color:#FDFFB8;
+	border-left:solid 1px #95BDEE;
+	border-right:solid 1px #84B2ED;
+}
+
+.RightMenuItemBold
+{
+	background-color:#FDFFB8;
+	color:#0A246A;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:5px;
+	height:30px;
+	cursor:default;
+}
+
+.RightMenuItemBoldOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:5px;
+	height:30px;
+	cursor:default;
+}
+
+.RightMenuItem
+{
+	background-color:#FDFFB8;
+	color:#0A246A;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding-left:5px;
+	height:30px;
+	cursor:default;
+}
+
+.RightMenuItemOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding-left:5px;
+	height:6px;
+	cursor:default;
+}
+
+.CPanelGroup
+{
+	background-image:url(images/menu/topitem_left.gif);
+	background-color:#FDFFB8;
+	border:solid 1px #3481E3;
+	border-left-width:6px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=2); 
+}
+
+.CPanelGroup1
+{
+	border-left:solid outset black;
+	border-left-width:2px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=5); 
+}
+
+Office2003GrayMenuGroup
+{
+  background-image:url(images/gray_group_bg.gif);
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:default; 
+  filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=2); 
+}
+
+.CPanelMenuItem
+{
+	background-color:#FDFFB8;
+	color:black;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding:3px;
+	cursor:default;
+}
+
+.Empty
+{
+	background-color:Silver;
+	color:black;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding:3px;
+	cursor:default;
+}
+
+.CPanelMenuItemOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	padding:3px;
+	cursor:default;
+}
+
+.DialupMenuItem
+{
+	background-color:#FDFFB8;
+	color:black;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	border-top:solid 2px #3481E3;
+	padding:3px;
+	cursor:default;
+}
+
+.DialupMenuItemOver
+{
+	background-color:#FDFFB8;
+	color:#D47C2B;
+	font-family:'Droid Sans',Comic Sans MS, sans-serif;
+	font-size:11px;
+	border-top:solid 2px #3481E3;
+	padding:3px;
+	cursor:default;
+}
+

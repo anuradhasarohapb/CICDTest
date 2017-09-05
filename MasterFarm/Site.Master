@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MasterFarm.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <asp:PlaceHolder runat="server"></asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon(1).ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <link href="custom/Menu.css" rel="stylesheet" />
+    <link href="custom/theme.css" rel="stylesheet" />
+    <link href="../custom/css/BRClientStyle.css" type="text/css" rel="Stylesheet" />
+    <link href="custom/sexymenu.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Farm Manager</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="custom/metro-blue/layout.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="jquery-easyui-1.5/themes/icon.css">
+    <link href="custom/metro-blue/panel.css" rel="stylesheet" />
+    <link href="custom/metro-blue/easyui.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-easyui-1.5/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-easyui-1.5/jquery.easyui.min.js"></script>
+
+</head>
+<body class="easyui-layout">
+
+    <div id="Topbar">
+
+        <div class="opened hide"></div>
+        <div id="fright1">
+
+
+            <div class="connection" title="Local Area Connection is Now Ready to Prikitiw..."></div>
+            <div class="speker" title="Digunakan untuk Mendengarkan Hal yang Baik-Baik"></div>
+            <div class="jam">11:18 WIB</div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- startbar -->
+    <br />
+
+
+
+
+
+    <div id="startbar">
+        <div id="win">
+
+            <div id="menu">
+                <div class="container">
+                    <ul >
+                        <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+                    </ul>
+                </div>
+                <!-- leftmenu -->
+
+            </div>
+            <!-- menu -->
+
+            <div id="cont-win" title="Start">
+                <div class="w1"></div>
+                <div class="w2"></div>
+                <div class="clear"></div>
+                <div class="w3"></div>
+                <div class="w4"></div>
+                <div class="clear"></div>
+            </div>
+
+
+        </div>
+        <!-- win -->
+
+        <div id="list">
+
+            <div class="opened tunggal">
+                <div class="foldr small"></div>
+                <div class="screensht">
+                    <div class="col1 fold">
+                        <div class="close">&times;</div>
+                        <div class="kotak"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="opened tunggal">
+                <div class="foldr np small"></div>
+                <div class="screensht">
+                    <div class="col1 ntpad">
+                        <div class="close">&times;</div>
+                        <div class="kotak"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        <!-- opened pilled -->
+
+        <div class="opened hide"></div>
+        <div id="fright">
+            <div class="plus">
+                <div class="screensht">
+                    <div class="grup">
+                        <b>&#169; 29-Nov-2011</b><br />
+                        <a href="https://plus.google.com/108949996304093815163/about" target="_blank">About the Author</a>
+                    </div>
+                </div>
+            </div>
+            <!-- plus -->
+
+            <div class="connection" title="Local Area Connection is Now Ready to Prikitiw..."></div>
+            <div class="speker" title="Digunakan untuk Mendengarkan Hal yang Baik-Baik"></div>
+            <div class="jam">11:18 WIB</div>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+    <!-- startbar -->
+
+    <asp:Panel ID="PnlMain" runat="server">
+        <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+    </asp:Panel>
+
+
+
+</body>
+</html>

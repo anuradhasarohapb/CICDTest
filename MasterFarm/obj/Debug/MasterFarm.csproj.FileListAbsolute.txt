@@ -1,0 +1,97 @@
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\MasterFarm.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\MasterFarm.pdb
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Antlr3.Runtime.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\AspNet.ScriptManager.jQuery.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.AspNet.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.Core.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\EntityFramework.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Microsoft.ScriptManager.WebForms.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Microsoft.Web.Infrastructure.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\System.Web.Optimization.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\System.Web.Providers.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\WebGrease.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\EntityFramework.xml
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.Core.xml
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.xml
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.xml
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\DotNetOpenAuth.AspNet.xml
+D:\BANTU SSS\MasterFarm\MasterFarm\obj\Debug\MasterFarm.csprojResolveAssemblyReference.cache
+D:\BANTU SSS\MasterFarm\MasterFarm\obj\Debug\MasterFarm.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\obj\Debug\MasterFarm.pdb
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\BANTU SSS\MasterFarm\MasterFarm\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\MasterFarm.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\MasterFarm.pdb
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Antlr3.Runtime.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\AspNet.ScriptManager.jQuery.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.AspNet.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.Core.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\EntityFramework.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Microsoft.ScriptManager.WebForms.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Microsoft.Web.Infrastructure.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\System.Web.Optimization.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\System.Web.Providers.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\WebGrease.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\EntityFramework.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.Core.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\bin\DotNetOpenAuth.AspNet.xml
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\obj\Debug\MasterFarm.csprojResolveAssemblyReference.cache
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\obj\Debug\MasterFarm.dll
+D:\BANTU SSS\Role Based\MasterFarm\MasterFarm\obj\Debug\MasterFarm.pdb
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\MasterFarm.dll.config
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\MasterFarm.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\MasterFarm.pdb
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Antlr3.Runtime.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.Core.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\EntityFramework.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\System.Web.Optimization.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\System.Web.Providers.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\WebGrease.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\EntityFramework.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.Core.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\an060sa\MasterFarm\MasterFarm\obj\Debug\MasterFarm.csprojResolveAssemblyReference.cache
+C:\Users\an060sa\MasterFarm\MasterFarm\obj\Debug\MasterFarm.dll
+C:\Users\an060sa\MasterFarm\MasterFarm\obj\Debug\MasterFarm.pdb

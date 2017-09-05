@@ -1,0 +1,4239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="blFreezeAmountOnFailure" xml:space="preserve">
+    <value>Закрепить сумму на провал</value>
+  </data>
+  <data name="blProductDocuments" xml:space="preserve">
+    <value>Продукт Документы</value>
+  </data>
+  <data name="lblAccessLevel" xml:space="preserve">
+    <value>Уровень доступа</value>
+  </data>
+  <data name="lblAccnt" xml:space="preserve">
+    <value>Счет</value>
+  </data>
+  <data name="lblAccount" xml:space="preserve">
+    <value>Информация об учетной записи</value>
+  </data>
+  <data name="lblAccountClass" xml:space="preserve">
+    <value>Счета класса</value>
+  </data>
+  <data name="lblAccountClassID" xml:space="preserve">
+    <value>Счет идентификатор класса</value>
+  </data>
+  <data name="lblAccountCurrencyID" xml:space="preserve">
+    <value>Валюта счета ID</value>
+  </data>
+  <data name="lblAccountID" xml:space="preserve">
+    <value>Счет ID</value>
+  </data>
+  <data name="lblAccountingRule" xml:space="preserve">
+    <value>Правила бухгалтерского учета</value>
+  </data>
+  <data name="lblAccountingRuleID" xml:space="preserve">
+    <value>Бухгалтерский учет правило ID</value>
+  </data>
+  <data name="lblAccountLimit" xml:space="preserve">
+    <value>Счет Предельные</value>
+  </data>
+  <data name="lblAccountLockoutThreshold" xml:space="preserve">
+    <value>Счет порог блокировки</value>
+  </data>
+  <data name="lblAccountName" xml:space="preserve">
+    <value>Название счета</value>
+  </data>
+  <data name="lblAccountOfficer" xml:space="preserve">
+    <value>Счет сотрудника</value>
+  </data>
+  <data name="lblAccountPayable" xml:space="preserve">
+    <value>Счета к оплате</value>
+  </data>
+  <data name="lblAccountPayableID" xml:space="preserve">
+    <value>Счета к оплате ID</value>
+  </data>
+  <data name="lblAccountPayableType" xml:space="preserve">
+    <value>Счета к оплате типа</value>
+  </data>
+  <data name="lblAccountPayee" xml:space="preserve">
+    <value>Счет получателя платежа</value>
+  </data>
+  <data name="lblAccountPrefix" xml:space="preserve">
+    <value>Счет Префикс</value>
+  </data>
+  <data name="lblAccountProductID" xml:space="preserve">
+    <value>Счет Product ID</value>
+  </data>
+  <data name="lblAccountSubType" xml:space="preserve">
+    <value>Счет к югу типа</value>
+  </data>
+  <data name="lblAccountTag" xml:space="preserve">
+    <value>Счет тегов</value>
+  </data>
+  <data name="lblAccountType" xml:space="preserve">
+    <value>Тип учетной записи</value>
+  </data>
+  <data name="lblAccrualFrequency" xml:space="preserve">
+    <value>Периодичность начисления</value>
+  </data>
+  <data name="lblAccrualGLID" xml:space="preserve">
+    <value>Счет GL ID</value>
+  </data>
+  <data name="lblAccruedInterest" xml:space="preserve">
+    <value>Начисленные проценты</value>
+  </data>
+  <data name="lblAccruedTax" xml:space="preserve">
+    <value>Начисленный налог</value>
+  </data>
+  <data name="lblAccruedUpto" xml:space="preserve">
+    <value>Начисленные Upto</value>
+  </data>
+  <data name="lblAccrueInterest" xml:space="preserve">
+    <value>Учитывается Проценты</value>
+  </data>
+  <data name="lblAccuredDepreciationAmount" xml:space="preserve">
+    <value>Накопленная амортизация</value>
+  </data>
+  <data name="lblAccureInterestAfterMaturity" xml:space="preserve">
+    <value>Учитывается интерес после зрелости</value>
+  </data>
+  <data name="lblACD" xml:space="preserve">
+    <value>Дополнительные подробности залога</value>
+  </data>
+  <data name="lblAcquiredDepreciation" xml:space="preserve">
+    <value>Приобретенные Амортизация</value>
+  </data>
+  <data name="lblAcquisitionByID" xml:space="preserve">
+    <value>Приобретенные Амортизация</value>
+  </data>
+  <data name="lblAcquisitionDate" xml:space="preserve">
+    <value>Приобретение</value>
+  </data>
+  <data name="lblAcquisitionDetails" xml:space="preserve">
+    <value>Приобретение Подробности</value>
+  </data>
+  <data name="lblActualAmount" xml:space="preserve">
+    <value>Фактическая сумма</value>
+  </data>
+  <data name="lblAD" xml:space="preserve">
+    <value>Счет Документы</value>
+  </data>
+  <data name="lblAddCache" xml:space="preserve">
+    <value>AddASPCache</value>
+  </data>
+  <data name="lblAdditionalCollateral" xml:space="preserve">
+    <value>Дополнительных залогов</value>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="lblAddress1" xml:space="preserve">
+    <value>Адрес 1</value>
+  </data>
+  <data name="lblAddress2" xml:space="preserve">
+    <value>Адрес 2</value>
+  </data>
+  <data name="lblAddressDetails" xml:space="preserve">
+    <value>Адрес Подробности</value>
+  </data>
+  <data name="lblAddressNo1" xml:space="preserve">
+    <value>Адрес # 1</value>
+  </data>
+  <data name="lblAddressNo2" xml:space="preserve">
+    <value>Адрес # 2</value>
+  </data>
+  <data name="lblAddressType" xml:space="preserve">
+    <value>Тип адреса</value>
+  </data>
+  <data name="lblAdjustedAdvanceAmount" xml:space="preserve">
+    <value>Уточненный объем заранее</value>
+  </data>
+  <data name="lblAdjustedGraceDays" xml:space="preserve">
+    <value>Уточненный Грейс дней</value>
+  </data>
+  <data name="lblAdvanceAccountID" xml:space="preserve">
+    <value>Предварительный идентификатора учетной</value>
+  </data>
+  <data name="lblAdvanceAmount" xml:space="preserve">
+    <value>Предварительный Сумма</value>
+  </data>
+  <data name="lblAdvanceBranchID" xml:space="preserve">
+    <value>Предварительный филиал ID</value>
+  </data>
+  <data name="lblAdvanceInstallment" xml:space="preserve">
+    <value>Предварительный взнос</value>
+  </data>
+  <data name="lblAdvanceLimit" xml:space="preserve">
+    <value>Предварительный Предельные</value>
+  </data>
+  <data name="lblAdvanceModule" xml:space="preserve">
+    <value>Предварительный Модуль</value>
+  </data>
+  <data name="lblAdvancePaid" xml:space="preserve">
+    <value>Предварительный Платные</value>
+  </data>
+  <data name="lblAdvanceSettings" xml:space="preserve">
+    <value>Предварительный Настройки</value>
+  </data>
+  <data name="lblAdvanceType" xml:space="preserve">
+    <value>Предварительный Тип</value>
+  </data>
+  <data name="lblAdvanceTypeID" xml:space="preserve">
+    <value>Предварительный тип ID</value>
+  </data>
+  <data name="lblAdviseID" xml:space="preserve">
+    <value>Советы ID</value>
+  </data>
+  <data name="lblAE" xml:space="preserve">
+    <value>Применимо События</value>
+  </data>
+  <data name="lblAfterDays" xml:space="preserve">
+    <value>После (в днях)</value>
+  </data>
+  <data name="lblAfterNoOfDays" xml:space="preserve">
+    <value>После Кол-во дней</value>
+  </data>
+  <data name="lblAgingFromDays" xml:space="preserve">
+    <value>От старения дней</value>
+  </data>
+  <data name="lblAgingToDays" xml:space="preserve">
+    <value>Для старения дней</value>
+  </data>
+  <data name="lblAlertFrequency" xml:space="preserve">
+    <value>Оповещение Частота</value>
+  </data>
+  <data name="lblAll" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="lblAlldisbursement" xml:space="preserve">
+    <value>Все выплаты</value>
+  </data>
+  <data name="lblAllInstallmentDueArrears" xml:space="preserve">
+    <value>Все Из-за взнос (задолженность)</value>
+  </data>
+  <data name="lblAllLimits" xml:space="preserve">
+    <value>* Все ограничения находятся в местной валюте</value>
+  </data>
+  <data name="lblAllocationDetails" xml:space="preserve">
+    <value>Распределение Подробности</value>
+  </data>
+  <data name="lblAllowableLargestAmount" xml:space="preserve">
+    <value>Самый большой объем допустимого Trx</value>
+  </data>
+  <data name="lblAllowAdd" xml:space="preserve">
+    <value>Позвольте добавить</value>
+  </data>
+  <data name="lblAllowCancel" xml:space="preserve">
+    <value>Позвольте Отмена</value>
+  </data>
+  <data name="lblAllowClose" xml:space="preserve">
+    <value>Позвольте Закрыть</value>
+  </data>
+  <data name="lblAllowCreditTrx" xml:space="preserve">
+    <value>Разрешить кредитным</value>
+  </data>
+  <data name="lblAllowDelete" xml:space="preserve">
+    <value>Позвольте Удалить</value>
+  </data>
+  <data name="lblAllowEdit" xml:space="preserve">
+    <value>Разрешить Изменить</value>
+  </data>
+  <data name="lblAllowInterestWithdrawal" xml:space="preserve">
+    <value>Позвольте интерес вывода</value>
+  </data>
+  <data name="lblAllowOverride" xml:space="preserve">
+    <value>Позвольте Перекрыть</value>
+  </data>
+  <data name="lblAllowReinstatement" xml:space="preserve">
+    <value>Позвольте Восстановление</value>
+  </data>
+  <data name="lblAllowRejection" xml:space="preserve">
+    <value>Позвольте Отклонение</value>
+  </data>
+  <data name="lblAllowSupervision" xml:space="preserve">
+    <value>Позвольте ясли</value>
+  </data>
+  <data name="lblAllowTOD" xml:space="preserve">
+    <value>Позвольте TOD</value>
+  </data>
+  <data name="lblAllProducts" xml:space="preserve">
+    <value>Все товары</value>
+  </data>
+  <data name="lblAMOgroup" xml:space="preserve">
+    <value>Позвольте переезда в другой группе</value>
+  </data>
+  <data name="lblAmortiseR78" xml:space="preserve">
+    <value>Использование амортизировать Р-78</value>
+  </data>
+  <data name="lblAmortization" xml:space="preserve">
+    <value>Амортизация</value>
+  </data>
+  <data name="lblAmortizationAmount" xml:space="preserve">
+    <value>Сумма амортизации</value>
+  </data>
+  <data name="lblAmortizeDuringMonthEnd" xml:space="preserve">
+    <value>Амортизировать в течение конца месяца</value>
+  </data>
+  <data name="lblAmortizeExpense" xml:space="preserve">
+    <value>Расходы амортизировать</value>
+  </data>
+  <data name="lblAmount" xml:space="preserve">
+    <value>Сумма 1.</value>
+  </data>
+  <data name="lblAmountDisbursed" xml:space="preserve">
+    <value>Сумму, которая будет выплачиваться</value>
+  </data>
+  <data name="lblAmountIn" xml:space="preserve">
+    <value>Сумма в</value>
+  </data>
+  <data name="lblAmountPercentage" xml:space="preserve">
+    <value>Сумма / Процент</value>
+  </data>
+  <data name="lblAmountRecovered" xml:space="preserve">
+    <value>Сумма Рекуперация</value>
+  </data>
+  <data name="lblAmountRounding" xml:space="preserve">
+    <value>Сумма Округление</value>
+  </data>
+  <data name="lblAmountSlabFrom" xml:space="preserve">
+    <value>Сумма из</value>
+  </data>
+  <data name="lblAmountSlabTo" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="lblAmountSlabWiseROI" xml:space="preserve">
+    <value>Сумма плиты мудрым процентная ставка</value>
+  </data>
+  <data name="lblAmtOrPerID" xml:space="preserve">
+    <value>Сумма / Процент</value>
+  </data>
+  <data name="lblAnnualizedInterestRate" xml:space="preserve">
+    <value>В расчете на год процентная ставка</value>
+  </data>
+  <data name="lblApplicableFrom" xml:space="preserve">
+    <value>Применимым</value>
+  </data>
+  <data name="lblApplicableUpto" xml:space="preserve">
+    <value>Применимо Upto</value>
+  </data>
+  <data name="lblApplicationDate" xml:space="preserve">
+    <value>Дата заявки</value>
+  </data>
+  <data name="lblApplicationDetails" xml:space="preserve">
+    <value>Применение Подробности</value>
+  </data>
+  <data name="lblApplicationFromDate" xml:space="preserve">
+    <value>Заявка от даты</value>
+  </data>
+  <data name="lblApplicationID" xml:space="preserve">
+    <value>Применение ID</value>
+  </data>
+  <data name="lblApplicationStage" xml:space="preserve">
+    <value>Применение Стадия</value>
+  </data>
+  <data name="lblApplicationStatus" xml:space="preserve">
+    <value>Состояние заявки</value>
+  </data>
+  <data name="lblApplicationToDate" xml:space="preserve">
+    <value>Заявка на сегодняшний день</value>
+  </data>
+  <data name="lblApplicationType" xml:space="preserve">
+    <value>Применение Тип</value>
+  </data>
+  <data name="lblApplied" xml:space="preserve">
+    <value>Прикладная</value>
+  </data>
+  <data name="lblAppliedAmount" xml:space="preserve">
+    <value>Прикладная Сумма</value>
+  </data>
+  <data name="lblApplyCharge" xml:space="preserve">
+    <value>Применить Зарядка</value>
+  </data>
+  <data name="lblApplyToNonCustomer" xml:space="preserve">
+    <value>Некоммерческие Подайте заявку на клиента</value>
+  </data>
+  <data name="lblApportionedCollateralValue" xml:space="preserve">
+    <value>Ассигнования на стоимость залога</value>
+  </data>
+  <data name="lblApportionedRatio" xml:space="preserve">
+    <value>Ассигнования на Соотношение</value>
+  </data>
+  <data name="lblApportionedValue" xml:space="preserve">
+    <value>Ассигнования на стоимость</value>
+  </data>
+  <data name="lblApportionRatio" xml:space="preserve">
+    <value>Соотношение распределить</value>
+  </data>
+  <data name="lblAppraisalDetails" xml:space="preserve">
+    <value>Оценка Подробности</value>
+  </data>
+  <data name="lblAppraisedBy" xml:space="preserve">
+    <value>Оценку</value>
+  </data>
+  <data name="lblAppraisedOn" xml:space="preserve">
+    <value>Об оценочной</value>
+  </data>
+  <data name="lblApprovedBy" xml:space="preserve">
+    <value>Утвержденного</value>
+  </data>
+  <data name="lblApprovedbyAuthority" xml:space="preserve">
+    <value>(Утвержден органа)</value>
+  </data>
+  <data name="lblApprovedDate" xml:space="preserve">
+    <value>Утвержденные Дата</value>
+  </data>
+  <data name="lblApprovedOn" xml:space="preserve">
+    <value>Утвержден</value>
+  </data>
+  <data name="lblArrearDays" xml:space="preserve">
+    <value>Уплату дней</value>
+  </data>
+  <data name="lblAS" xml:space="preserve">
+    <value>Позвольте Swapping</value>
+  </data>
+  <data name="lblAssetIDLength" xml:space="preserve">
+    <value>Активы ID длина</value>
+  </data>
+  <data name="lblAssetLocationID" xml:space="preserve">
+    <value>Активы местоположение ID</value>
+  </data>
+  <data name="lblAssetValue" xml:space="preserve">
+    <value>Стоимости активов</value>
+  </data>
+  <data name="lblAssignedDate" xml:space="preserve">
+    <value>Установленное Дата</value>
+  </data>
+  <data name="lblAssignedOn" xml:space="preserve">
+    <value>Возлагаются на</value>
+  </data>
+  <data name="lblAttachmentFileType" xml:space="preserve">
+    <value>Прикрепленный файл типа</value>
+  </data>
+  <data name="lblAttachmentFormat" xml:space="preserve">
+    <value>Формат приложения</value>
+  </data>
+  <data name="lblAttachmentSendAsFile" xml:space="preserve">
+    <value>Отправить как Прикрепленный файл</value>
+  </data>
+  <data name="lblAttachmentUsingTemplate" xml:space="preserve">
+    <value>Приложение с использованием шаблонов</value>
+  </data>
+  <data name="lblAttemptFailedAt" xml:space="preserve">
+    <value>Покушение на Ошибка</value>
+  </data>
+  <data name="lblAttendanceStatus" xml:space="preserve">
+    <value>Участники Статус</value>
+  </data>
+  <data name="lblAuditedDate" xml:space="preserve">
+    <value>Последнее проверенные на</value>
+  </data>
+  <data name="lblAutoAssetID" xml:space="preserve">
+    <value>Auto ID актива</value>
+  </data>
+  <data name="lblAutoID" xml:space="preserve">
+    <value>Auto ID</value>
+  </data>
+  <data name="lblAutoLimitExpiry" xml:space="preserve">
+    <value>Автомобили истечения предельных</value>
+  </data>
+  <data name="lblAutoSubGroupID" xml:space="preserve">
+    <value>Под группа ID (ФГИ)</value>
+  </data>
+  <data name="lblAutoSwapping" xml:space="preserve">
+    <value>Автомобили Swapping</value>
+  </data>
+  <data name="lblAutoSwapProduct" xml:space="preserve">
+    <value>Swap Product ID</value>
+  </data>
+  <data name="lblAvailableBalance" xml:space="preserve">
+    <value>Доступный остаток</value>
+  </data>
+  <data name="lblAvailableBalanceSettings" xml:space="preserve">
+    <value>Доступные настройки баланса</value>
+  </data>
+  <data name="lblAWTypeID" xml:space="preserve">
+    <value>AW тип ID</value>
+  </data>
+  <data name="lblBalance" xml:space="preserve">
+    <value>Баланс</value>
+  </data>
+  <data name="lblBalanceAmount" xml:space="preserve">
+    <value>Сумма баланса</value>
+  </data>
+  <data name="lblBalanceType" xml:space="preserve">
+    <value>Баланс Тип</value>
+  </data>
+  <data name="lblBalancingType" xml:space="preserve">
+    <value>Балансировка Тип</value>
+  </data>
+  <data name="lblBank" xml:space="preserve">
+    <value>Банк</value>
+  </data>
+  <data name="lblBankAccounts" xml:space="preserve">
+    <value>Банковские счета</value>
+  </data>
+  <data name="lblBankDetails" xml:space="preserve">
+    <value>Банковские реквизиты</value>
+  </data>
+  <data name="lblBankersRealm" xml:space="preserve">
+    <value>Банкиры Realm.Net</value>
+  </data>
+  <data name="lblBankID" xml:space="preserve">
+    <value>Банк ID</value>
+  </data>
+  <data name="lblBankLogo" xml:space="preserve">
+    <value>Банк Logo</value>
+  </data>
+  <data name="lblBankName" xml:space="preserve">
+    <value>Название банка</value>
+  </data>
+  <data name="lblBankRegNumber" xml:space="preserve">
+    <value>Банк Рег. Количество</value>
+  </data>
+  <data name="lblBankSetting" xml:space="preserve">
+    <value>Банк Настройка</value>
+  </data>
+  <data name="lblBaseBranchID" xml:space="preserve">
+    <value>Базы филиал ID</value>
+  </data>
+  <data name="lblBaseRate" xml:space="preserve">
+    <value>Базовой ставки</value>
+  </data>
+  <data name="lblBaseRateType" xml:space="preserve">
+    <value>Базовый курс типа</value>
+  </data>
+  <data name="lblBasis" xml:space="preserve">
+    <value>Основа</value>
+  </data>
+  <data name="lblBatch" xml:space="preserve">
+    <value>Batch ID</value>
+  </data>
+  <data name="lblBD" xml:space="preserve">
+    <value>Филиал Подробности</value>
+  </data>
+  <data name="lblBeneficiary" xml:space="preserve">
+    <value>Получатель</value>
+  </data>
+  <data name="lblBeneficiaryAccountDetails" xml:space="preserve">
+    <value>Счет получателя подробности</value>
+  </data>
+  <data name="lblBeneficiaryAccountID" xml:space="preserve">
+    <value>Счет получателя ID</value>
+  </data>
+  <data name="lblBeneficiaryName" xml:space="preserve">
+    <value>Имя получателя</value>
+  </data>
+  <data name="lblBeneficiaryType" xml:space="preserve">
+    <value>Получатель Тип</value>
+  </data>
+  <data name="lblBHS" xml:space="preserve">
+    <value>За сцену</value>
+  </data>
+  <data name="lblBiMonthlyDay" xml:space="preserve">
+    <value>Два раза в месяц День 1</value>
+  </data>
+  <data name="lblBlocked" xml:space="preserve">
+    <value>Заблокировано</value>
+  </data>
+  <data name="lblBlocking" xml:space="preserve">
+    <value>Блокировка</value>
+  </data>
+  <data name="lblBloodGroup" xml:space="preserve">
+    <value>Группа крови</value>
+  </data>
+  <data name="lblBookDate" xml:space="preserve">
+    <value>Заказать Дата</value>
+  </data>
+  <data name="lblBookedAmount" xml:space="preserve">
+    <value>Сумма бронированные</value>
+  </data>
+  <data name="lblBookType" xml:space="preserve">
+    <value>Заказать Тип</value>
+  </data>
+  <data name="lblBookValue" xml:space="preserve">
+    <value>Book Value</value>
+  </data>
+  <data name="lblBR" xml:space="preserve">
+    <value>Покупка валюты</value>
+  </data>
+  <data name="lblbranch" xml:space="preserve">
+    <value>Отделение</value>
+  </data>
+  <data name="lblBranchCashLimit" xml:space="preserve">
+    <value>Филиал наличными предел</value>
+  </data>
+  <data name="lblBranchFinancialDetails" xml:space="preserve">
+    <value>Сектор финансовых подробности</value>
+  </data>
+  <data name="lblBranchID" xml:space="preserve">
+    <value>Филиал ID</value>
+  </data>
+  <data name="lblBranchName" xml:space="preserve">
+    <value>Название филиала</value>
+  </data>
+  <data name="lblBranchPrefix" xml:space="preserve">
+    <value>Филиал Префикс</value>
+  </data>
+  <data name="lblBranchType" xml:space="preserve">
+    <value>Сектор Тип</value>
+  </data>
+  <data name="lblBrandName" xml:space="preserve">
+    <value>Бренды</value>
+  </data>
+  <data name="lblbtnBatch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="lblBudgetType" xml:space="preserve">
+    <value>Бюджет Тип</value>
+  </data>
+  <data name="lblBuildArea" xml:space="preserve">
+    <value>Super наращивать область</value>
+  </data>
+  <data name="lblBuilderName" xml:space="preserve">
+    <value>Имя Builder</value>
+  </data>
+  <data name="lblBusinessDetails" xml:space="preserve">
+    <value>Бизнес Подробнее</value>
+  </data>
+  <data name="lblBusinessLine" xml:space="preserve">
+    <value>Бизнес Лайн</value>
+  </data>
+  <data name="lblBusinessOwnership" xml:space="preserve">
+    <value>Бизнес Собственность</value>
+  </data>
+  <data name="lblBusinessStartedYear" xml:space="preserve">
+    <value>Бизнес начал год</value>
+  </data>
+  <data name="lblBuying" xml:space="preserve">
+    <value>Покупка</value>
+  </data>
+  <data name="lblBuyingVariance" xml:space="preserve">
+    <value>Покупка Разница (в%)</value>
+  </data>
+  <data name="lblByCash" xml:space="preserve">
+    <value>Наличными</value>
+  </data>
+  <data name="lblByTransfer" xml:space="preserve">
+    <value>Перечислением</value>
+  </data>
+  <data name="lblCalculationBasis" xml:space="preserve">
+    <value>Расчет Основа</value>
+  </data>
+  <data name="lblCalculationComponent" xml:space="preserve">
+    <value>Расчет Компонент</value>
+  </data>
+  <data name="lblCalculationMethod" xml:space="preserve">
+    <value>Метод расчета</value>
+  </data>
+  <data name="lblCancellationDate" xml:space="preserve">
+    <value>Дата аннулирования</value>
+  </data>
+  <data name="lblCancellationReason" xml:space="preserve">
+    <value>Причина аннулирования</value>
+  </data>
+  <data name="lblCanDonateBlood" xml:space="preserve">
+    <value>Можно сдавать кровь</value>
+  </data>
+  <data name="lblCanInstallmentMoveToNextMonth" xml:space="preserve">
+    <value>Можно перейти к взнос в следующем месяце</value>
+  </data>
+  <data name="lblCannotchangepassword" xml:space="preserve">
+    <value>Не удается изменить пароль</value>
+  </data>
+  <data name="lblCanOverrideRule" xml:space="preserve">
+    <value>Позвольте правило преимущественной</value>
+  </data>
+  <data name="lblCanRefinance" xml:space="preserve">
+    <value>Может Refinance</value>
+  </data>
+  <data name="lblCanSendAssociateSpecialOffer" xml:space="preserve">
+    <value>Можно отправить младших Специальное предложение</value>
+  </data>
+  <data name="lblCanSendGreetings" xml:space="preserve">
+    <value>Можно отправить поздравление</value>
+  </data>
+  <data name="lblCanSendOurSpecialOffers" xml:space="preserve">
+    <value>Можно отправить наши специальные предложения</value>
+  </data>
+  <data name="lblCaption" xml:space="preserve">
+    <value>Подпись</value>
+  </data>
+  <data name="lblCashControlGLID" xml:space="preserve">
+    <value>Наличный контроля GL ID</value>
+  </data>
+  <data name="lblCashCredits" xml:space="preserve">
+    <value>Денежные кредиты</value>
+  </data>
+  <data name="lblCashDebits" xml:space="preserve">
+    <value>Наличный Вычеты</value>
+  </data>
+  <data name="lblCashier" xml:space="preserve">
+    <value>Кассир</value>
+  </data>
+  <data name="lblCashierGLID" xml:space="preserve">
+    <value>Кассир GL ID</value>
+  </data>
+  <data name="lblCashierRole" xml:space="preserve">
+    <value>Кассир Роль</value>
+  </data>
+  <data name="lblCashOrTC" xml:space="preserve">
+    <value>Наличный или TC</value>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="lblCaution" xml:space="preserve">
+    <value>Осторожность</value>
+  </data>
+  <data name="lblCB" xml:space="preserve">
+    <value>Остаток наличных средств</value>
+  </data>
+  <data name="lblCD" xml:space="preserve">
+    <value>Чек Подробности</value>
+  </data>
+  <data name="lblCDD" xml:space="preserve">
+    <value>Чек / DD подробности</value>
+  </data>
+  <data name="lblCeilingAmount" xml:space="preserve">
+    <value>Максимальная сумма</value>
+  </data>
+  <data name="lblCenter" xml:space="preserve">
+    <value>Центр</value>
+  </data>
+  <data name="lblCess" xml:space="preserve">
+    <value>Эйр Сесс
+lblCessID	Cess ID	Эйр Сесс ID</value>
+  </data>
+  <data name="lblCessPaidGLID" xml:space="preserve">
+    <value>Платные Эйр Сесс GL ID</value>
+  </data>
+  <data name="lblChangedReason" xml:space="preserve">
+    <value>Изменено Разума</value>
+  </data>
+  <data name="lblChangePassword" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="lblChangePasswordAtNextLogon" xml:space="preserve">
+    <value>Пользователь должен изменить пароль при следующем входе</value>
+  </data>
+  <data name="lblChangeProductOnMaturity" xml:space="preserve">
+    <value>Изменения продукта на зрелость</value>
+  </data>
+  <data name="lblChangingMeetingDay" xml:space="preserve">
+    <value>Изменение заседании день</value>
+  </data>
+  <data name="lblChargeAmount" xml:space="preserve">
+    <value>Зарядка Сумма</value>
+  </data>
+  <data name="lblChargeBasis" xml:space="preserve">
+    <value>Зарядка Основа</value>
+  </data>
+  <data name="lblChargeCategory" xml:space="preserve">
+    <value>Зарядка Категория</value>
+  </data>
+  <data name="lblChargeCollected" xml:space="preserve">
+    <value>Зарядка Собранные</value>
+  </data>
+  <data name="lblChargeCurrencyID" xml:space="preserve">
+    <value>Зарядка валюте ID</value>
+  </data>
+  <data name="lblChargeDetails" xml:space="preserve">
+    <value>Зарядка Подробности</value>
+  </data>
+  <data name="lblChargeID" xml:space="preserve">
+    <value>Зарядка ID</value>
+  </data>
+  <data name="lblChargeInLocalCurrency" xml:space="preserve">
+    <value>Зарядка в местной валюте</value>
+  </data>
+  <data name="lblChargeList" xml:space="preserve">
+    <value>Зарядка Список</value>
+  </data>
+  <data name="lblChargeoff" xml:space="preserve">
+    <value>Зарядка-Off</value>
+  </data>
+  <data name="lblChargeOffAmount" xml:space="preserve">
+    <value>Зарядка Off сумму</value>
+  </data>
+  <data name="lblChargeoffInsurance" xml:space="preserve">
+    <value>Зарядка-off страхования</value>
+  </data>
+  <data name="lblChargeoffLoss" xml:space="preserve">
+    <value>Зарядка-off потеря</value>
+  </data>
+  <data name="lblchargeoffnotrecovered" xml:space="preserve">
+    <value>Даже в том случае, если обвинения-off не возвращается</value>
+  </data>
+  <data name="lblChargePenalty" xml:space="preserve">
+    <value>Charge Penalty</value>
+  </data>
+  <data name="lblChargeRecovery" xml:space="preserve">
+    <value>Зарядка подъема</value>
+  </data>
+  <data name="lblCharges" xml:space="preserve">
+    <value>Сборы</value>
+  </data>
+  <data name="lblChargeSettings" xml:space="preserve">
+    <value>Зарядка Настройки</value>
+  </data>
+  <data name="lblChargeType" xml:space="preserve">
+    <value>Зарядка Тип</value>
+  </data>
+  <data name="lblChargingMethod" xml:space="preserve">
+    <value>Зарядка Метод</value>
+  </data>
+  <data name="lblChassisNo" xml:space="preserve">
+    <value>Шасси Нет</value>
+  </data>
+  <data name="lblCheckBasedOn" xml:space="preserve">
+    <value>Проверка основана на</value>
+  </data>
+  <data name="lblCheckType" xml:space="preserve">
+    <value>Тип болванки</value>
+  </data>
+  <data name="lblChequeAmount" xml:space="preserve">
+    <value>Сумма чеками</value>
+  </data>
+  <data name="lblChequeBookType" xml:space="preserve">
+    <value>Чековую книжку типа</value>
+  </data>
+  <data name="lblChequeDate" xml:space="preserve">
+    <value>Дата чеками</value>
+  </data>
+  <data name="lblChequeDigit" xml:space="preserve">
+    <value>Чек Digit</value>
+  </data>
+  <data name="lblChequeEnd" xml:space="preserve">
+    <value>Конец чеками</value>
+  </data>
+  <data name="lblChequeID" xml:space="preserve">
+    <value>Чек ID</value>
+  </data>
+  <data name="lblChequeIDLength" xml:space="preserve">
+    <value>Чек ID длина</value>
+  </data>
+  <data name="lblChequeNo" xml:space="preserve">
+    <value>Чек Нет</value>
+  </data>
+  <data name="lblChequeNoEnd" xml:space="preserve">
+    <value>Чек нет конца</value>
+  </data>
+  <data name="lblChequeNoStart" xml:space="preserve">
+    <value>Чек не начать</value>
+  </data>
+  <data name="lblChequePrefix" xml:space="preserve">
+    <value>Чек Префикс</value>
+  </data>
+  <data name="lblChequeStart" xml:space="preserve">
+    <value>Начните с чеками</value>
+  </data>
+  <data name="lblChequeStatus" xml:space="preserve">
+    <value>Чек Статус</value>
+  </data>
+  <data name="lblChequeTotal" xml:space="preserve">
+    <value>Всего с чеками</value>
+  </data>
+  <data name="lblChequeType" xml:space="preserve">
+    <value>Чек Тип</value>
+  </data>
+  <data name="lblChildLimit" xml:space="preserve">
+    <value>Предельные ребенка</value>
+  </data>
+  <data name="lblchkClearing" xml:space="preserve">
+    <value>Очистка</value>
+  </data>
+  <data name="lblCIP" xml:space="preserve">
+    <value>Кредитные проценты процедура</value>
+  </data>
+  <data name="lblCIS" xml:space="preserve">
+    <value>Кредитные проценты Настройка</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="lblCL" xml:space="preserve">
+    <value>Изменить список</value>
+  </data>
+  <data name="lblClaimDate" xml:space="preserve">
+    <value>Претензия Дата</value>
+  </data>
+  <data name="lblClaimedBy" xml:space="preserve">
+    <value>Оспаривается</value>
+  </data>
+  <data name="lblClaimType" xml:space="preserve">
+    <value>Претензия Тип</value>
+  </data>
+  <data name="lblClassID" xml:space="preserve">
+    <value>Идентификатор класса</value>
+  </data>
+  <data name="lblClassName" xml:space="preserve">
+    <value>Название класса</value>
+  </data>
+  <data name="lblClassType" xml:space="preserve">
+    <value>Класс Тип</value>
+  </data>
+  <data name="lblClearBalance" xml:space="preserve">
+    <value>Открытый баланс</value>
+  </data>
+  <data name="lblClearingDate" xml:space="preserve">
+    <value>Очистка Дата</value>
+  </data>
+  <data name="lblClearingDays" xml:space="preserve">
+    <value>Очистка дней</value>
+  </data>
+  <data name="lblClearingStatus" xml:space="preserve">
+    <value>Очистка Статус</value>
+  </data>
+  <data name="lblClient" xml:space="preserve">
+    <value>Адрес клиента</value>
+  </data>
+  <data name="lblClientAppID" xml:space="preserve">
+    <value>Клиент ок ID</value>
+  </data>
+  <data name="lblClientBranchID" xml:space="preserve">
+    <value>Клиент филиала ID</value>
+  </data>
+  <data name="lblClientCategory" xml:space="preserve">
+    <value>Клиент Категория</value>
+  </data>
+  <data name="lblClientCodeAllotted" xml:space="preserve">
+    <value>Клиент код выделенного</value>
+  </data>
+  <data name="lblClientDetails" xml:space="preserve">
+    <value>Клиент Подробности</value>
+  </data>
+  <data name="lblClientID" xml:space="preserve">
+    <value>Идентификатор клиента</value>
+  </data>
+  <data name="lblClientIntroducer" xml:space="preserve">
+    <value>Клиент Вступительное слово</value>
+  </data>
+  <data name="lblClientIntroducerKnownFor" xml:space="preserve">
+    <value>Вступительное слово должны знать Клиент для atleast</value>
+  </data>
+  <data name="lblClientName" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="lblClientNameChange" xml:space="preserve">
+    <value>Клиент изменение названия</value>
+  </data>
+  <data name="lblClientOpenFromDate" xml:space="preserve">
+    <value>Клиент открыт с даты</value>
+  </data>
+  <data name="lblClientOpenToDate" xml:space="preserve">
+    <value>Клиент открытых на сегодняшний день</value>
+  </data>
+  <data name="lblClientRelation" xml:space="preserve">
+    <value>Клиент Отношение</value>
+  </data>
+  <data name="lblClients" xml:space="preserve">
+    <value>Клиент</value>
+  </data>
+  <data name="lblClientStatus" xml:space="preserve">
+    <value>Статус клиента</value>
+  </data>
+  <data name="lblClientType" xml:space="preserve">
+    <value>Тип клиента</value>
+  </data>
+  <data name="lblClientwiseReceiptDetails" xml:space="preserve">
+    <value>Clientwise получения подробности</value>
+  </data>
+  <data name="lblCloseAccount" xml:space="preserve">
+    <value>Закрыть аккаунт</value>
+  </data>
+  <data name="lblCloseClient" xml:space="preserve">
+    <value>Закрыть клиентов</value>
+  </data>
+  <data name="lblClosedBy" xml:space="preserve">
+    <value>Закрыто</value>
+  </data>
+  <data name="lblClosedDate" xml:space="preserve">
+    <value>Закрыто Дата</value>
+  </data>
+  <data name="lblClosedOn" xml:space="preserve">
+    <value>Завершен</value>
+  </data>
+  <data name="lblClosedReason" xml:space="preserve">
+    <value>Причина Закрыто</value>
+  </data>
+  <data name="lblClosedReasonID" xml:space="preserve">
+    <value>Закрыто причине ID</value>
+  </data>
+  <data name="lblClosingCharges" xml:space="preserve">
+    <value>Закрытие Сборы</value>
+  </data>
+  <data name="lblClosingDetails" xml:space="preserve">
+    <value>Закрытие Подробности</value>
+  </data>
+  <data name="lblClubMovementForDay" xml:space="preserve">
+    <value>Клуб Движения за день</value>
+  </data>
+  <data name="lblCollateralDetails" xml:space="preserve">
+    <value>Залоговое Подробности</value>
+  </data>
+  <data name="lblCollateralID" xml:space="preserve">
+    <value>Залоговое ID</value>
+  </data>
+  <data name="lblCollateralRatio" xml:space="preserve">
+    <value>Залоговое Соотношение</value>
+  </data>
+  <data name="lblCollateralStatus" xml:space="preserve">
+    <value>Залоговое Статус</value>
+  </data>
+  <data name="lblCollateralType" xml:space="preserve">
+    <value>Залоговое Тип</value>
+  </data>
+  <data name="lblCollateralTypeID" xml:space="preserve">
+    <value>Тип ID</value>
+  </data>
+  <data name="lblCollateralValue" xml:space="preserve">
+    <value>Стоимость кредита</value>
+  </data>
+  <data name="lblCollectionModule" xml:space="preserve">
+    <value>Коллекция Модуль</value>
+  </data>
+  <data name="lblCollectionType" xml:space="preserve">
+    <value>Коллекция Тип</value>
+  </data>
+  <data name="lblComments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="lblCommission" xml:space="preserve">
+    <value>Комиссия</value>
+  </data>
+  <data name="lblCommissionValue" xml:space="preserve">
+    <value>Комиссия стоимость</value>
+  </data>
+  <data name="lblCommunicationAddress" xml:space="preserve">
+    <value>Связь Адрес</value>
+  </data>
+  <data name="lblCompany" xml:space="preserve">
+    <value>Компания</value>
+  </data>
+  <data name="lblCompanyID" xml:space="preserve">
+    <value>Компания ID</value>
+  </data>
+  <data name="lblCompanyName" xml:space="preserve">
+    <value>Название компании</value>
+  </data>
+  <data name="lblCompanyType" xml:space="preserve">
+    <value>Тип компании</value>
+  </data>
+  <data name="lblComparisonOperator" xml:space="preserve">
+    <value>Сравнение операторов</value>
+  </data>
+  <data name="lblComponent" xml:space="preserve">
+    <value>Компонент</value>
+  </data>
+  <data name="lblCompoundingFrequency" xml:space="preserve">
+    <value>Усугубляя Частота</value>
+  </data>
+  <data name="lblConfirmPassword" xml:space="preserve">
+    <value>Подтвердите пароль</value>
+  </data>
+  <data name="lblConstitution" xml:space="preserve">
+    <value>Конституция</value>
+  </data>
+  <data name="lblConstructionYear" xml:space="preserve">
+    <value>Строительство Год</value>
+  </data>
+  <data name="lblContact1" xml:space="preserve">
+    <value>Контакт 1</value>
+  </data>
+  <data name="lblContact2" xml:space="preserve">
+    <value>Контакт 2</value>
+  </data>
+  <data name="lblContactPerson" xml:space="preserve">
+    <value>Контактное лицо</value>
+  </data>
+  <data name="lblContactPersonName" xml:space="preserve">
+    <value>Контактное лицо Имя</value>
+  </data>
+  <data name="lblContentFormat" xml:space="preserve">
+    <value>Содержание Формат</value>
+  </data>
+  <data name="lblContraAccountID" xml:space="preserve">
+    <value>Contra идентификатора учетной</value>
+  </data>
+  <data name="lblContractDocumentSetting" xml:space="preserve">
+    <value>Контракт документе Настройка</value>
+  </data>
+  <data name="lblContractFormatID" xml:space="preserve">
+    <value>Контракт формат ID</value>
+  </data>
+  <data name="lblContraGLAccountID" xml:space="preserve">
+    <value>Contra GL идентификатора учетной</value>
+  </data>
+  <data name="lblContraGLID" xml:space="preserve">
+    <value>Contra GL ID</value>
+  </data>
+  <data name="lblControlGLAccountID" xml:space="preserve">
+    <value>Контроль GL идентификатора</value>
+  </data>
+  <data name="lblConversionValue" xml:space="preserve">
+    <value>Стоимость переходов</value>
+  </data>
+  <data name="lblCOP" xml:space="preserve">
+    <value>Изменение портфеля офицер</value>
+  </data>
+  <data name="lblCopyCurrency" xml:space="preserve">
+    <value>Скопируйте следующие валюты</value>
+  </data>
+  <data name="lblCopyFollowingRateTypes" xml:space="preserve">
+    <value>Скопируйте следующие ставки по отраслям</value>
+  </data>
+  <data name="lblCopyRatestoFollowingBranches" xml:space="preserve">
+    <value>Скопируйте следующие ставки по отраслям</value>
+  </data>
+  <data name="lblCopyRight" xml:space="preserve">
+    <value>Copyright © 2005 Craft Силиконовой Все права защищены.</value>
+  </data>
+  <data name="lblCopyToClientImage" xml:space="preserve">
+    <value>Скопируйте к клиенту изображения</value>
+  </data>
+  <data name="lblCorporateDetails" xml:space="preserve">
+    <value>Корпоративный Подробности</value>
+  </data>
+  <data name="lblCOT" xml:space="preserve">
+    <value>Эйр Сесс по налоговым
+lblCountry	Country	Страна
+lblCP	Client Portfolio	Клиенты
+lblCPP	Collection Projection Parameters	Коллекция параметров прогноза
+lblCRD	Cancellation Reason Details	Отмена причине подробности
+lblCreatedBy	Created By	Автор
+lblCreatedOn	Created On	Создан
+lblCreateNewAccount	Create New Account	Создать новую учетную запись
+lblCreditAccID	Credit Acc. ID	Кредит Acc. ID
+lblCreditAccountTag	Credit Account Tag	Кредит счета тег
+lblCreditBranchID	Credit Branch ID	Кредит филиала ID
+lblCreditIntCalRule	Interest Calculation Rule	Правило расчета
+lblCreditInterest	Credit Interest	Кредитные проценты
+lblCreditInterestAppliedDate	Interest Applied Upto	Проценты по прикладным до
+lblCreditInterestPayable	Credit Interest Payable	Кредитные проценты к уплате
+lblCreditInterestStartDate	Interest Start Date	Проценты дата начала
+lblCreditInterestStartMonth	Interest Start Month	Проценты Начало месяца
+lblCreditOfficer	Credit Officer	Кредитный сотрудник
+lblCreditOfficerID	Credit Officer ID	Кредитный сотрудник ID
+lblCreditPostingLimit	Credit Posting Limit	Кредитный лимит размещения
+lblCreditProvisionedDate	Interest Accrued Upto	Проценты начисляются до
+lblCreditSupervisionLimit	Credit Supervision Limit	Кредитный лимит надзор
+lblCreditTrxID	Credit Trx ID	Кредит Trx ID
+lblCreditTurnOver	Credit Turn Over	Кредит пересаживать
+lblCRInterestDays	Interest Days	Проценты дней
+lblCRNextPayable	Next Payable	Далее к оплате
+lblCrOfficerName	Cr. Officer Name	Cr. Имя сотрудника
+lblCRWithholdingTax	Withholding Tax	Удерживаемый налог
+lblCS	Charge Setting	Зарядка Настройка
+lblCT	Claim Details	Претензия Подробности
+lblCurr	Currencies	Валюты
+lblCurrency	Currency	Валюта
+lblCurrencyBranchDetail	Currency Branch Details	Валюта филиал подробности
+lblCurrencyDenomination	Currency Denomination	Валюта Номинал
+lblCurrencyID	Currency ID	Валюта ID
+lblCurrencyTypeID	Currency Type	Валюта Тип
+lblCurrentLanguage	Your Current Language	Ваш текущий язык
+lblCurrentLoanCycleNo	Current Loan Level No	Текущий уровень кредита нет
+lblCurrentStatus	Current Status	Текущее состояние
+lblCustomerDescriptionID	Customer Description ID	Заказчик Описание ID
+lblCustomerNarration	Customer Narration	Заказчик повествования
+lblCustomerRestriction	Customer Restriction	Заказчик, ограничивающим
+lblCutoffDate	Cutoff Date	Дата среза
+lblCV	Consolidated Values	Сводный Ценности
+lblCY	Current Year	Текущий год
+lblCycleNo	Cycle No	Цикл Нет
+lblDataSource	Data Source	Источник данных
+lblDate	Date	Дата
+lblDateIssued	Issue Date	Дата выдачи
+lblDateOfBirth	Date Of Birth	Дата рождения
+lblDateOfRegistration	Date Of Registration	Дата регистрации
+lblDay2	Day 2	День 2
+lblDayCountBasis	Day Count Basis	День рассчитывать основе
+lblDayEnd	Day End	День окончания
+lblDayOfWeek	Day of Week	День недели
+lblDays	(Days)	(В днях)
+lblDayStart	Day Start	День Начать
+lblDayStatus	Day Status	День Статус
+lblDB	Database	База данных
+lblDeathDate	Demise Date	Дата кончины
+lblDebitAccID	Debit Acc. ID	Дебет Acc. ID
+lblDebitAccountTag	Debit Account Tag	Дебет счета тег
+lblDebitBranchID	Debit Branch ID	Дебет филиал ID
+lblDebitInterest	Debit Interest	Дебет Проценты
+lblDebitInterestReceivable	Debit Interest Receivable	Дебетовые проценты к получению
+lblDebitPostingLimit	Debit Posting Limit	Дебет размещения предел
+lblDebitSupervisionLimit	Debit Supervision Limit	Дебет надзор предел
+lblDebitTrxID	Debit Trx ID	Дебет Trx ID
+lblDebitTurnOver	Debit Turn Over	Дебет пересаживать
+lblDeduction	Deduction	Вычет
+lblDefaultLoanAmount	Default Loan Amount	По умолчанию размер кредита
+lblDefaultText	Default Text	Текст по умолчанию
+lblDenominations	Denominations	Наименования
+lblDepositAccountID	Deposit Account ID	Депозитные счета ID
+lblDepositAmount	Deposit Amount	Суммы вклада
+lblDepositBalance	Deposit Balance	Депозиты Баланс
+lblDepositDate	Deposit Date	Депозитный Дата
+lblDepositProductID	Deposit Product ID	Депозиты Product ID
+lblDepositStatus	Deposit Status	Депозиты Статус
+lblDepositTerm	Deposit Term	Срочный депозит
+lblDepositType	Deposit Type	Депозиты Тип
+lblDepreciation	Depreciation	Амортизация
+lblDepreciationAppliedUpto	Depreciation Applied Upto	Износ применяться до
+lblDepreciationFrequency	Depreciation Frequency	Износ Частота
+lblDepreciationMethod	Depreciation Method	Depreciation Method
+lblDepreciationPeriod	Depreciation Period	Износ Период
+lblDepreciationRate	Depreciation Rate	Амортизации
+lblDepreciationRateType	Depreciation Rate Type	Тип амортизации
+lblDepreciationStartDate	Depreciation Start Date	Износ дата начала
+lblDescription	Description	Описание
+lblDesignation	Designation	Назначение
+lblDetails	Details	Подробности
+lblDIP	Debit Interest Procedure	Дебет-процессуальный интерес
+lblDirector	Director	Директор
+lblDirectorID	Director ID	Директор ID
+lblDIS	Debit Interest Setting	Дебет интерес Настройка
+lblDisabledFrom	Disabled From	Инвалиды из
+lblDisabledReason	Disabled Reason	Основание для инвалидов
+lblDisabledTo	Disabled To	Для инвалидов
+lblDisabledToDate	lblDisabledToDate	lblDisabledToDate
+lblDisbAmount	Disb. Amount	Disb. Сумма
+lblDisbursedAmount	Disbursed Amount	Выплачено Сумма
+lblDisbursedBy	Disbursed By	Выделяемых
+lblDisbursedDate	Disbursed Date	Выплачено Дата
+lblDisbursedDate1st	Disbursed Date(1st)	Выплачено Дата (1)
+lblDisbursementAmount	Disbursement Amount	Сумма выплат
+lblDisbursementDate	Disbursement Date	Заявки на выделение Дата
+lblDisbursementDetails	Disbursement Details	Подробная информация о выплатах
+lblDisbursementList	Disbursement List	Заявки на выделение Список
+lblDisbursementMethod	Mode Of Disbursement	Режим выплаты
+lblDisbursementmode	Disbursement Mode	Заявки на выделение Mode
+lblDisbursementRestriction	Disbursement Restriction	Заявки на выделение Ограничение
+lblDisbursementTime	Disbursement Time	Заявки на выделение Время
+lblDisbursementType	Disbursement Type	Заявки на выделение Тип
+lblDisplayName	Display Name	Отображаемое имя
+lblDisposalDetails	Disposal Details	Распоряжение Подробности
+lblDisposalTypeID	Disposal Type	Распоряжение Тип
+lblDisposalValue	Disposal Value	Распоряжение стоимость
+lblDisposedAmount	Total Disposed Value	Общая стоимость Увод
+lblDL	Disbursement	Выплаты
+lblDoChgproduct	Do Change Product ?	Как изменить продукт?
+lblDocNo	Document No	Документ №
+lblDocumentClass	Document Class	Документ класса
+lblDocumentDate	Document Date	Дата документа
+lblDocumentDetails	Document Details	Документ Подробности
+lblDocumentID	Document ID	Идентификатор документа
+lblDocumentImage	Document Image	Документ Image
+lblDocumentProofID	Document Proof ID	Документ доказательство ID
+lblDocumentType	Document Type	Вид документа
+lblDormantDate	Dormant Date	Неактивная Дата
+lblDormantDays	Dormant days	Неактивная дней
+lblDormantProductID	Dormant Product ID	Неактивная Product ID
+lblDPDefinition	DP Definition	DP Определение
+lblDrawingPower	Drawing Power	Рисование державой
+lblDTT	General Conditions	Общие условия
+lblDueStage	Due Stage	Из-за Стадия
+lblEA	Expected Amount	Ожидаемые Сумма
+lblEarlyRenewalDays	Early Renewal Days	Начало обновления дней
+lblED	Exemption Details	Освобождение Подробности
+lblEditHoliday	Edit Holiday	Изменить Холидей
+lblEffectiveDate	Effective Date	Дата вступления в силу
+lblEffectiveFrom	Effective From	Вступают в силу с
+lblEffectiveRate	Effective Rate	Эффективное Оценить
+lblEffectiveTo	Effective To	Для эффективного
+lblEH	Exit History	Выход История
+lblEligibilityPeriod	Eligibility Period	Право Период
+lblEligibleforScavenging	Eligible for Scavenging	Приемлемые для очистки
+lblEmailID	Email ID	Email ID
+lblEmpID	Employee ID	Сотрудник ID
+lblEmploymentDetails	Employment Details	Работа Подробности
+lblEncryptAttachment	Encrypt Attachment	Шифровать Приложение
+lblEnd	End	Конец
+lblEnforcePasswordPolicy	Enforce Password Policy	Выполнить паролей
+lblEnforceStrongPasword	Enforce Strong Password	Выполнить надежный пароль
+lblEngineNo	Engine No	Двигатель Нет
+lblEnquiryResults	Enquiry Results	Результаты запроса
+lblEOD	You have selected End of Day Procedure. This procedure will update all the relevant modules. Transaction modules are not available during this procedure.	Вы выбрали день окончания процедуры. Эта процедура позволит обновить все соответствующие модули. Операция модули, недоступные во время этой процедуры.
+lblEODS	System will Execute End of Day Procedure Without Internal Backup.....	Система будет выполнять концу дня порядке без внутренней резервной .....
+lblES	Event Setting	Событие Настройка
+lblET	Expected Tax	Ожидаемый налог
+lblEvent	Event	Событие
+lblEventID	Event ID	Событие ID
+lblEventModule	Event Module	Событие Модуль
+lblExcessInterestCredited	Excess Interest Credited	Превышение Проценты зачисляются
+lblExcessPaidLoans	Excess Paid Loans	Превышение Платные займы
+lblExcessSupervisionLimit	Excess Supervision Limit	Превышение предела надзор
+lblExchangeRate	Exchange Rate	Обмен валюты
+lblExcludePrepayment	Exclude Prepayment	Исключить Предоплата
+lblExempted	Exempted	Освобожденные
+lblExemptedDays	Exempted Days	Освобожденные дней
+lblExemptionSetting	Exemption Setting	Освобождение Настройка
+lblExistingAccountID	Existing Account ID	Существующие идентификатора учетной
+lblExistingClient	Existing Client	Существующий клиент
+lblExitChargeoffType	Exit Charge-Off Type	Выход заряда-off Тип
+lblExitDate	Exit Date	Дата выхода
+lblExitDetails	Exit Details	Выход Подробности
+lblExitForThisType	Exit for this Type	Выход для данного типа
+lblExitProcessDetails	Exit Process Details	Выход из процесса подробности
+lblExitReason	Exit Reason	Выход Разум
+lblExitType	Exit Type	Выход типа
+lblExitTypeID	Exit Type ID	Выход типа ID
+lblExpected	Expected	Ожидаемые
+lblExpectedAssetLife	Expected Asset Life	Ожидаемые актива жизни
+lblExpectedDisbDate	Expected Disb. Date	Ожидаемые Disb. Дата
+lblExpectedDisbursementDate	Expected Disbursement Date	Планируемые даты выплаты
+lblExpenseAccountID	Expense Account ID(Exp)	Расходы Счет ID (Exp)
+lblExpenseID	Expense ID	Расходы ID
+lblExpenseType	Expense Type	Расходы Тип
+lblExpiredDate	Expired Date	Истекшие Дата
+lblExpiryDate	Expiry Date	Срок действия
+lblExposureLimit	Exposure Limit	Выдержка Предельные
+lblFailedChargeType	Failed Charge Type	Ошибка обвинения типа
+lblFailureTrxID	Failure Trx. ID	Неспособность Trx. ID
+lblFamilyIncome	Family Income	Семейного дохода
+lblFax	Fax No	Факс: Нет
+lblFee1	Fee 1	Плата за 1
+lblFee2	Fee 2	Плата 2
+lblFee3	Fee 3	Плата 3
+lblFee4	Fee 4	Плата 4
+lblFES	Free Event Setting	Бесплатные случае установления
+lblFieldCaption	Field Caption	Поле заголовка
+lblFieldGroup	Search Item Type	Поиск тип элемента
+lblFieldName	Field Name	Имя поля
+lblFileID	File ID	ИД файла
+lblFileName	File Name	Имя файла
+lblFileNumber	File Number	File Number
+lblFinancialYear	Financial Year	Финансовый год
+lblFinancialYearStart	Financial Year Start	Финансовый год Старт
+lblFirstDay	First Day	First Day
+lblFirstDisbursementDate	First Disbursement Date	Дата первой выплаты
+lblFirstExecutionDate	First Execution Date	Первая дата исполнения
+lblFirstInstallmentDate	First Installment Date	Первый взнос Дата
+lblFirstMeetingDate	First Meeting Date	Первое заседание Дата
+lblFirstName	First Name	Имя
+lblFixed	Fixed	Фиксированная
+lblFixedAmount	Amount	Сумма
+lblFixedAssetID	Asset ID	Активы ID
+lblFixedAssetSubTypeID	Asset Sub Type	Активы югу типа
+lblFixedAssetType	Fixed Asset Type	Фиксированная Вид актива
+lblFixedAssetTypeID	Asset Type	Активы Тип
+lblFixedPerEvent	Fixed Per Event	Фиксированная каждый страховой случай
+lblForeignAmount	Foreign Amount	Объем иностранных
+lblForeignBalance	Foreign Balance	Иностранные Баланс
+lblForeignClosingBalance	Foreign Closing Balance	Иностранные конечное сальдо
+lblForeignOpeningBalance	Opening Foreign Balance	Открытие иностранных баланс
+lblForexGainLoss	Forex Gain / Loss	Forex Прибыль / убыток
+lblForfeitCollateral	Forfeit Collateral	Залоговое неустойки
+lblForfeitDetails	Forfeit Details	Подробности неустойки
+lblForfeitedAmount	Forfeited Amount	Сумма, изъятом
+lblforfeitnotrecovered	Even if forfeit is not recovered	Даже если неустойки не возвращается
+lblForfeitSavings	Forfeit Savings	Экономия неустойки
+lblForgoChargesDue	Forgo Charges Due	Отказаться от сборов, подлежащих
+lblForgoFutureInterest	Forgo Future Interest	Отказаться в будущем интерес
+lblForgoInterestDue	Forgo Interest Due	Отказаться от процентных начислений
+lblFormat	Format	Формат
+lblFormatDetails	Format Details	Формат Подробности
+lblFormationDate	Formation Date	Формирование Дата
+lblFormula	Formula	Формула
+lblFormulaMandatory	Formula Mandatory	Формула Обязательное
+lblFormulas	Formulas	Формулы
+lblFR	Forfeit Recovery Details	Неустойки восстановления деталей
+lblFreeEvent	Free Event	Бесплатные Событие
+lblFreeTrx	Free Transaction	Бесплатные транзакции
+lblFreezedAmount	Freezed Amount	Сумма Freezed
+lblFrequency	Frequency	Частота
+lblFriday	Friday	Пятница
+lblFrom	From	С
+lblFromAmount	From Amount	От суммы
+lblFromBranchID	From Branch ID	Из филиала ID
+lblFromCurrency	From Currency	Из валют
+lblFromDate	From Date	От Дата
+lblFromDisbDate	From Disb.Date	С Disb.Date
+lblFromGroupID	From Group ID	Из группы ID
+lblFromProductID	From Product ID	Из Product ID
+lblFromTillID	From Till ID	С до ID
+lblFromYear	From Year	Из года
+lblFullyPaidLoans	Fully Paid Loans	Полностью оплаченный займы
+lblFundAmount	Fund Amount	Сумма фонда
+lblFundedLimit	Funded Limit	Финансируемые Предельные
+lblFunder1	Funder 1	Финансирующего 1
+lblFunder2	Funder 2	Финансирующего 2
+lblFunderID	Funder ID	Финансирующего ID
+lblFunderName	Funder Name	Имя спонсора
+lblFundID	Fund ID	Фонд ID
+lblFundName	Fund Name	Название фонда
+lblFundType	Fund Type	Тип фонда
+lblFutureInterestType	Future Interest Type	Будущие интерес типа
+lblGender	Gender	Пол
+lblGenerateSchedule	Generate Schedule	Создать Расписание
+lblGLA	Group Loan Accounts	Группа кредит счета
+lblGLAccountID	GL Account ID	GL идентификатора учетной
+lblGLCategory	GL Category	GL Категория
+lblGLClass	GL Class	GL класса
+lblGLControlType	GL Control Type	GL контроля типа
+lblGLDescriptionID	GL Description ID	GL Описание ID
+lblGLFormatID	GL Format ID	GL формат ID
+lblGLID	GL ID	GL ID
+lblGLNarration	GL Narration	GL повествования
+lblGLReportType	GL Report Type	GL типа отчета
+lblGLSubAccountTypeID	Sub Account Type ID	Под тип счета ID
+lblGLSubType	GL Sub Type	GL югу типа
+lblGLType	GL Type	GL Тип
+lblGLTypeID	GL Type ID	GL тип ID
+lblGML	Group Member List	Список членов группы
+lblGPD	Group Projection Details	Группа по проектированию детали
+lblGraceDays	Grace Days	Грейс дней
+lblGracePeriod	Grace Period	Льготный период
+lblGrossIncome	Gross Income	Валовой доход
+lblGroupClass	Group Class	Группа Класс
+lblGroupClassID	Group Class ID	Группа идентификатор класса
+lblGroupCycleTypeID	Group Cycle Type ID	Группа цикла типа ID
+lblGroupDisbursementDate	Group Disbursement Date	Группа Дата выплаты
+lblGroupDisbursementDetail	Group Disbursement Detail	Группа подробно о выплатах
+lblGroupDisbursementTime	Group Disbursement Time	Группа выплат времени
+lblGroupID	Group ID	Идентификатор группы
+lblGroupIDMF	Group ID(MFI)	Идентификатор группы (ФГИ)
+lblGroupLeader1	Group Leader 1	Руководитель группы 1
+lblGroupLeader2	Group Leader 2	Лидер группы 2
+lblGroupLeader3	Group Leader 3	Лидер группы 3
+lblGroupOfficials	Group Officials	Группа должностных лиц
+lblGroupProductID	Group Product ID	Группа Product ID
+lblGroupScheme	Group Scheme	Группа Схемы
+lblGrpFormationDate	Grp. Formation Date	ВРП. Формирование Дата
+lblGuaranteeAmount	Guarantee Amount	Сумма Гарантии
+lblGuaranteedAmount	Guaranteed Amount	Гарантированный Сумма
+lblGuarantorClientID	Institution/Client ID	Учреждение / идентификатор клиента
+lblGuarantorDetails	Guarantor Details	Гарант Подробности
+lblGuarantorID	Guarantor ID	Гарант ID
+lblGuarantorReleventID	Relevant ID	Соответствующие ID
+lblGuarantorType	Guarantor Type	Гарант Тип
+lblGuarantorTypeID	Guarantor Type ID	Гарант тип ID
+lblHeader	Cross Calculator	Крест Калькулятор
+lblHeader1	Dashboards	Панели
+lblHeader2	Rates	Цены
+lblHealthCode	Health Code	Здоровье кодекс
+lblHolidayApplicable	Holiday Applicable	Праздничная Применимо
+lblHolidayDate	Holiday Date	Праздничная дата
+lblHolidayFor	Holiday For	Праздник
+lblHolidayForID	Marking Holiday For	Маркировка для праздника
+lblHolidayHandling	Holiday Handling	Праздничная Обработка
+lblHolidayProcessingTypeID	Holiday Processing Type ID	Праздничная обработки типа ID
+lblHoliDaysType	Holiday Type	Праздничная Тип
+lblID	ID	ID
+lblIdentityFor	Identity For	Для Identity
+lblIdentityID	Identity ID	Identity ID
+lblIDGenerationSettings	ID Generation Settings	ID поколения Настройки
+lblImageType	Image Type	Тип изображения
+lblImg	Image	Изображение
+lblIncomeShareRate	Rate	Ставка
+lblIndividualDetails	Individual Details	Индивидуальные сведения
+lblInfoCodeID	Info Code ID	Информация код ID
+lblInfoCodeSubID	Info Code Sub ID	Информация код югу ID
+lblInformation	* All figures are monthly based	* Все цифры ежемесячной основе
+lblINR	(INR)	(ИЯИ)
+lblINR100	INR 100	INR 100
+lblINR150	INR 150	INR 150
+lblINR25	INR 25	ИЯИ 25
+lblINR50	INR 50	ИЯИ 50
+lblInstallment	Installment	Транша
+lblInstallmentAmount	Installment Amount	Сумма транша
+lblInstallmentComponents	Installment Components	Монтаж компонентов
+lblInstallmentDate	Installment Date	Дата взнос
+lblInstallmentFrequency	Installment Frequency	Частота взнос
+lblInstallmentGracePeriod	Installment Grace Period	Транша льготного периода
+lblInstallmentNo	Installment No	Нет взнос
+lblInstallmentRounding	Installment Rounding	Округление взнос
+lblInstallmentStartDate	Installment Start Date	Пуск платеж Дата
+lblInstitutionID	Institution ID	Учреждение ID
+lblInstitutionName	Institution Name	Название института
+lblInstitutionType	Institution Type	Учреждение Тип
+lblInstructedBy	Instructed By	По поручению
+lblInstructionDate	Instruction Date	Инструкция Дата
+lblInstructionGivenBy	Instruction Given By	Обучение за счет
+lblInstructionTypeID	Instruction Type ID	Инструкция тип ID
+lblInstrumentDate	Instrument Date	Дата документа
+lblInstrumentID	Instrument ID	Документ ID
+lblInstrumentType	Instrument Type	Вид документа
+lblInsuranceBenefit	Insurance Benefit	Страхование Benefit
+lblInsuranceBenefits	Claim Amount	Сумма претензии
+lblInsuranceCategory	Insurance Category	Страхование Категория
+lblInsuranceClaimType	Insurance Claim Type	Страховые претензии типа
+lblInsuranceClassID	Insurance Class ID	Страхование идентификатор класса
+lblInsuranceCompanyID	Insurance Company ID	Страховая компания ID
+lblInsuranceDetails	Insurance Details	Страхование Подробности
+lblInsuranceID	Insurance ID	Страхование ID
+lblInsuranceRequired	Insurance Required	Страхование обязательно
+lblInsuranceType	Insurance Type	Вид страхования
+lblInsuranceTypeID	Insurance Type ID	Страхование типа ID
+lblInsured	Insured	Страхователь
+lblInsuredAmount	Insured Amount	Страхователь Сумма
+lblInsuredMode	Insured Mode	Страхователь Mode
+lblInsuredName	Insured Name	Страхователь Имя
+lblInsuredPeriod	Insured Period	Страхователь Период
+lblIntAccrualFrequency	Int. Accrual Frequency	Int. Периодичность начисления
+lblIntApplFrequency	Int. Appl. Frequency	Int. Appl. Частота
+lblIntCalRule	Int. Calculation Rule	Int. Расчет Правило
+lblIntDate	Interest Effective Date	Проценты даты вступления в силу
+lblInterBranch	Inter Branch	Интер отделение</value>
+  </data>
+  <data name="lblCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="lblCreatedOn" xml:space="preserve">
+    <value>Из</value>
+  </data>
+  <data name="lblDocumentsReceived" xml:space="preserve">
+    <value>Документы в редакцию</value>
+  </data>
+  <data name="lblImageList" xml:space="preserve">
+    <value>Список картинок</value>
+  </data>
+  <data name="lblInterBranchSetting" xml:space="preserve">
+    <value>Интер филиал Настройка
+lblInterest	Interest	Интерес
+lblInterestCalculationID	Interest Calculation ID	Проценты расчет ID
+lblInterestCalculationPeriod	Interest Calculation Period	Проценты расчетного периода
+lblInterestCreditInstruction	Interest Credit Instruction	Интерес кредитных инструкция
+lblInterestEarnedTo	Interest Earned To	Проценты, полученные по
+lblInterestMenuID	Interest Menu ID	Проценты меню ID
+lblInterestPaid	Interest Paid	Проценты уплаченные
+lblInterestPaidUpto	Interest Paid Upto	Проценты уплаченные до
+lblInterestPayable	Interest Payable	Проценты к уплате
+lblInterestPaymentFrequency	Interest Payment Frequency	Сумма процентных выплат частота
+lblInterestPeriod	Interest Period	Процентный период
+lblInterestRate	Interest Rate	Процентная ставка
+lblInterestRateID	Interest Rate ID	Процентная ставка ID
+lblInterestRateSlabID	Slab Details ID	Слябовая Подробности ID
+lblInterestRateType	Interest Rate Type	Процентная ставка типа
+lblInterestReceivable	Interest Receivable	Проценты к получению
+lblInterestRounding	Interest Rounding	Проценты Округление
+lblInterestSuspended	Interest Suspended	Проценты Подвесные
+lblInterestTransferTo	Interest Transfer To	Интерес к передаче
+lblInterestType	Interest Type	Проценты Тип
+lblIntOverdueReceivable	Int. Overdue Receivable	Int. Просроченные Дебиторская задолженность
+lblIntroducerClientID	Introducer Client ID	Вступительное слово клиента ID
+lblIntroducerDetails	Introducer Details and Others	Вступительное слово детали и др.
+lblIntroducerMinDealingWithBank	Introducer should be dealing with us for atleast	Вступительное слово должно иметь дело с нами для atleast
+lblInvoiceDate	Invoice Date	Дата
+lblInvoiceNo	Invoice No	Счет-фактура Нет
+lblInvoiceValue	Invoice Value	Счет-фактура Стоимость
+lblIPAddress	IP Address	IP Адрес
+lblIPS	Parameter Settings in	Параметры в
+lblIsActive	Is Active	Активен
+lblIsBlocked	Is Blocked	Блокируется
+lblIsChangeProduct	Change Product ID on Dormancy	Сменить Product ID на Dormancy
+lblIsChargeable	Chargeable	Взиманию
+lblIsClearingCenter	Is Clearing Centre	Есть координационный центр
+lblIsCoinsAvailable	Coins Available	Монеты Свободна
+lblIsCrIntProcApplicable	Is Credit Interest Procedure Applicable	Является ли кредитные проценты процедуры, применимой
+lblIsDefault	Is Default	По умолчанию
+lblIsDependent	Is Dependent	Зависит
+lblIsDrIntProcApplicable	Is Debit Interest Procedure Applicable	Является ли дебет интерес процедуры, применимой
+lblIsExistingClient	Is Existing Client	Является ли существующий клиент
+lblIsFormatRequired	Format Required	Формат обязательно
+lblIsHeadOfficet	Is Head Office	Является руководителем Управления
+lblIsInterestTaxable	Is Interest Taxable	Есть интерес налогом
+lblIsLeased	Leased	Арендованные
+lblIsLocalClearingBank	Is Local Clearing Bank	Является ли местные клиринговый банк
+lblIsMandatory	Is Mandatory	Обязательна
+lblIsNominationRollover	Is Nomination Rollover	Является ли выдвижение на опрокидывание
+lblIsNPA	Under NPA	Является ли выдвижение на опрокидывание
+lblISOCurrencyCode	ISO Code	ISO кодекс
+lblIsPenaltyIntAccrual	Is Penalty Int. Accrual	Является ли казнь Int. Начисление
+lblIsPenIntAcrlOnNPA	Is Penalty Int. Accrual on NPA	Является ли казнь Int. Начисления на ПНН
+lblIsPOMandatory	Purchase Order Mandatory	Покупка порядок обязательной
+lblIsRevaluate	Do revaluation	У переоценки
+lblIsSpecificProvision	Is specific provision	Есть специальное положение
+lblIssuedBy	Issued By	Выдана
+lblIsSupervisionRequired	Is Supervision Required	Является ли надзор требуется
+lblIsSystem	Is System	Является ли система
+lblIsTrxIDBased	Based on Transaction ID	Основываясь на сделку ID
+lblIsUpCountry	Is Upcountry Branch	Является ли Upcountry филиал
+lblIsVault	Is Vault	Является ли Vault
+lblItemAmount	Item Amount	Пункт Сумма
+lblItemNo	Item Serial No	Пункт серийный нет
+LblIU	Image Upload	Загрузка картинок
+lblJoinDate	Join Date	Присоединяйтесь Дата
+lblJoinedOn	Joined On	Присоединился
+lblJoinOn	Join On	Об Join
+lblJointCreditSupervisionLimit	Joint Credit Supervision Limit	Объединенный Кредитный лимит надзор
+lblJointDebitSupervisionLimit	Joint Debit Supervision Limit	Совместное дебет надзор предел
+lblJointExcessSupervisionLimit	Joint Excess Supervision Limit	Совместное превышение предельных надзор
+lblJointLimit	Joint Limit	Совместное Предельные
+lblJVCurrencyType	JV Currency Type	СП тип валюты
+lblKeepPasswordHistoryFor	Keep Password History For	Храните пароль для истории
+lblKeys	Keys	Клавиши
+lblKnowSince	Know Since	Знай С
+lblKSH	[KSH]	[KSH]
+lblLabel	Label	Ярлык
+lblLandArea	Land Area	Площадь участка
+lblLandMark	Land Mark	Земля Марк
+lblLanguage	Language	Язык
+lblLanguageID	Language ID	Язык ID
+lblLAPP	Loan Application Projection Parameters	Заявление на получение кредита параметры прогноза
+lblLargestAllowableTrxAmt	Largest Allowable Trx Amt	Крупнейший допустимого Trx Amt
+lblLastAccessedTime	Last Accessed Time	Последний раз обращались
+lblLastAmortizationAmount	Last Amortization Amount	Последняя сумма амортизации
+lblLastCrDate	Last Credit Date	Последняя дата кредитам
+lblLastDate	Last Date	Последняя дата
+lblLastDebitDate	Last Debit Date	Последняя дата дебет
+lblLastDisbursementDate	Last Disbursement Date	Последняя дата выплаты
+lblLastExecutionDate	Last Execution Date	Последняя дата исполнения
+lblLastInstallment	Last Installment	Последний взнос
+lblLastInstallmentAmount	Last Installment Amount	Последняя сумма транша
+lblLastInstallmentDate	Last Installment Date	Последняя дата взнос
+lblLastInstallmentDueWithin	Last Installment Due Within	Последний платеж в течение
+lblLastName	Last Name	Фамилия
+lblLastPaidDate	Last Paid Date	Последняя дата Платные
+lblLastPremiumPaidDate	Last Premium Paid Date	Последняя дата выплатили премии
+lblLastProcessDate	Last Process Date	Последняя дата процесса
+lblLastRecoveredOn	Last Recovered On	Последнее по Рекуперация
+lblLastRescheduledOn	Last Rescheduled On	Последнее переносится на
+lblLastRunDate	Last Run Date	Последняя дата запуска
+lblLastRunStatus	Last Run Status	Дата запуска статус
+lblLatePaymentPenalty	Late Payment Penalty	Несвоевременная выплата казнь
+lblLBS	Local Branch Setting	Местный филиал Настройка
+lblLD	Limit Details	Предельные Подробности
+lblLeasedExpiryDate	Lease Expiry Date	Дата истечения срока аренды
+lblLength	Length	Длина
+lblLiability	Liability	Ответственность
+lblLicense	Licensed To : 	Лицензия зарегистрирована на:
+lblLienDate	Lien Date	Гиперссылка Дата
+lblLimit	Limit	Предел
+lblLimitAmount	Limit Amount	Лимита
+lblLimitCollateralValue	Limit Collateral Value	Предел стоимости залога
+lblLimitExpiryGraceDays	Limit Expiry Grace Days	Предельные истечения срока действия благодати дней
+lblLimitID	Limit ID	Предельные ID
+lblLimitType	Limit Type	Предельные Тип
+lblLineOfBusiness	Line Of Business	Line бизнеса
+lblLiteracyLevel	Literacy Level	Уровень грамотности
+lblLMD	Lien Marking Details	Гиперссылка маркировки деталей
+lblLMF	Lien Marking For	Гиперссылка для маркировки
+lblLoan	Loan	Кредит
+lblLoanAccountDetails	Loan Account Details	Ссудного счета подробности
+lblLoanAccountID	Loan Account ID	Ссудного счета ID
+lblLoanAmount	Loan Amount	Сумма кредита
+lblLoanBalance	Loan Balance	Остаток кредита
+lblLoanClass	Loan Class	Кредитные класса
+lblLoanCycle	Loan Cycle	Кредитные Цикл
+lblLoanCycleNo	Loan Cycle No	Кредитные цикла Нет
+lblLoanCycleRequired	Loan Cycle Required	Кредитные цикла требуется
+lblLoanCycleType	Loan Cycle Type	Кредитные цикла типа
+lblLoanDetails	Loan Details	Кредитные Подробности
+lblLoanLevel	Loan Level	Кредитные Уровень
+lblLoanLevelNo	Loan Level No	Кредитные уровне нет
+lblLoanLimit	Loan Limit	Предел кредита
+lblLoanPeriod	Loan Period	Период займа
+lblLoanProductID	Loan Product ID	Кредитные Product ID
+lblLoanProjectionType	Loan Projection Type	Кредитные проекции Тип
+lblLoanPurpose	Loan Purpose	Цель займа
+lblLoanRefNo	Loan Ref No.	Кредитные Справ количество
+lblLoanSeries	Loan Series	Кредитные Серии
+lblLoanStatus	Loan Status	Состояние займа
+lblLoanType	Loan Type	Тип кредита
+lblLoanWriteOffComponentDetails	Loan WriteOff Component Details	Кредитные WriteOff компонент подробности
+lblLocalAmount	Local Amount	Кредитные WriteOff CompLocal Amountonent подробности
+lblLocalAmountAdv	Local Amount (Adv)	Местные Сумма (ADV)
+lblLocalAmountTax	Local Amount (Tax)	Местные сумма (налог)
+lblLocalAmountTotal	Local Amount (Total)	Местные Сумма (всего)
+lblLocalCharge	Local Charge	Местные Зарядка
+lblLocalClosingBalance	Local Closing Balance	Местные конечное сальдо
+lblLocalCurrencyID	Local Currency ID	Местная валюта ID
+lblLocalOpeningBalance	Local Opening Balance	Местные Начальное сальдо
+lblLocalOSAmount	O/S Local Amount	O / S местных сумму
+lblLocation	Location	Местонахождение
+lblLodgedDate	Lodged Date	Дата подана
+lblLog	Please Log in to Bantu Core	Войдите в свою банкиров Realm.NET
+lblLoginDate	Login Date	Войти Дата
+lblLoginDenied	Login Denied	Войти Отвергнутые
+lblLoginDetails	Login Details	Войти Подробности
+lblLoginID	Login ID	Логин ID
+lblLoginLockedOut	Login Locked Out	Логин блокируется
+lblLoginPermitted	Login Permitted	Войти Разрешено
+lblLossGLAccountID	Loss GL Account ID	Потеря GL идентификатора учетной
+lblLossProvision	Loss Provision	Потеря Предоставление
+lblLossProvisionAmount	Loss Provision Amount	Потеря положение сумму
+lblLossProvisionUpto	Loss Provision Upto	Потеря положения до
+lblLRD	Lien Release Details	Гиперссылка Выпуск подробности
+lblLReceiptID	FD Receipt ID	FD получения ID
+lblMailingAddress	Mailing Address	Почтовый адрес
+lblMainAccountID	Main Account ID	Главная идентификатора учетной
+lblMainModule	Main Module	Главный модуль
+lblMaintainInsuranceCompanies	Maintain Insurance Companies	Ведение страховых компаний
+lblMajorUnit	Major Unit	Основные группы
+lblMandatory	Mandatory	Обязательный
+lblMandatoryFields	Mandatory Fields	Обязательные для заполнения поля
+lblManufactureYear	Manufactured Year	Производитель Год
+lblMapID1	ID1	ID1
+lblMapID2	ID2	ID2
+lblMargin	Margin	Маржинальная торговля
+lblMaritalStatus	Marital Status	Семейное положение
+lblMarketValue	Market Value	Рыночная стоимость
+lblMarkingHoliday	Marking Holiday	Маркировка Холидей
+lblMarkingRate	Marking Rate	Маркировка Оценить
+lblMarkUpDown	Mark Up / Down	Марк Up / Down
+lblMarkUpRate	Mark Up Rate	Марк Up ставка
+lblMaturityAmount	Maturity Amount	Сумма погашения
+lblMaturityDate	Maturity Date	Дата погашения
+lblMaxAdjustmentDays	Max. Adjustment Days	Макс. Корректировка дней
+lblMaxCess	Maximum Cess	Максимальная Эйр Сесс
+lblMaxCommission	Max Commission	Максимальная комиссия
+lblMaxDaysAllowedRenewalMaturityDate	Max Days Allowed For Renewal from Maturity Date	Макс дней допускает продление срока от
+lblMaxDepositLimit	Max. Deposit Amount	Макс. Суммы вклада
+lblMaxExpectedAssetLife	Max. Expected Life	Макс. Ожидаемые Жизнь
+lblMaxGuaranteeAmount	Max. Guarantee Amount	Макс. Сумма Гарантии
+lblMaximumAccountsPerClient	Max. Active  A/c	Макс. Активный / с
+lblMaximumCharge	Maximum Charge	Максимальная
+lblMaximumClientAge	Max. Client Age	Макс. Возраст клиентов
+lblMaximumCurrencyHolding	Maximum Currency Holding	Максимальная валюте Холдинг </value>
+  </data>
+  <data name="lblInterestPayment" xml:space="preserve">
+    <value>Выплата процентов</value>
+  </data>
+  <data name="lblLog" xml:space="preserve">
+    <value>Войдите в банковской Realm.NET</value>
+  </data>
+  <data name="lblMaximumCurrencyValue" xml:space="preserve">
+    <value>Максимальная стоимость валюты</value>
+  </data>
+  <data name="lblMaximumGroupLoanLimit" xml:space="preserve">
+    <value>Максимальный лимит кредита группа</value>
+  </data>
+  <data name="lblMaximumGroupLoanLimitperClient" xml:space="preserve">
+    <value>Макс. Группа лимит кредита за клиента</value>
+  </data>
+  <data name="lblMaximumGroupLoans" xml:space="preserve">
+    <value>Максимальная групповых займов</value>
+  </data>
+  <data name="lblMaximumGroupLoansperCLient" xml:space="preserve">
+    <value>Макс. Группа займы за клиента</value>
+  </data>
+  <data name="lblMaximumInterestRate" xml:space="preserve">
+    <value>Максимальная процентная ставка в силе</value>
+  </data>
+  <data name="lblMaximumLength" xml:space="preserve">
+    <value>Максимальная длина</value>
+  </data>
+  <data name="lblMaximumLoanAmount" xml:space="preserve">
+    <value>Максимальная сумма кредита</value>
+  </data>
+  <data name="lblMaximumLoansPerClient" xml:space="preserve">
+    <value>Максимум кредитов на клиента</value>
+  </data>
+  <data name="lblMaximumOtherLoanLimit" xml:space="preserve">
+    <value>Максимальный лимит кредита Прочие</value>
+  </data>
+  <data name="lblMaximumOtherLoanLimitperClient" xml:space="preserve">
+    <value>Макс. Другие лимит кредита за клиента</value>
+  </data>
+  <data name="lblMaximumOtherLoans" xml:space="preserve">
+    <value>Максимальная Другие кредиты</value>
+  </data>
+  <data name="lblMaximumOtherLoansperClient" xml:space="preserve">
+    <value>Макс. Прочие займы за клиента</value>
+  </data>
+  <data name="lblMaximumPasswordAge" xml:space="preserve">
+    <value>Максимальный возраст пароль</value>
+  </data>
+  <data name="lblMaximumPrepaymentAllow" xml:space="preserve">
+    <value>Макс. Разрешено Предоплата (%) по кредиту Amt.</value>
+  </data>
+  <data name="lblMaximumRepaymentGracePeriod" xml:space="preserve">
+    <value>Макс. Погашение льготного периода</value>
+  </data>
+  <data name="lblMaximumSubGroupMember" xml:space="preserve">
+    <value>Макс. Под члена группы за югу группы</value>
+  </data>
+  <data name="lblMaximumSubGroups" xml:space="preserve">
+    <value>Макс. Под групп, каждую группу</value>
+  </data>
+  <data name="lblMaximumTax" xml:space="preserve">
+    <value>Максимальный налог</value>
+  </data>
+  <data name="lblMaximumValue" xml:space="preserve">
+    <value>Максимальное значение</value>
+  </data>
+  <data name="lblMaxLimit" xml:space="preserve">
+    <value>Макс. Предельные TOD</value>
+  </data>
+  <data name="lblMaxLoanAmount" xml:space="preserve">
+    <value>Макс. Сумма кредита</value>
+  </data>
+  <data name="lblMaxLoans" xml:space="preserve">
+    <value>Макс. Кол-во кредитов</value>
+  </data>
+  <data name="lblMaxODLimit" xml:space="preserve">
+    <value>Макс. Предельные ОД</value>
+  </data>
+  <data name="lblMaxTerm" xml:space="preserve">
+    <value>Макс. Срок</value>
+  </data>
+  <data name="lblMaxTOD" xml:space="preserve">
+    <value>Макс. Количество TOD</value>
+  </data>
+  <data name="lblMaxVariance" xml:space="preserve">
+    <value>Верхняя Колебания</value>
+  </data>
+  <data name="lblMD" xml:space="preserve">
+    <value>Меню Подробности</value>
+  </data>
+  <data name="lblMeanRate" xml:space="preserve">
+    <value>Средняя Оценить</value>
+  </data>
+  <data name="lblMeetingDate" xml:space="preserve">
+    <value>Совещание Дата</value>
+  </data>
+  <data name="lblMeetingDay" xml:space="preserve">
+    <value>Встреча дня</value>
+  </data>
+  <data name="lblMeetingFrequency" xml:space="preserve">
+    <value>Встреча Частота</value>
+  </data>
+  <data name="lblMeetingPlace" xml:space="preserve">
+    <value>Место проведения совещания</value>
+  </data>
+  <data name="lblMeetingTime" xml:space="preserve">
+    <value>Совещание Время</value>
+  </data>
+  <data name="lblMembers" xml:space="preserve">
+    <value>Член #</value>
+  </data>
+  <data name="lblMenuRateSlab" xml:space="preserve">
+    <value>Слябовая Меню</value>
+  </data>
+  <data name="lblMethod" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+  <data name="lblMH" xml:space="preserve">
+    <value>Марк Праздники</value>
+  </data>
+  <data name="lblMID" xml:space="preserve">
+    <value>Поддержание подробности об учреждении</value>
+  </data>
+  <data name="lblMiddleName" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="lblMinCess" xml:space="preserve">
+    <value>Минимальные Эйр Сесс</value>
+  </data>
+  <data name="lblMinCharge" xml:space="preserve">
+    <value>Минимум Зарядка</value>
+  </data>
+  <data name="lblMinCommission" xml:space="preserve">
+    <value>Минимальная комиссия</value>
+  </data>
+  <data name="lblMinDays" xml:space="preserve">
+    <value>Мин. Дни</value>
+  </data>
+  <data name="lblMinDaysfor1stGroupLoan" xml:space="preserve">
+    <value>Мин. 1st дней для группы займа</value>
+  </data>
+  <data name="lblMindaysforGroupLoanReinstatement" xml:space="preserve">
+    <value>Мин. дней для группы займа Восстановление</value>
+  </data>
+  <data name="lblMinDaysForInterest" xml:space="preserve">
+    <value>Мин. Дни с процентами</value>
+  </data>
+  <data name="lblMinDaysReqForNewMemberForFirstLoanApplication" xml:space="preserve">
+    <value>Минимальные дней, необходимых для нового члена на первый Заявление на получение кредита</value>
+  </data>
+  <data name="lblMinDaysReqForReinstateForMemberLoanApplication" xml:space="preserve">
+    <value>Минимальные дней, необходимых для восстановления члена на кредит Заявка</value>
+  </data>
+  <data name="lblMinDepositLimit" xml:space="preserve">
+    <value>Мин. Суммы вклада</value>
+  </data>
+  <data name="lblMinGroupMembersforLoan" xml:space="preserve">
+    <value>Мин. Члены группы по ссудам</value>
+  </data>
+  <data name="lblMinimumBalance" xml:space="preserve">
+    <value>Минимальный баланс</value>
+  </data>
+  <data name="lblMinimumCharge" xml:space="preserve">
+    <value>Минимальные обязанности</value>
+  </data>
+  <data name="lblMinimumClientAge" xml:space="preserve">
+    <value>Мин. Возраст клиентов</value>
+  </data>
+  <data name="lblMinimumCreditInterest" xml:space="preserve">
+    <value>Минимум проценты к уплате</value>
+  </data>
+  <data name="lblMinimumCurrencyHolding" xml:space="preserve">
+    <value>Минимальные валюте Холдинг "</value>
+  </data>
+  <data name="lblMinimumCurrencyValue" xml:space="preserve">
+    <value>Минимальная стоимость валюты</value>
+  </data>
+  <data name="lblMinimumDebitInterest" xml:space="preserve">
+    <value>Мин. Проценты ЗАРЯДНОГО</value>
+  </data>
+  <data name="lblMinimumLoanAmount" xml:space="preserve">
+    <value>Минимальная сумма кредита</value>
+  </data>
+  <data name="lblMinimumPasswordAge" xml:space="preserve">
+    <value>Минимальный возраст пароль</value>
+  </data>
+  <data name="lblMinimumPasswordLength" xml:space="preserve">
+    <value>Минимальная длина пароля</value>
+  </data>
+  <data name="lblMinimumPenaltyInterest" xml:space="preserve">
+    <value>Мин. Уголовный Проценты</value>
+  </data>
+  <data name="lblMinimumTax" xml:space="preserve">
+    <value>Минимальный налог</value>
+  </data>
+  <data name="lblMinimumTrxAmount" xml:space="preserve">
+    <value>Минимальная сумма для налоговых</value>
+  </data>
+  <data name="lblMinimumValue" xml:space="preserve">
+    <value>Минимальное значение</value>
+  </data>
+  <data name="lblMinIntBearBalance" xml:space="preserve">
+    <value>Минимум Процентные баланс</value>
+  </data>
+  <data name="lblMinLoanAmount" xml:space="preserve">
+    <value>Мин. Сумма кредита</value>
+  </data>
+  <data name="lblMinODLimit" xml:space="preserve">
+    <value>Мин. Предельные ОД</value>
+  </data>
+  <data name="lblMinorUnit" xml:space="preserve">
+    <value>Небольшие группы</value>
+  </data>
+  <data name="lblMinorUptoAge" xml:space="preserve">
+    <value>Рассмотрим в качестве легкого клиента до возраста,</value>
+  </data>
+  <data name="lblMinPeriod" xml:space="preserve">
+    <value>Мин. Период</value>
+  </data>
+  <data name="lblMinPeriodForCompounding" xml:space="preserve">
+    <value>Мин. Срок представления Усугубляя</value>
+  </data>
+  <data name="lblMinPeriodforWithdrawal" xml:space="preserve">
+    <value>Мин. Период вывода</value>
+  </data>
+  <data name="lblMinPrepaymentDays" xml:space="preserve">
+    <value>Мин. Предоплата дней</value>
+  </data>
+  <data name="lblMinSubGroupMembersforLoan" xml:space="preserve">
+    <value>Мин. Под членами группы по ссудам</value>
+  </data>
+  <data name="lblMinTerm" xml:space="preserve">
+    <value>Мин. Срок</value>
+  </data>
+  <data name="lblMinVariance" xml:space="preserve">
+    <value>Нижняя Колебания</value>
+  </data>
+  <data name="lblMinWithdrawalFrequency" xml:space="preserve">
+    <value>Мин. Снятие Частота</value>
+  </data>
+  <data name="lblMobile" xml:space="preserve">
+    <value>Мобильный</value>
+  </data>
+  <data name="lblMobileAlert" xml:space="preserve">
+    <value>Мобильные оповещения</value>
+  </data>
+  <data name="lblModeDisbursementType" xml:space="preserve">
+    <value>Режим выплаты Тип</value>
+  </data>
+  <data name="lblModel" xml:space="preserve">
+    <value>Типовой</value>
+  </data>
+  <data name="lblModeOfTransaction" xml:space="preserve">
+    <value>Вид сделки</value>
+  </data>
+  <data name="lblModifiedBy" xml:space="preserve">
+    <value>Изменена</value>
+  </data>
+  <data name="lblModifiedOn" xml:space="preserve">
+    <value>Изменена</value>
+  </data>
+  <data name="lblModule" xml:space="preserve">
+    <value>Модуль</value>
+  </data>
+  <data name="lblModuleID" xml:space="preserve">
+    <value>Модуль ID</value>
+  </data>
+  <data name="lblModuleRights" xml:space="preserve">
+    <value>Модуль человека</value>
+  </data>
+  <data name="lblModuleType" xml:space="preserve">
+    <value>Тип модуля</value>
+  </data>
+  <data name="lblMon" xml:space="preserve">
+    <value>Понедельник</value>
+  </data>
+  <data name="lblMonth" xml:space="preserve">
+    <value>Месяц (ов)</value>
+  </data>
+  <data name="lblMonthlyDay" xml:space="preserve">
+    <value>Ежемесячный День</value>
+  </data>
+  <data name="lblMonthlyPayment" xml:space="preserve">
+    <value>Ежемесячная оплата</value>
+  </data>
+  <data name="lblMonths" xml:space="preserve">
+    <value>(Мес.)</value>
+  </data>
+  <data name="lblMultiplier" xml:space="preserve">
+    <value>Мультипликатор</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="lblNarration" xml:space="preserve">
+    <value>Повествование</value>
+  </data>
+  <data name="lblNationality" xml:space="preserve">
+    <value>Национальность</value>
+  </data>
+  <data name="lblNatureOfCharge" xml:space="preserve">
+    <value>Природа заряда</value>
+  </data>
+  <data name="lblNatureOfLimit" xml:space="preserve">
+    <value>Характер Предельные</value>
+  </data>
+  <data name="lblNetAmount" xml:space="preserve">
+    <value>Чистая сумма</value>
+  </data>
+  <data name="lblNetBalance" xml:space="preserve">
+    <value>Чистый остаток</value>
+  </data>
+  <data name="lblNetCollateralValue" xml:space="preserve">
+    <value>Чистая стоимость залога</value>
+  </data>
+  <data name="lblNetDisbAmount" xml:space="preserve">
+    <value>Чистая Disb. Сумма</value>
+  </data>
+  <data name="lblNetFundsUsed" xml:space="preserve">
+    <value>Чистые средства, используемые</value>
+  </data>
+  <data name="lblNetInterestPayable" xml:space="preserve">
+    <value>Чистые проценты к уплате</value>
+  </data>
+  <data name="lblNetMaturityPayable" xml:space="preserve">
+    <value>Чистая зрелости к оплате</value>
+  </data>
+  <data name="lblNetPayable" xml:space="preserve">
+    <value>Чистая задолженность</value>
+  </data>
+  <data name="lblNetPayableLocal" xml:space="preserve">
+    <value>Чистая задолженность (местное)</value>
+  </data>
+  <data name="lblNetReceivable" xml:space="preserve">
+    <value>Чистая Дебиторская задолженность</value>
+  </data>
+  <data name="lblNetSavings" xml:space="preserve">
+    <value>Чистая экономия</value>
+  </data>
+  <data name="lblNetworth" xml:space="preserve">
+    <value>Net Worth</value>
+  </data>
+  <data name="lblNewBranchID" xml:space="preserve">
+    <value>Новый филиал ID</value>
+  </data>
+  <data name="lblNewPassword" xml:space="preserve">
+    <value>Новый пароль</value>
+  </data>
+  <data name="lblNewRoleID" xml:space="preserve">
+    <value>Новая роль ID</value>
+  </data>
+  <data name="lblNextCreditInterestApplyDate" xml:space="preserve">
+    <value>Следующая интерес применяться на</value>
+  </data>
+  <data name="lblNextCreditProvisionDate" xml:space="preserve">
+    <value>Далее по методу начислений</value>
+  </data>
+  <data name="lblNextDate" xml:space="preserve">
+    <value>Следующая дата</value>
+  </data>
+  <data name="lblNextDay" xml:space="preserve">
+    <value>Следующий день</value>
+  </data>
+  <data name="lblNextDepreciationDate" xml:space="preserve">
+    <value>Следующая амортизации Дата</value>
+  </data>
+  <data name="lblNextExecutionDate" xml:space="preserve">
+    <value>Следующая дата исполнения</value>
+  </data>
+  <data name="lblNextIntPaymentDate" xml:space="preserve">
+    <value>Следующая Int. Дата платежа</value>
+  </data>
+  <data name="lblNextLoanCycleNo" xml:space="preserve">
+    <value>Следующий уровень кредита нет</value>
+  </data>
+  <data name="lblNextLossProvisionOn" xml:space="preserve">
+    <value>Затем положение об утрате</value>
+  </data>
+  <data name="lblNextMeetingDate" xml:space="preserve">
+    <value>Следующее заседание Дата</value>
+  </data>
+  <data name="lblNextOfKin" xml:space="preserve">
+    <value>Ближайшие родственники</value>
+  </data>
+  <data name="lblNextPenaltyApplyOn" xml:space="preserve">
+    <value>Следующая казнь применяется по</value>
+  </data>
+  <data name="lblNextPremiumDate" xml:space="preserve">
+    <value>Следующая премия Дата</value>
+  </data>
+  <data name="lblNextWorkingDate" xml:space="preserve">
+    <value>Следующая рабочая дата</value>
+  </data>
+  <data name="lblNG" xml:space="preserve">
+    <value>Новая группа</value>
+  </data>
+  <data name="lblNoItems" xml:space="preserve">
+    <value>Итого Нет пунктов:</value>
+  </data>
+  <data name="lblNominationPercentage" xml:space="preserve">
+    <value>Номинация Процент</value>
+  </data>
+  <data name="lblNominee1" xml:space="preserve">
+    <value>Кандидат 1</value>
+  </data>
+  <data name="lblNomineeID" xml:space="preserve">
+    <value>Кандидат от ID</value>
+  </data>
+  <data name="lblNonFundedLimit" xml:space="preserve">
+    <value>Некоммерческие финансируемых предел</value>
+  </data>
+  <data name="lblNoOfBorrowers" xml:space="preserve">
+    <value>Количество Заемщики</value>
+  </data>
+  <data name="lblNoOfBranchLicenses" xml:space="preserve">
+    <value>Количество лицензий филиала</value>
+  </data>
+  <data name="lblNoOfCheques" xml:space="preserve">
+    <value>Нет чеков</value>
+  </data>
+  <data name="lblNoOfChildren" xml:space="preserve">
+    <value>Число детей</value>
+  </data>
+  <data name="lblNoOfDays" xml:space="preserve">
+    <value>Количество дней</value>
+  </data>
+  <data name="lblNoOfDependencies" xml:space="preserve">
+    <value>Количество зависимостей</value>
+  </data>
+  <data name="lblNoOfDisbursements" xml:space="preserve">
+    <value>Количество выплат</value>
+  </data>
+  <data name="lblNoOfEmployee" xml:space="preserve">
+    <value>Нет работников</value>
+  </data>
+  <data name="lblNoOfEmployees" xml:space="preserve">
+    <value>Количество сотрудников</value>
+  </data>
+  <data name="lblNoOfEntries" xml:space="preserve">
+    <value>Нет отзывов</value>
+  </data>
+  <data name="lblNoOfExecution" xml:space="preserve">
+    <value>Нет исполнения</value>
+  </data>
+  <data name="lblNoOfGuarantors" xml:space="preserve">
+    <value>Нет Гаранты</value>
+  </data>
+  <data name="lblNoOfHouseMembers" xml:space="preserve">
+    <value>Число членов Палаты представителей</value>
+  </data>
+  <data name="lblNoOfInstallments" xml:space="preserve">
+    <value>Нет платежами</value>
+  </data>
+  <data name="lblNoOfInstallmentsDue" xml:space="preserve">
+    <value>Нет взнос (ы) Должная</value>
+  </data>
+  <data name="lblNoofItems" xml:space="preserve">
+    <value>Нет пунктов</value>
+  </data>
+  <data name="lblNoOfItemsOnHand" xml:space="preserve">
+    <value>Количество пунктов в кассе</value>
+  </data>
+  <data name="lblNoOfLeaves" xml:space="preserve">
+    <value>Нет листьев</value>
+  </data>
+  <data name="lblNoOfLoans" xml:space="preserve">
+    <value>Нет займов</value>
+  </data>
+  <data name="lblNoOfLoansAlreadyGuaranteed" xml:space="preserve">
+    <value>Кол-во кредитов уже гарантированы </value>
+  </data>
+  <data name="lblNoOfMembers" xml:space="preserve">
+    <value>Количество членов </value>
+  </data>
+  <data name="lblNoOfRenewals" xml:space="preserve">
+    <value>Нет продлений </value>
+  </data>
+  <data name="lblNoofRetries" xml:space="preserve">
+    <value>Нет получить </value>
+  </data>
+  <data name="lblNoOfTerms" xml:space="preserve">
+    <value>Количество терминов 
+</value>
+  </data>
+  <data name="lblNoofTimesFailed" xml:space="preserve">
+    <value>Не раз Ошибка 
+</value>
+  </data>
+  <data name="lblNoOfUserLicenses" xml:space="preserve">
+    <value>Количество пользователей лицензий 
+</value>
+  </data>
+  <data name="lblNos" xml:space="preserve">
+    <value>Конвенции </value>
+  </data>
+  <data name="lblNotAllowedAfterDays" xml:space="preserve">
+    <value>Не разрешены после (дней)</value>
+  </data>
+  <data name="lblNotificationDate" xml:space="preserve">
+    <value>Уведомление Дата 
+</value>
+  </data>
+  <data name="lblNumber" xml:space="preserve">
+    <value>Номер (а)</value>
+  </data>
+  <data name="lblNumberOfBranch" xml:space="preserve">
+    <value>Число филиалов 
+</value>
+  </data>
+  <data name="lblNumberOfChildren" xml:space="preserve">
+    <value>Количество детей 
+</value>
+  </data>
+  <data name="lblNumberofchildrenyears" xml:space="preserve">
+    <value>Количество детей &lt;17 лет </value>
+  </data>
+  <data name="lblNumberofDays" xml:space="preserve">
+    <value>Количество дней:</value>
+  </data>
+  <data name="lblNumberOfDependents" xml:space="preserve">
+    <value>Число иждивенцев </value>
+  </data>
+  <data name="lblNumberOfHouseMembers" xml:space="preserve">
+    <value>Количество членов Палаты представителей</value>
+  </data>
+  <data name="lblOccupationID" xml:space="preserve">
+    <value>Оккупация </value>
+  </data>
+  <data name="lblOE" xml:space="preserve">
+    <value>На выходе </value>
+  </data>
+  <data name="lblOfficer" xml:space="preserve">
+    <value>Сотрудник </value>
+  </data>
+  <data name="lblOfficerID" xml:space="preserve">
+    <value>Сотрудник ID </value>
+  </data>
+  <data name="lblOfficerName" xml:space="preserve">
+    <value>Имя сотрудника </value>
+  </data>
+  <data name="lblOfficerType" xml:space="preserve">
+    <value>Сотрудник Тип 
+</value>
+  </data>
+  <data name="lblOldPassword" xml:space="preserve">
+    <value>Старый пароль </value>
+  </data>
+  <data name="lblOLO" xml:space="preserve">
+    <value>В кредит выдающийся </value>
+  </data>
+  <data name="lblOnClosure" xml:space="preserve">
+    <value>На момент закрытия 
+</value>
+  </data>
+  <data name="lblOpenDate" xml:space="preserve">
+    <value>Открытая дата </value>
+  </data>
+  <data name="lblOpeningBalance" xml:space="preserve">
+    <value>Начальное сальдо 
+</value>
+  </data>
+  <data name="lblOperatingInstruction" xml:space="preserve">
+    <value>Операционная Инструкция 
+</value>
+  </data>
+  <data name="lblOperatingMode" xml:space="preserve">
+    <value>Режимно </value>
+  </data>
+  <data name="lblOperationalParameters" xml:space="preserve">
+    <value>Эксплуатационные параметры </value>
+  </data>
+  <data name="lblOperatorID" xml:space="preserve">
+    <value>Оператор ID 
+</value>
+  </data>
+  <data name="lblOrder" xml:space="preserve">
+    <value>Заказ </value>
+  </data>
+  <data name="lblOrderNo" xml:space="preserve">
+    <value>Заказ No 
+</value>
+  </data>
+  <data name="lblOriginalProductID" xml:space="preserve">
+    <value>Оригинал Product ID 
+</value>
+  </data>
+  <data name="lblOSAmount" xml:space="preserve">
+    <value>O / S сумма </value>
+  </data>
+  <data name="lblOSLoanBalance" xml:space="preserve">
+    <value>OS остаток займа 
+</value>
+  </data>
+  <data name="lblOSUnclaimed" xml:space="preserve">
+    <value>O / S невостребованным </value>
+  </data>
+  <data name="lblOtherExpenses" xml:space="preserve">
+    <value>Прочие расходы 
+</value>
+  </data>
+  <data name="lblOtherIncome" xml:space="preserve">
+    <value>Прочие доходы 
+</value>
+  </data>
+  <data name="lblOthers" xml:space="preserve">
+    <value>Другие </value>
+  </data>
+  <data name="lblOurCommission" xml:space="preserve">
+    <value>Наша комиссия (%)</value>
+  </data>
+  <data name="lblOutstandingChargeOff" xml:space="preserve">
+    <value>Выдающиеся заряда Off </value>
+  </data>
+  <data name="lblOutstandingForfeit" xml:space="preserve">
+    <value>Выдающиеся неустойки </value>
+  </data>
+  <data name="lblOutstandingInterest" xml:space="preserve">
+    <value>Выдающиеся Проценты </value>
+  </data>
+  <data name="lblOutstandingPrincipal" xml:space="preserve">
+    <value>Выдающиеся высший </value>
+  </data>
+  <data name="lblOverdraftPurpose" xml:space="preserve">
+    <value>Овердрафт Предназначение </value>
+  </data>
+  <data name="lblOverridden" xml:space="preserve">
+    <value>Отменено </value>
+  </data>
+  <data name="lblOwner" xml:space="preserve">
+    <value>Владелец </value>
+  </data>
+  <data name="lblOwnerID" xml:space="preserve">
+    <value>Владелец ID </value>
+  </data>
+  <data name="lblOwnership" xml:space="preserve">
+    <value>Собственность 
+</value>
+  </data>
+  <data name="lblPA" xml:space="preserve">
+    <value>Платные Сумма 
+</value>
+  </data>
+  <data name="lblPaidGLID" xml:space="preserve">
+    <value>Платные GL ID </value>
+  </data>
+  <data name="lblParameters" xml:space="preserve">
+    <value>Параметры </value>
+  </data>
+  <data name="lblParentLimit" xml:space="preserve">
+    <value>Родитель Предельные 
+</value>
+  </data>
+  <data name="lblParentLimitCurrencyID" xml:space="preserve">
+    <value>Родитель предел валюте ID </value>
+  </data>
+  <data name="lblParentLimitID" xml:space="preserve">
+    <value>Родитель предел ID 
+</value>
+  </data>
+  <data name="lblPass" xml:space="preserve">
+    <value>Pass </value>
+  </data>
+  <data name="lblPassportExpiryDate" xml:space="preserve">
+    <value>Дата истечения срока действия паспорта 
+</value>
+  </data>
+  <data name="lblPassportID" xml:space="preserve">
+    <value>Паспорт / ID </value>
+  </data>
+  <data name="lblPassportNo" xml:space="preserve">
+    <value>Паспорта нет </value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Пароль </value>
+  </data>
+  <data name="lblPayableAmount" xml:space="preserve">
+    <value>Сумма к оплате 
+</value>
+  </data>
+  <data name="lblPayableAt" xml:space="preserve">
+    <value>По оплате 
+</value>
+  </data>
+  <data name="lblPayableBranchID" xml:space="preserve">
+    <value>Оплачиваемый филиал ID</value>
+  </data>
+  <data name="lblPayableFrequency" xml:space="preserve">
+    <value>Оплачиваемый Частота 
+</value>
+  </data>
+  <data name="lblPayableGLID" xml:space="preserve">
+    <value>Оплачиваемый GL ID 
+</value>
+  </data>
+  <data name="lblPayableTypeID" xml:space="preserve">
+    <value>Оплачиваемый тип ID </value>
+  </data>
+  <data name="lblPayeeAccountID" xml:space="preserve">
+    <value>Получатель платежа идентификатора учетной</value>
+  </data>
+  <data name="lblPayeeBankID" xml:space="preserve">
+    <value>Банк получателя платежа ID </value>
+  </data>
+  <data name="lblPayeeBranchID" xml:space="preserve">
+    <value>Получатель платежа филиала ID </value>
+  </data>
+  <data name="lblPayeeName" xml:space="preserve">
+    <value>Имя получателя </value>
+  </data>
+  <data name="lblPayInterestAfterMaturity" xml:space="preserve">
+    <value>Уплатить проценты после зрелости</value>
+  </data>
+  <data name="lblPaymentAccountID" xml:space="preserve">
+    <value>Оплата счета ID </value>
+  </data>
+  <data name="lblPaymentAmount" xml:space="preserve">
+    <value>Сумма платежа </value>
+  </data>
+  <data name="lblPaymentAmountLocal" xml:space="preserve">
+    <value>Сумма платежа (местное)</value>
+  </data>
+  <data name="lblPaymentCurrencyID" xml:space="preserve">
+    <value>Валюта платежа ID 
+</value>
+  </data>
+  <data name="lblPaymentDate" xml:space="preserve">
+    <value>Дата платежа 
+</value>
+  </data>
+  <data name="lblPaymentDetails" xml:space="preserve">
+    <value>Информация о платежах </value>
+  </data>
+  <data name="lblPaymentStage" xml:space="preserve">
+    <value>Оплата Стадия 
+</value>
+  </data>
+  <data name="lblPaymentStatus" xml:space="preserve">
+    <value>Оплата статуса </value>
+  </data>
+  <data name="lblPaymentType" xml:space="preserve">
+    <value>Тип платежа </value>
+  </data>
+  <data name="lblPayrollDay" xml:space="preserve">
+    <value>Заработная плата дня </value>
+  </data>
+  <data name="lblPaySavingInterest" xml:space="preserve">
+    <value>Платите спасению интерес </value>
+  </data>
+  <data name="lblPCD" xml:space="preserve">
+    <value>Основной залог подробности </value>
+  </data>
+  <data name="lblPD" xml:space="preserve">
+    <value>Описание товара </value>
+  </data>
+  <data name="lblPDCType" xml:space="preserve">
+    <value>PDC Тип 
+</value>
+  </data>
+  <data name="lblPDCTypeID" xml:space="preserve">
+    <value>PDC тип ID </value>
+  </data>
+  <data name="lblPenalInterestReceivable" xml:space="preserve">
+    <value>Уголовный проценты к получению </value>
+  </data>
+  <data name="lblPenalty" xml:space="preserve">
+    <value>Наказание </value>
+  </data>
+  <data name="lblPenaltyAccrlFrequency" xml:space="preserve">
+    <value>Штраф Accrl. Частота 
+</value>
+  </data>
+  <data name="lblPenaltyAppliedUpto" xml:space="preserve">
+    <value>Штраф применяться до </value>
+  </data>
+  <data name="lblPenaltyApplnFrequency" xml:space="preserve">
+    <value>Штраф Appl. Частота 
+</value>
+  </data>
+  <data name="lblPenaltyCode" xml:space="preserve">
+    <value>Штраф кодекс 
+</value>
+  </data>
+  <data name="lblPenaltyGraceDays" xml:space="preserve">
+    <value>Штраф Грейс дней 
+</value>
+  </data>
+  <data name="lblPenaltyInteres" xml:space="preserve">
+    <value>Штрафные проценты 
+</value>
+  </data>
+  <data name="lblPenaltyInterest" xml:space="preserve">
+    <value>Штраф Оценить </value>
+  </data>
+  <data name="lblPenaltyRate" xml:space="preserve">
+    <value>Штраф Дебиторская задолженность </value>
+  </data>
+  <data name="lblPenaltyReceivable" xml:space="preserve">
+    <value>Штраф Правило </value>
+  </data>
+  <data name="lblPenaltyRule" xml:space="preserve">
+    <value>Штраф Правило</value>
+  </data>
+  <data name="lblPenaltyType" xml:space="preserve">
+    <value>Штраф Тип</value>
+  </data>
+  <data name="lblPeriod" xml:space="preserve">
+    <value>Период </value>
+  </data>
+  <data name="lblPeriod1" xml:space="preserve">
+    <value>Period1 </value>
+  </data>
+  <data name="lblPeriod10" xml:space="preserve">
+    <value>Period10 </value>
+  </data>
+  <data name="lblPeriod11" xml:space="preserve">
+    <value>Period11 </value>
+  </data>
+  <data name="lblPeriod12" xml:space="preserve">
+    <value>Period12 </value>
+  </data>
+  <data name="lblPeriod2" xml:space="preserve">
+    <value>Period2 </value>
+  </data>
+  <data name="lblPeriod3" xml:space="preserve">
+    <value>Period3 </value>
+  </data>
+  <data name="lblPeriod4" xml:space="preserve">
+    <value>Period4 </value>
+  </data>
+  <data name="lblPeriod5" xml:space="preserve">
+    <value>Period5 </value>
+  </data>
+  <data name="lblPeriod6" xml:space="preserve">
+    <value>Period6 </value>
+  </data>
+  <data name="lblPeriod7" xml:space="preserve">
+    <value>Period7 </value>
+  </data>
+  <data name="lblPeriod8" xml:space="preserve">
+    <value>Period8 </value>
+  </data>
+  <data name="lblPeriod9" xml:space="preserve">
+    <value>Period9 </value>
+  </data>
+  <data name="lblPeriodType" xml:space="preserve">
+    <value>Период Тип 
+</value>
+  </data>
+  <data name="lblPersonalDetails" xml:space="preserve">
+    <value>Личные сведения 
+</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Телефон </value>
+  </data>
+  <data name="lblPhone1" xml:space="preserve">
+    <value>Телефон № 1 
+</value>
+  </data>
+  <data name="lblPhone2" xml:space="preserve">
+    <value>Телефон # 2 
+</value>
+  </data>
+  <data name="lblPhoneNo1" xml:space="preserve">
+    <value>Телефон 1 
+</value>
+  </data>
+  <data name="lblPhoneNo2" xml:space="preserve">
+    <value>Телефон 2 
+</value>
+  </data>
+  <data name="lblPhoto" xml:space="preserve">
+    <value>Фото </value>
+  </data>
+  <data name="lblPhotoScanedBy" xml:space="preserve">
+    <value>Отсканированные К 
+</value>
+  </data>
+  <data name="lblPhotoScanedOn" xml:space="preserve">
+    <value>Отсканированные О</value>
+  </data>
+  <data name="lblPK" xml:space="preserve">
+    <value>Тип продукта - Подробности в кредит </value>
+  </data>
+  <data name="lblPLD" xml:space="preserve">
+    <value>Родитель предел подробности </value>
+  </data>
+  <data name="lblPODate" xml:space="preserve">
+    <value>P O даты </value>
+  </data>
+  <data name="lblPolicyAmount" xml:space="preserve">
+    <value>Политика Сумма 
+</value>
+  </data>
+  <data name="lblPolicyDate" xml:space="preserve">
+    <value>Дата политике </value>
+  </data>
+  <data name="lblPolicyNo" xml:space="preserve">
+    <value>Политика Нет </value>
+  </data>
+  <data name="lblPortfolioType" xml:space="preserve">
+    <value>Отправка Тип </value>
+  </data>
+  <data name="lblPostingType" xml:space="preserve">
+    <value>Политика Нет 
+</value>
+  </data>
+  <data name="lblPreCloserAfter" xml:space="preserve">
+    <value>Мин. Pre-закрытие Дней </value>
+  </data>
+  <data name="lblPreCloserAllowed" xml:space="preserve">
+    <value>Pre-закрытие Разрешены</value>
+  </data>
+  <data name="lblPreclosureStatus" xml:space="preserve">
+    <value>Статус Preclosure </value>
+  </data>
+  <data name="lblPrefix" xml:space="preserve">
+    <value>Префикс </value>
+  </data>
+  <data name="lblPreMatureClosureAllowed" xml:space="preserve">
+    <value>Досрочное закрытие Разрешены </value>
+  </data>
+  <data name="lblPremium" xml:space="preserve">
+    <value>Premium </value>
+  </data>
+  <data name="lblPremiumAmount" xml:space="preserve">
+    <value>Сумма Premium 
+</value>
+  </data>
+  <data name="lblPremiumFrequency" xml:space="preserve">
+    <value>Premium Частота </value>
+  </data>
+  <data name="lblPremiumID" xml:space="preserve">
+    <value>Premium ID 
+</value>
+  </data>
+  <data name="lblPremiumInInstallments" xml:space="preserve">
+    <value>Premium в рассрочку </value>
+  </data>
+  <data name="lblPremiumPaid" xml:space="preserve">
+    <value>Платные Premium 
+</value>
+  </data>
+  <data name="lblPremiumPaidDate" xml:space="preserve">
+    <value>Premium Платные Дата </value>
+  </data>
+  <data name="lblPremiumType" xml:space="preserve">
+    <value>Тип Premium </value>
+  </data>
+  <data name="lblPrepaymentAllowed" xml:space="preserve">
+    <value>Предоплата Разрешены </value>
+  </data>
+  <data name="lblPrepExpAccountID" xml:space="preserve">
+    <value>Оплаченный Exp идентификатора </value>
+  </data>
+  <data name="lblPresentingBankCharges" xml:space="preserve">
+    <value>учетной (активы) 
+</value>
+  </data>
+  <data name="lblPresentingBankCommission" xml:space="preserve">
+    <value>Представляем банковские сборы </value>
+  </data>
+  <data name="lblPresentingBankID" xml:space="preserve">
+    <value>Представляя банковский комиссии </value>
+  </data>
+  <data name="lblPresentingBranchID" xml:space="preserve">
+    <value>Представляя филиал ID</value>
+  </data>
+  <data name="lblPresentName" xml:space="preserve">
+    <value>Настоящее имя</value>
+  </data>
+  <data name="lblPreTaxAmount" xml:space="preserve">
+    <value>Предварительная сумма налога </value>
+  </data>
+  <data name="lblPreviousStatus" xml:space="preserve">
+    <value>Предыдущая Статус </value>
+  </data>
+  <data name="lblPrimaryCollateral" xml:space="preserve">
+    <value>Первичная Залог 
+</value>
+  </data>
+  <data name="lblPrimaryCollateralRatio" xml:space="preserve">
+    <value>Начальное соотношение залога </value>
+  </data>
+  <data name="lblPrimarySchemeID" xml:space="preserve">
+    <value>Первичная схема ID</value>
+  </data>
+  <data name="lblPrincipal" xml:space="preserve">
+    <value>Основная </value>
+  </data>
+  <data name="lblPrincipalAmount" xml:space="preserve">
+    <value>Основная сумма </value>
+  </data>
+  <data name="lblPrincipalBalance" xml:space="preserve">
+    <value>Основная Баланс </value>
+  </data>
+  <data name="lblPrintPassbook" xml:space="preserve">
+    <value>Печатать книжки </value>
+  </data>
+  <data name="lblPriority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="lblProcedure" xml:space="preserve">
+    <value>Процедура 
+</value>
+  </data>
+  <data name="lblProcedureID" xml:space="preserve">
+    <value>Процедура ID </value>
+  </data>
+  <data name="lblProcess" xml:space="preserve">
+    <value>Процесс </value>
+  </data>
+  <data name="lblProcessDate" xml:space="preserve">
+    <value>Процесс Дата </value>
+  </data>
+  <data name="lblProcessID" xml:space="preserve">
+    <value>Идентификатор процесса </value>
+  </data>
+  <data name="lblProcessingDate" xml:space="preserve">
+    <value>Обработка Дата 
+</value>
+  </data>
+  <data name="lblProcessName" xml:space="preserve">
+    <value>Имя процесса 
+</value>
+  </data>
+  <data name="lblProcessStatus" xml:space="preserve">
+    <value>Статус процесса 
+</value>
+  </data>
+  <data name="lblProduct" xml:space="preserve">
+    <value>Продукт </value>
+  </data>
+  <data name="lblProductCategory" xml:space="preserve">
+    <value>Продукт Категория 
+</value>
+  </data>
+  <data name="lblProductCode" xml:space="preserve">
+    <value>Товарный код 
+</value>
+  </data>
+  <data name="lblProductDetails" xml:space="preserve">
+    <value>Продукты, занимающихся </value>
+  </data>
+  <data name="lblProductID" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="lblProductReg" xml:space="preserve">
+    <value>Регистрация изделия </value>
+  </data>
+  <data name="lblProducts" xml:space="preserve">
+    <value>Продукты </value>
+  </data>
+  <data name="lblProductTariff" xml:space="preserve">
+    <value>Продукт Тариф 
+</value>
+  </data>
+  <data name="lblProductType" xml:space="preserve">
+    <value>Тип продукта </value>
+  </data>
+  <data name="lblProfitGLAccountID" xml:space="preserve">
+    <value>Прибыль GL идентификатора учетной 
+</value>
+  </data>
+  <data name="lblProfitLoss" xml:space="preserve">
+    <value>Прибыль / убыток 
+</value>
+  </data>
+  <data name="lblProvisionAmount" xml:space="preserve">
+    <value>Предоставление Сумма </value>
+  </data>
+  <data name="lblProvisionFrequency" xml:space="preserve">
+    <value>Предоставление Частота </value>
+  </data>
+  <data name="lblProvisionRate" xml:space="preserve">
+    <value>Предоставление валюты </value>
+  </data>
+  <data name="lblPT" xml:space="preserve">
+    <value>Платные налог 
+</value>
+  </data>
+  <data name="lblPurchaseDate" xml:space="preserve">
+    <value>Дата покупки </value>
+  </data>
+  <data name="lblPurchaseOrderAmount" xml:space="preserve">
+    <value>Сумма заказа-наряда </value>
+  </data>
+  <data name="lblPurchaseOrderNo" xml:space="preserve">
+    <value>Заказ на покупку Нет </value>
+  </data>
+  <data name="lblPurpose" xml:space="preserve">
+    <value>Цель </value>
+  </data>
+  <data name="lblPurposeoftheLoan" xml:space="preserve">
+    <value>Цель займа 
+</value>
+  </data>
+  <data name="lblPY" xml:space="preserve">
+    <value>Предыдущий год </value>
+  </data>
+  <data name="lblRate" xml:space="preserve">
+    <value>Ставка </value>
+  </data>
+  <data name="lblRateID" xml:space="preserve">
+    <value>Оценить ID 
+</value>
+  </data>
+  <data name="lblRateMenu" xml:space="preserve">
+    <value>Оценить Меню 
+</value>
+  </data>
+  <data name="lblRateMenuID" xml:space="preserve">
+    <value>Оценить меню ID 
+</value>
+  </data>
+  <data name="lblRateMenuSlabID" xml:space="preserve">
+    <value>Оценить меню плиты ID </value>
+  </data>
+  <data name="lblRateType" xml:space="preserve">
+    <value>Оценить Тип 
+</value>
+  </data>
+  <data name="lblRC" xml:space="preserve">
+    <value>Залоговое обеспечение обязательно </value>
+  </data>
+  <data name="lblRD" xml:space="preserve">
+    <value>Рекомендация Подробности </value>
+  </data>
+  <data name="lblReason" xml:space="preserve">
+    <value>Причина </value>
+  </data>
+  <data name="lblReasonID" xml:space="preserve">
+    <value>Причина ID </value>
+  </data>
+  <data name="lblRebate" xml:space="preserve">
+    <value>ПОКУПАЙ Rebate 
+</value>
+  </data>
+  <data name="lblRebateRule" xml:space="preserve">
+    <value>Правило скидок 
+</value>
+  </data>
+  <data name="lblReceipt" xml:space="preserve">
+    <value>Квитанция 
+</value>
+  </data>
+  <data name="lblReceiptAmount" xml:space="preserve">
+    <value>Квитанция Сумма </value>
+  </data>
+  <data name="lblReceiptDate" xml:space="preserve">
+    <value>Получение Дата 
+</value>
+  </data>
+  <data name="lblReceiptDays" xml:space="preserve">
+    <value>Получение дней 
+</value>
+  </data>
+  <data name="lblReceiptDetails" xml:space="preserve">
+    <value>Получение Подробности 
+</value>
+  </data>
+  <data name="lblReceiptID" xml:space="preserve">
+    <value>Получение ID 
+</value>
+  </data>
+  <data name="lblReceiptMaturityAmountDetails" xml:space="preserve">
+    <value>Получение зрелости сумму подробности 
+</value>
+  </data>
+  <data name="lblReceivableGLID" xml:space="preserve">
+    <value>Дебиторская задолженность GL ID </value>
+  </data>
+  <data name="lblReceived" xml:space="preserve">
+    <value>Поступило 
+</value>
+  </data>
+  <data name="lblReceivedBy" xml:space="preserve">
+    <value>В редакцию </value>
+  </data>
+  <data name="lblReceivedDate" xml:space="preserve">
+    <value>Дата редакцию 
+</value>
+  </data>
+  <data name="lblReceivedOn" xml:space="preserve">
+    <value>Размещено</value>
+  </data>
+  <data name="lblRecommended" xml:space="preserve">
+    <value>Рекомендуемые</value>
+  </data>
+  <data name="lblReconcileID" xml:space="preserve">
+    <value>Reconcile ID 
+</value>
+  </data>
+  <data name="lblRecordStatus" xml:space="preserve">
+    <value>Рекорд Статус</value>
+  </data>
+  <data name="lblRecoveredagainstChargeOff" xml:space="preserve">
+    <value>Рекуперация обвинения против Off 
+</value>
+  </data>
+  <data name="lblRecoveredagainstForfeit" xml:space="preserve">
+    <value>Рекуперация в отношении неустойки </value>
+  </data>
+  <data name="lblRecoveryType" xml:space="preserve">
+    <value>Восстановление Тип 
+</value>
+  </data>
+  <data name="lblReferenceID" xml:space="preserve">
+    <value>Reference ID 
+</value>
+  </data>
+  <data name="lblRefNo" xml:space="preserve">
+    <value>Ссылки нет 
+</value>
+  </data>
+  <data name="lblRefresh" xml:space="preserve">
+    <value>Обновить 
+</value>
+  </data>
+  <data name="lblRegion" xml:space="preserve">
+    <value>Регион </value>
+  </data>
+  <data name="lblRegisterationNo" xml:space="preserve">
+    <value>Регистрационный № 
+</value>
+  </data>
+  <data name="lblRegisteredAt" xml:space="preserve">
+    <value>Зарегистрирован На </value>
+  </data>
+  <data name="lblRegisteredOffice" xml:space="preserve">
+    <value>Зарегистрированный офис </value>
+  </data>
+  <data name="lblRegisterFilePath" xml:space="preserve">
+    <value>Регистрация путь к файлу </value>
+  </data>
+  <data name="lblRegistratedAt" xml:space="preserve">
+    <value>Зарегистрирован На 
+</value>
+  </data>
+  <data name="lblRegistration" xml:space="preserve">
+    <value>Регистрация </value>
+  </data>
+  <data name="lblRegistrationDate" xml:space="preserve">
+    <value>Дата регистрации </value>
+  </data>
+  <data name="lblRegistrationNo" xml:space="preserve">
+    <value>Регистрация Нет </value>
+  </data>
+  <data name="lblRegularExecutionDay" xml:space="preserve">
+    <value>Регулярные исполнения день </value>
+  </data>
+  <data name="lblRejectedBy" xml:space="preserve">
+    <value>Отклонено </value>
+  </data>
+  <data name="lblRejectedOn" xml:space="preserve">
+    <value>Отклонена </value>
+  </data>
+  <data name="lblRejectionReason" xml:space="preserve">
+    <value>Причина отказа </value>
+  </data>
+  <data name="lblRelation" xml:space="preserve">
+    <value>Связь</value>
+  </data>
+  <data name="lblRelationship" xml:space="preserve">
+    <value>Связь </value>
+  </data>
+  <data name="lblReleasedDate" xml:space="preserve">
+    <value>Дата выхода 
+</value>
+  </data>
+  <data name="lblReleasedReason" xml:space="preserve">
+    <value>Причина выхода </value>
+  </data>
+  <data name="lblRemarks" xml:space="preserve">
+    <value>Замечания </value>
+  </data>
+  <data name="lblReminder" xml:space="preserve">
+    <value>Напоминание </value>
+  </data>
+  <data name="lblReminderColor" xml:space="preserve">
+    <value>Напоминание Цвет 
+</value>
+  </data>
+  <data name="lblReminderDetails" xml:space="preserve">
+    <value>Напоминание Подробности </value>
+  </data>
+  <data name="lblReminderID" xml:space="preserve">
+    <value>Напоминание ID 
+</value>
+  </data>
+  <data name="lblRenewalInstruction" xml:space="preserve">
+    <value>Оживление Инструкция </value>
+  </data>
+  <data name="lblRenewalMode" xml:space="preserve">
+    <value>Продление режима 
+</value>
+  </data>
+  <data name="lblRenewalRateType" xml:space="preserve">
+    <value>Оживление темпов типа </value>
+  </data>
+  <data name="lblRenewalsRateType" xml:space="preserve">
+    <value>Обновления ставки типа </value>
+  </data>
+  <data name="lblRenewalType" xml:space="preserve">
+    <value>Оживление Тип </value>
+  </data>
+  <data name="lblRentExpense" xml:space="preserve">
+    <value>Аренда Расходы 
+</value>
+  </data>
+  <data name="lblReopenAccounts" xml:space="preserve">
+    <value>Вновь открыли счета </value>
+  </data>
+  <data name="lblRepaidAmount" xml:space="preserve">
+    <value>Сумма возвращается </value>
+  </data>
+  <data name="lblRepaymentCalculationMethod" xml:space="preserve">
+    <value>Погашение метод расчета </value>
+  </data>
+  <data name="lblRepaymentFrequency" xml:space="preserve">
+    <value>Погашение Частота 
+</value>
+  </data>
+  <data name="lblRepaymentMethod" xml:space="preserve">
+    <value>Порядок погашения кредита 
+</value>
+  </data>
+  <data name="lblRepaymentMode" xml:space="preserve">
+    <value>Погашение Mode 
+</value>
+  </data>
+  <data name="lblRepaymentTerm" xml:space="preserve">
+    <value>Срок погашения кредита </value>
+  </data>
+  <data name="lblRepaymentType" xml:space="preserve">
+    <value>Погашение Тип 
+</value>
+  </data>
+  <data name="lblReportCurrency" xml:space="preserve">
+    <value>Доклад Валюта 
+</value>
+  </data>
+  <data name="lblReportID" xml:space="preserve">
+    <value>Доклад ID 
+</value>
+  </data>
+  <data name="lblReportingBranch" xml:space="preserve">
+    <value>Репортажи отделение 
+</value>
+  </data>
+  <data name="lblReportingBranchID" xml:space="preserve">
+    <value>Отчетность филиала ID</value>
+  </data>
+  <data name="lblReportingTo" xml:space="preserve">
+    <value>Представление отчетности </value>
+  </data>
+  <data name="lblReportType" xml:space="preserve">
+    <value>Тип отчета</value>
+  </data>
+  <data name="lblRequestReferenceNo" xml:space="preserve">
+    <value>Запрос Ссылка нет</value>
+  </data>
+  <data name="lblResident" xml:space="preserve">
+    <value>Резидент</value>
+  </data>
+  <data name="lblResignedOn" xml:space="preserve">
+    <value>Подал в отставку</value>
+  </data>
+  <data name="lblResult" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="lblRetryAfterDays" xml:space="preserve">
+    <value>Повторить за днем (ов)</value>
+  </data>
+  <data name="lblReturnCode" xml:space="preserve">
+    <value>Вернуться кодекс</value>
+  </data>
+  <data name="lblRevaluationRate" xml:space="preserve">
+    <value>Переоценка валюты</value>
+  </data>
+  <data name="lblRevaluationType" xml:space="preserve">
+    <value>Переоценка Тип</value>
+  </data>
+  <data name="lblReversalType" xml:space="preserve">
+    <value>Возврат Тип</value>
+  </data>
+  <data name="lblRevokePayment" xml:space="preserve">
+    <value>Аннулировать Оплата</value>
+  </data>
+  <data name="lblRFD" xml:space="preserve">
+    <value>Получение найдены детали</value>
+  </data>
+  <data name="lblRiskClassification" xml:space="preserve">
+    <value>Классификация рисков</value>
+  </data>
+  <data name="lblRLD" xml:space="preserve">
+    <value>Получение потерял детали</value>
+  </data>
+  <data name="lblROI" xml:space="preserve">
+    <value>Процентную ставку</value>
+  </data>
+  <data name="lblROIAfterMaturity" xml:space="preserve">
+    <value>Рентабельность инвестиций после погашения</value>
+  </data>
+  <data name="lblROIApplicable" xml:space="preserve">
+    <value>Рентабельность инвестиций Применимо</value>
+  </data>
+  <data name="lblRole" xml:space="preserve">
+    <value>Роль</value>
+  </data>
+  <data name="lblRoleAccessLevel" xml:space="preserve">
+    <value>Роль уровень доступа</value>
+  </data>
+  <data name="lblRoleID" xml:space="preserve">
+    <value>Роль ID</value>
+  </data>
+  <data name="lblRoleName" xml:space="preserve">
+    <value>Роль Имя 
+</value>
+  </data>
+  <data name="lblRoleSupervisorID" xml:space="preserve">
+    <value>Руководитель роль ID</value>
+  </data>
+  <data name="lblRounding" xml:space="preserve">
+    <value>Округление </value>
+  </data>
+  <data name="lblRoundingCode" xml:space="preserve">
+    <value>Округление кодекс </value>
+  </data>
+  <data name="lblRoundLastInstallment" xml:space="preserve">
+    <value>Круглый последнего транша </value>
+  </data>
+  <data name="lblRR" xml:space="preserve">
+    <value>Причина возврата </value>
+  </data>
+  <data name="lblRule78" xml:space="preserve">
+    <value>Правило 78 
+</value>
+  </data>
+  <data name="lblRuleDetails" xml:space="preserve">
+    <value>Правило Подробности </value>
+  </data>
+  <data name="lblRuleID" xml:space="preserve">
+    <value>Правило ID 
+</value>
+  </data>
+  <data name="lblRuleName" xml:space="preserve">
+    <value>Правило Название </value>
+  </data>
+  <data name="lblRuleType" xml:space="preserve">
+    <value>Правило Тип 
+</value>
+  </data>
+  <data name="lblSalaried" xml:space="preserve">
+    <value>Оклад</value>
+  </data>
+  <data name="lblSalvageRate" xml:space="preserve">
+    <value>Аварийная Оценить</value>
+  </data>
+  <data name="lblSalvageValue" xml:space="preserve">
+    <value>Аварийная стоимость </value>
+  </data>
+  <data name="lblSanctionAmount" xml:space="preserve">
+    <value>Санкция Сумма </value>
+  </data>
+  <data name="lblSanctionBy" xml:space="preserve">
+    <value>Санкций со </value>
+  </data>
+  <data name="lblSanctionDate" xml:space="preserve">
+    <value>Санкция Дата</value>
+  </data>
+  <data name="lblSanctionedAmount" xml:space="preserve">
+    <value>Сумма санкции</value>
+  </data>
+  <data name="lblSanctionedBranch" xml:space="preserve">
+    <value>Санкционировали отделение</value>
+  </data>
+  <data name="lblSanctionedBy" xml:space="preserve">
+    <value>Санкционирована </value>
+  </data>
+  <data name="lblSanctionedDate" xml:space="preserve">
+    <value>Дата санкции</value>
+  </data>
+  <data name="lblSanctionedLimit" xml:space="preserve">
+    <value>Предельные санкции</value>
+  </data>
+  <data name="lblSanctionLimit" xml:space="preserve">
+    <value>Санкция Предельные 
+</value>
+  </data>
+  <data name="lblSaturday" xml:space="preserve">
+    <value>Суббота</value>
+  </data>
+  <data name="lblSavingAccountDetails" xml:space="preserve">
+    <value>Накопительный счет подробности</value>
+  </data>
+  <data name="lblSavingAccountID" xml:space="preserve">
+    <value>Накопительный счет ID 
+</value>
+  </data>
+  <data name="lblSavingBalance" xml:space="preserve">
+    <value>Сохранение баланса</value>
+  </data>
+  <data name="lblSavingOSLoan" xml:space="preserve">
+    <value>Сохранение / OS займе%</value>
+  </data>
+  <data name="lblSavingOutstandingLoan" xml:space="preserve">
+    <value>Сохранение / OS кредит </value>
+  </data>
+  <data name="lblSavingsAcID" xml:space="preserve">
+    <value>Экономия / с ID </value>
+  </data>
+  <data name="lblSavingsAmount" xml:space="preserve">
+    <value>Экономия Сумма </value>
+  </data>
+  <data name="lblSavingsProductID" xml:space="preserve">
+    <value>Сохранение Product ID </value>
+  </data>
+  <data name="lblSavingsTypeID" xml:space="preserve">
+    <value>Экономия типа ID </value>
+  </data>
+  <data name="lblSavingsValue" xml:space="preserve">
+    <value>Экономия стоимости </value>
+  </data>
+  <data name="lblScavengingPriority" xml:space="preserve">
+    <value>Приоритет очистки </value>
+  </data>
+  <data name="lblSCD" xml:space="preserve">
+    <value>Среднее залога подробности</value>
+  </data>
+  <data name="lblSchedule" xml:space="preserve">
+    <value>Расписание </value>
+  </data>
+  <data name="lblScheme" xml:space="preserve">
+    <value>Схема </value>
+  </data>
+  <data name="lblSchemeID" xml:space="preserve">
+    <value>Схема ID </value>
+  </data>
+  <data name="lblSchemeType" xml:space="preserve">
+    <value>Схема Тип </value>
+  </data>
+  <data name="lblSD" xml:space="preserve">
+    <value>Санкция Подробности </value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="lblSearchCondition1" xml:space="preserve">
+    <value>Поиск Условие 1</value>
+  </data>
+  <data name="lblSearchCondition2" xml:space="preserve">
+    <value>Поиск Условие 2 
+</value>
+  </data>
+  <data name="lblSearchCondition3" xml:space="preserve">
+    <value>Поиск Условие 3</value>
+  </data>
+  <data name="lblSearchCriteria" xml:space="preserve">
+    <value>Критерии поиска</value>
+  </data>
+  <data name="lblsearchDetails" xml:space="preserve">
+    <value>Поиск Подробно</value>
+  </data>
+  <data name="lblSearchField" xml:space="preserve">
+    <value>Поле поиска </value>
+  </data>
+  <data name="lblSearchIn" xml:space="preserve">
+    <value>Искать В 
+</value>
+  </data>
+  <data name="lblSearchKeyID" xml:space="preserve">
+    <value>Поиск ключевых ID </value>
+  </data>
+  <data name="lblSearchModule" xml:space="preserve">
+    <value>Модуль поиска </value>
+  </data>
+  <data name="lblSecondaryCollateral" xml:space="preserve">
+    <value>Среднее Залог</value>
+  </data>
+  <data name="lblSelectAll" xml:space="preserve">
+    <value>Выбрать все </value>
+  </data>
+  <data name="lblSelectedPortfolio" xml:space="preserve">
+    <value>Отобрано Портфолио </value>
+  </data>
+  <data name="lblSelfEmployed" xml:space="preserve">
+    <value>Self Занятые</value>
+  </data>
+  <data name="lblSelling" xml:space="preserve">
+    <value>Продажа </value>
+  </data>
+  <data name="lblSellingRate" xml:space="preserve">
+    <value>Продажа валюты </value>
+  </data>
+  <data name="lblSellingVariance" xml:space="preserve">
+    <value>Продажа Разница (в%) 
+</value>
+  </data>
+  <data name="lblSerialID" xml:space="preserve">
+    <value>Serial ID </value>
+  </data>
+  <data name="lblSerialNo" xml:space="preserve">
+    <value>Серийный Нет </value>
+  </data>
+  <data name="lblSeries" xml:space="preserve">
+    <value>Серия </value>
+  </data>
+  <data name="lblServiceType" xml:space="preserve">
+    <value>Сервис Тип 
+</value>
+  </data>
+  <data name="lblSettings" xml:space="preserve">
+    <value>Настройки </value>
+  </data>
+  <data name="lblSettlementAmount" xml:space="preserve">
+    <value>Урегулирование Сумма 
+</value>
+  </data>
+  <data name="lblShare" xml:space="preserve">
+    <value>Доля</value>
+  </data>
+  <data name="lblShareIncome" xml:space="preserve">
+    <value>Доля дохода </value>
+  </data>
+  <data name="lblSharePercent" xml:space="preserve">
+    <value>Доля (%) 
+</value>
+  </data>
+  <data name="lblShortName" xml:space="preserve">
+    <value>Сокращенное наименование </value>
+  </data>
+  <data name="lblShowImage" xml:space="preserve">
+    <value>Показать Image</value>
+  </data>
+  <data name="lblShowRowsDifferences" xml:space="preserve">
+    <value>Показать только те строки, имеющие разногласия </value>
+  </data>
+  <data name="lblSignatories" xml:space="preserve">
+    <value>Подписавших </value>
+  </data>
+  <data name="lblSignatoryID" xml:space="preserve">
+    <value>Подписавшая ID</value>
+  </data>
+  <data name="lblSignatoryLimit" xml:space="preserve">
+    <value>Предельные подписавшая</value>
+  </data>
+  <data name="lblSignatoryName" xml:space="preserve">
+    <value>Имя, подписавшая</value>
+  </data>
+  <data name="lblSignatoryPath" xml:space="preserve">
+    <value>Подписание Путь</value>
+  </data>
+  <data name="lblSignatoryType" xml:space="preserve">
+    <value>Подписавшая Тип</value>
+  </data>
+  <data name="lblSignature" xml:space="preserve">
+    <value>Подпись </value>
+  </data>
+  <data name="lblSignatureImage" xml:space="preserve">
+    <value>Логотип </value>
+  </data>
+  <data name="lblSignedBy" xml:space="preserve">
+    <value>Подписано </value>
+  </data>
+  <data name="lblSignInOfficerID" xml:space="preserve">
+    <value>Вход в систему офицер ID</value>
+  </data>
+  <data name="lblSITransferType" xml:space="preserve">
+    <value>С. И. типом передачи</value>
+  </data>
+  <data name="lblSIType" xml:space="preserve">
+    <value>Тип СИ</value>
+  </data>
+  <data name="lblSlab" xml:space="preserve">
+    <value>Слябовая </value>
+  </data>
+  <data name="lblSlabWise" xml:space="preserve">
+    <value>Слябовая Мудрого</value>
+  </data>
+  <data name="lblSLNo" xml:space="preserve">
+    <value>Нет SL</value>
+  </data>
+  <data name="lblSourceAddress" xml:space="preserve">
+    <value>Источник Адрес</value>
+  </data>
+  <data name="lblSpecialOffers" xml:space="preserve">
+    <value>Специальные предложения</value>
+  </data>
+  <data name="lblStage" xml:space="preserve">
+    <value>Этап </value>
+  </data>
+  <data name="lblStaggerDays" xml:space="preserve">
+    <value>Stagger дней</value>
+  </data>
+  <data name="lblStaggerFirstgroupLoan" xml:space="preserve">
+    <value>Stagger первой группе кредит</value>
+  </data>
+  <data name="lblStandingInstructionDetails" xml:space="preserve">
+    <value>Постоянная инструкция подробности</value>
+  </data>
+  <data name="lblStandingInstructionID" xml:space="preserve">
+    <value>Постоянная инструкция ID</value>
+  </data>
+  <data name="lblStandingInstructionStatus" xml:space="preserve">
+    <value>Постоянная инструкция статус</value>
+  </data>
+  <data name="lblStartDate" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="lblStatementOnline" xml:space="preserve">
+    <value>Заявление Интернет</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Статус </value>
+  </data>
+  <data name="lblStatusDate" xml:space="preserve">
+    <value>Состояние Дата</value>
+  </data>
+  <data name="lblStatusReason" xml:space="preserve">
+    <value>Статус Основания</value>
+  </data>
+  <data name="lblStopPayment" xml:space="preserve">
+    <value>Остановка платежей</value>
+  </data>
+  <data name="lblStopPaymentDate" xml:space="preserve">
+    <value>Стоп день оплаты</value>
+  </data>
+  <data name="lblStopPaymentReason" xml:space="preserve">
+    <value>Стоп оплаты причине</value>
+  </data>
+  <data name="lblStoppedBy" xml:space="preserve">
+    <value>Остановлена </value>
+  </data>
+  <data name="lblStoppedOn" xml:space="preserve">
+    <value>Остановился на</value>
+  </data>
+  <data name="lblStoppedReason" xml:space="preserve">
+    <value>Причина остановлены</value>
+  </data>
+  <data name="lblSubAccountID" xml:space="preserve">
+    <value>Под идентификатора учетной</value>
+  </data>
+  <data name="lblSubClassID" xml:space="preserve">
+    <value>Под идентификатор класса</value>
+  </data>
+  <data name="lblSubCode" xml:space="preserve">
+    <value>Под кодекс</value>
+  </data>
+  <data name="lblSubGroupID" xml:space="preserve">
+    <value>Под ID группы</value>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Тема </value>
+  </data>
+  <data name="lblSubscriptionDate" xml:space="preserve">
+    <value>Подписка Дата</value>
+  </data>
+  <data name="lblSubscriptionFrequency" xml:space="preserve">
+    <value>Подписка Частота</value>
+  </data>
+  <data name="lblSuccessfulTrxID" xml:space="preserve">
+    <value>Успешные Trx. ID</value>
+  </data>
+  <data name="lblSunday" xml:space="preserve">
+    <value>Воскресенье </value>
+  </data>
+  <data name="lblSupervisedBy" xml:space="preserve">
+    <value>Под наблюдением</value>
+  </data>
+  <data name="lblSupervisedOn" xml:space="preserve">
+    <value>Контролируется на</value>
+  </data>
+  <data name="lblSuperviserID" xml:space="preserve">
+    <value>Руководитель ID</value>
+  </data>
+  <data name="lblSupervision" xml:space="preserve">
+    <value>Надзор человека </value>
+  </data>
+  <data name="lblSupervisorPasswordVerification" xml:space="preserve">
+    <value>Руководитель проверки пароля</value>
+  </data>
+  <data name="lblSWA" xml:space="preserve">
+    <value>Слябовая мудрым сумму</value>
+  </data>
+  <data name="lblSwapOrder" xml:space="preserve">
+    <value>Порядок подключения </value>
+  </data>
+  <data name="lblSWIFTCode" xml:space="preserve">
+    <value>Код SWIFT </value>
+  </data>
+  <data name="lblSystemClass" xml:space="preserve">
+    <value>Системы класса</value>
+  </data>
+  <data name="lblSystemDate" xml:space="preserve">
+    <value>Системной даты </value>
+  </data>
+  <data name="lblTariffID" xml:space="preserve">
+    <value>Тариф ID</value>
+  </data>
+  <data name="lblTax" xml:space="preserve">
+    <value>Налог </value>
+  </data>
+  <data name="lblTaxable" xml:space="preserve">
+    <value>Налогооблагаемая </value>
+  </data>
+  <data name="lblTaxAmount" xml:space="preserve">
+    <value>Налоговая Сумма</value>
+  </data>
+  <data name="lblTaxCapitalized" xml:space="preserve">
+    <value>Налоговые Капитализированные</value>
+  </data>
+  <data name="lblTaxCollected" xml:space="preserve">
+    <value>Налоговые Собранные</value>
+  </data>
+  <data name="lblTaxExemptionAmount" xml:space="preserve">
+    <value>Освобождение от уплаты налога Сумма</value>
+  </data>
+  <data name="lblTaxID" xml:space="preserve">
+    <value>ИНН</value>
+  </data>
+  <data name="lblTaxMaintenance" xml:space="preserve">
+    <value>Налоговые обслуживание</value>
+  </data>
+  <data name="lblTaxOnTrxAmount" xml:space="preserve">
+    <value>Налог на Trx. Сумма</value>
+  </data>
+  <data name="lblTaxPayable" xml:space="preserve">
+    <value>По налогу</value>
+  </data>
+  <data name="lblTaxRule" xml:space="preserve">
+    <value>Правило налогообложения</value>
+  </data>
+  <data name="lblTaxType" xml:space="preserve">
+    <value>Налоговые Тип</value>
+  </data>
+  <data name="lblTD" xml:space="preserve">
+    <value>Детали сделки</value>
+  </data>
+  <data name="lblTDSAmount" xml:space="preserve">
+    <value>Сумма TDS </value>
+  </data>
+  <data name="lblTDSAmountLocal" xml:space="preserve">
+    <value>TDS Сумма (местное)</value>
+  </data>
+  <data name="lblTelephoneNo" xml:space="preserve">
+    <value>Телефон Нет</value>
+  </data>
+  <data name="lblTempClientID" xml:space="preserve">
+    <value>Темп Идентификатор клиента</value>
+  </data>
+  <data name="lblTemplateFileName" xml:space="preserve">
+    <value>Шаблон имени файла</value>
+  </data>
+  <data name="lblTemplateType" xml:space="preserve">
+    <value>Шаблон Тип</value>
+  </data>
+  <data name="lblTerm" xml:space="preserve">
+    <value>Срок </value>
+  </data>
+  <data name="lblTermFrom" xml:space="preserve">
+    <value>Срок от</value>
+  </data>
+  <data name="lblTerminalRestrictions" xml:space="preserve">
+    <value>Терминал Ограничения</value>
+  </data>
+  <data name="lblTermIncludesGracePeriod" xml:space="preserve">
+    <value>Срок включает в себя льготный период</value>
+  </data>
+  <data name="lblTermPeriod" xml:space="preserve">
+    <value>Срок Период</value>
+  </data>
+  <data name="lblTerms" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="lblTermTo" xml:space="preserve">
+    <value>Термин </value>
+  </data>
+  <data name="lblTermType" xml:space="preserve">
+    <value>Срок Тип</value>
+  </data>
+  <data name="lblTGSC" xml:space="preserve">
+    <value>Общая схема сбора группы</value>
+  </data>
+  <data name="lblThursday" xml:space="preserve">
+    <value>Четверг </value>
+  </data>
+  <data name="lblTierBased" xml:space="preserve">
+    <value>Уровень Основываясь</value>
+  </data>
+  <data name="lblTill" xml:space="preserve">
+    <value>До </value>
+  </data>
+  <data name="lblTillCurrencyMaintenance" xml:space="preserve">
+    <value>До валюте Обслуживание</value>
+  </data>
+  <data name="lblTillID" xml:space="preserve">
+    <value>До ID</value>
+  </data>
+  <data name="lblTillMaintenance" xml:space="preserve">
+    <value>До обслуживание</value>
+  </data>
+  <data name="lblTillName" xml:space="preserve">
+    <value>До Имя</value>
+  </data>
+  <data name="lblTimeZoneDiff" xml:space="preserve">
+    <value>Часовой пояс сравнения.</value>
+  </data>
+  <data name="lblTimeZoneDiffDesc" xml:space="preserve">
+    <value>hh.mm</value>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>Название </value>
+  </data>
+  <data name="lblTo" xml:space="preserve">
+    <value>В </value>
+  </data>
+  <data name="lblToAmount" xml:space="preserve">
+    <value>Для Сумма</value>
+  </data>
+  <data name="lblToBranchID" xml:space="preserve">
+    <value>Для филиала ID</value>
+  </data>
+  <data name="lblToCurrency" xml:space="preserve">
+    <value>ВАЛЮТ </value>
+  </data>
+  <data name="lblToDate" xml:space="preserve">
+    <value>Чтобы Дата</value>
+  </data>
+  <data name="lblTODDate" xml:space="preserve">
+    <value>Дата TOD</value>
+  </data>
+  <data name="lblToDisbDate" xml:space="preserve">
+    <value>Для Disb.Date</value>
+  </data>
+  <data name="lblTODLimitAmount" xml:space="preserve">
+    <value>TOD лимита</value>
+  </data>
+  <data name="lblTODRate" xml:space="preserve">
+    <value>TOD ставка ID</value>
+  </data>
+  <data name="lblTODTypeID" xml:space="preserve">
+    <value>TOD Тип</value>
+  </data>
+  <data name="lblToGroupID" xml:space="preserve">
+    <value>Чтобы ID группы</value>
+  </data>
+  <data name="lblToProductID" xml:space="preserve">
+    <value>Чтобы Product ID</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Итого </value>
+  </data>
+  <data name="lblTotalAdvancePaid" xml:space="preserve">
+    <value>Всего заранее выплатили</value>
+  </data>
+  <data name="lblTotalAdvances" xml:space="preserve">
+    <value>Всего Достижения</value>
+  </data>
+  <data name="lblTotalAllocated" xml:space="preserve">
+    <value>Общий объем выделенной</value>
+  </data>
+  <data name="lblTotalAmount" xml:space="preserve">
+    <value>Общая сумма</value>
+  </data>
+  <data name="lblTotalApportionedValue" xml:space="preserve">
+    <value>Общая стоимость распределенной</value>
+  </data>
+  <data name="lblTotalAssetsoftheHousehold" xml:space="preserve">
+    <value>Совокупные активы домашних хозяйств</value>
+  </data>
+  <data name="lblTotalBalance" xml:space="preserve">
+    <value>Общий баланс</value>
+  </data>
+  <data name="lblTotalCashCredit" xml:space="preserve">
+    <value>Общая сумма наличных средств кредитных</value>
+  </data>
+  <data name="lblTotalCashDebit" xml:space="preserve">
+    <value>Общая сумма наличных средств Дебет</value>
+  </data>
+  <data name="lblTotalCollateral" xml:space="preserve">
+    <value>Общий объем кредита</value>
+  </data>
+  <data name="lblTotalCredit" xml:space="preserve">
+    <value>Общий объем кредитных</value>
+  </data>
+  <data name="lblTotalDebit" xml:space="preserve">
+    <value>Всего Дебет</value>
+  </data>
+  <data name="lblTotalDeposits" xml:space="preserve">
+    <value>Общий объем вкладов</value>
+  </data>
+  <data name="lblTotalExits" xml:space="preserve">
+    <value>Всего выходов</value>
+  </data>
+  <data name="lblTotalExpected" xml:space="preserve">
+    <value>Всего Ожидаемые</value>
+  </data>
+  <data name="lblTotalExpenses" xml:space="preserve">
+    <value>Итого расходы</value>
+  </data>
+  <data name="lblTotalForfeitAmount" xml:space="preserve">
+    <value>Общая сумма неустойки</value>
+  </data>
+  <data name="lblTotalIncome" xml:space="preserve">
+    <value>ОБЩАЯ СУММА ПОСТУПЛЕНИЙ</value>
+  </data>
+  <data name="lblTotalInstallments" xml:space="preserve">
+    <value>Всего партий</value>
+  </data>
+  <data name="lblTotalInterest" xml:space="preserve">
+    <value>Итого Проценты </value>
+  </data>
+  <data name="lblTotalInterestPaid" xml:space="preserve">
+    <value>Всего Проценты уплаченные</value>
+  </data>
+  <data name="lblTotalInterestPayable" xml:space="preserve">
+    <value>Итого проценты к уплате</value>
+  </data>
+  <data name="lblTotalInterestReceivable" xml:space="preserve">
+    <value>Итого проценты к получению</value>
+  </data>
+  <data name="lblTotalInvoiceAmount" xml:space="preserve">
+    <value>Общая сумма счета-фактуры</value>
+  </data>
+  <data name="lblTotalLength" xml:space="preserve">
+    <value>Общая протяженность</value>
+  </data>
+  <data name="lblTotalLimit" xml:space="preserve">
+    <value>Всего Предельные</value>
+  </data>
+  <data name="lblTotalLoanACs" xml:space="preserve">
+    <value>Общий объем займа / CS</value>
+  </data>
+  <data name="lblTotalLoanAmount" xml:space="preserve">
+    <value>Общая сумма кредита</value>
+  </data>
+  <data name="lblTotalLoanBalance" xml:space="preserve">
+    <value>Общий остаток займа</value>
+  </data>
+  <data name="lblTotalMembers" xml:space="preserve">
+    <value>Всего участников</value>
+  </data>
+  <data name="lblTotalNonFundAdvances" xml:space="preserve">
+    <value>Всего неприсоединения Фонда авансы</value>
+  </data>
+  <data name="lblTotalNoOfCheques" xml:space="preserve">
+    <value>Общее число чеков</value>
+  </data>
+  <data name="lblTotalPayable" xml:space="preserve">
+    <value>Всего к оплате </value>
+  </data>
+  <data name="lblTotalPayments" xml:space="preserve">
+    <value>Всего Платежи</value>
+  </data>
+  <data name="lblTotalPolicyAmount" xml:space="preserve">
+    <value>Общая сумма политики</value>
+  </data>
+  <data name="lblTotalPortfolio" xml:space="preserve">
+    <value>Всего Портфолио</value>
+  </data>
+  <data name="lblTotalPremium" xml:space="preserve">
+    <value>Всего Premium</value>
+  </data>
+  <data name="lblTotalPrincipal" xml:space="preserve">
+    <value>Всего высший</value>
+  </data>
+  <data name="lblTotalRecieved" xml:space="preserve">
+    <value>Всего в редакцию</value>
+  </data>
+  <data name="lblTotalRecoverable" xml:space="preserve">
+    <value>Всего Извлекаемые </value>
+  </data>
+  <data name="lblTotalRecovered" xml:space="preserve">
+    <value>Всего Рекуперация </value>
+  </data>
+  <data name="lblTotalRecoveredAgainstForfeit" xml:space="preserve">
+    <value>Всего Рекуперация против неустойки</value>
+  </data>
+  <data name="lblTotalSavingsAC" xml:space="preserve">
+    <value>Общая экономия / CS</value>
+  </data>
+  <data name="lblTotalSavingsBalance" xml:space="preserve">
+    <value>Общая экономия баланс</value>
+  </data>
+  <data name="lblTotalTODAmount" xml:space="preserve">
+    <value>Общая сумма TOD</value>
+  </data>
+  <data name="lblTotalTransferCredit" xml:space="preserve">
+    <value>Всего передачи кредитных</value>
+  </data>
+  <data name="lblTotalTransferDebit" xml:space="preserve">
+    <value>Всего передачи Дебет</value>
+  </data>
+  <data name="lblToTillID" xml:space="preserve">
+    <value>Чтобы до ID</value>
+  </data>
+  <data name="lblToYear" xml:space="preserve">
+    <value>В год </value>
+  </data>
+  <data name="lblTrackCharge" xml:space="preserve">
+    <value>Track Зарядка </value>
+  </data>
+  <data name="lblTrackTariff" xml:space="preserve">
+    <value>Track Тариф 
+</value>
+  </data>
+  <data name="lblTransaction" xml:space="preserve">
+    <value>Сделка </value>
+  </data>
+  <data name="lblTransactionAmount" xml:space="preserve">
+    <value>Сумма сделки </value>
+  </data>
+  <data name="lblTransactionAmount1" xml:space="preserve">
+    <value>Сумма сделки 1.</value>
+  </data>
+  <data name="lblTransactionCategory" xml:space="preserve">
+    <value>Категория сделки 
+</value>
+  </data>
+  <data name="lblTransactions" xml:space="preserve">
+    <value>Сделки </value>
+  </data>
+  <data name="lblTransactionSerialID" xml:space="preserve">
+    <value>Trx. Serial ID 
+</value>
+  </data>
+  <data name="lblTransactionStatus" xml:space="preserve">
+    <value>Статус сделки </value>
+  </data>
+  <data name="lblTransactionType" xml:space="preserve">
+    <value>Вид операции 
+</value>
+  </data>
+  <data name="lblTransferCredits" xml:space="preserve">
+    <value>Передача Кредиты </value>
+  </data>
+  <data name="lblTransferCurrencyID" xml:space="preserve">
+    <value>Передача валюте ID </value>
+  </data>
+  <data name="lblTransferDebits" xml:space="preserve">
+    <value>Передача Вычеты </value>
+  </data>
+  <data name="lblTransferFrequency" xml:space="preserve">
+    <value>Частота передачи 
+</value>
+  </data>
+  <data name="lblTransferInstruction" xml:space="preserve">
+    <value>Передача Инструкция </value>
+  </data>
+  <data name="lblTransferringBranchID" xml:space="preserve">
+    <value>Перевод филиала ID </value>
+  </data>
+  <data name="lblTrxCurrency" xml:space="preserve">
+    <value>Валюта сделки 
+</value>
+  </data>
+  <data name="lblTrxDescriptionsID" xml:space="preserve">
+    <value>Идентификатор транзакции </value>
+  </data>
+  <data name="lblTuesday" xml:space="preserve">
+    <value>Вторник </value>
+  </data>
+  <data name="lblType" xml:space="preserve">
+    <value>Тип </value>
+  </data>
+  <data name="lblTypeID" xml:space="preserve">
+    <value>Тип ID 
+</value>
+  </data>
+  <data name="lblUI" xml:space="preserve">
+    <value>ID пользователя 
+</value>
+  </data>
+  <data name="lblUnallocatedOnly" xml:space="preserve">
+    <value>Только Нераспределенные </value>
+  </data>
+  <data name="lblUnallocatedWithSameFundType" xml:space="preserve">
+    <value>Нераспределенные Что же тип фонда</value>
+  </data>
+  <data name="lblUnclaimedAmount" xml:space="preserve">
+    <value>Невыбранные Сумма </value>
+  </data>
+  <data name="lblUnClearBalance" xml:space="preserve">
+    <value>Неясные Баланс </value>
+  </data>
+  <data name="lblUnearnedInterest" xml:space="preserve">
+    <value>Unearned Проценты </value>
+  </data>
+  <data name="lblUnique" xml:space="preserve">
+    <value>Уникальный </value>
+  </data>
+  <data name="lblUnPosted" xml:space="preserve">
+    <value>Снимите Добавлено </value>
+  </data>
+  <data name="lblUnsupervisedCredit" xml:space="preserve">
+    <value>Кредит без присмотра </value>
+  </data>
+  <data name="lblUnSupervisedCredits" xml:space="preserve">
+    <value>Un кредиты под контролем 
+</value>
+  </data>
+  <data name="lblUnsupervisedDebit" xml:space="preserve">
+    <value>Неконтролируемого Дебет </value>
+  </data>
+  <data name="lblUnSupervisedDebits" xml:space="preserve">
+    <value>Un Руководил дебеты</value>
+  </data>
+  <data name="lblUpdatelanguage" xml:space="preserve">
+    <value>Обновить свой язык</value>
+  </data>
+  <data name="lblUpto" xml:space="preserve">
+    <value>До </value>
+  </data>
+  <data name="lblUptoDate" xml:space="preserve">
+    <value>Дата до 
+</value>
+  </data>
+  <data name="lblUsedCollateralValue" xml:space="preserve">
+    <value>Используется стоимости залога 
+</value>
+  </data>
+  <data name="lblUsefulLinks" xml:space="preserve">
+    <value>Другие полезные ссылки: 
+</value>
+  </data>
+  <data name="lblUser" xml:space="preserve">
+    <value>Пользователь 
+</value>
+  </data>
+  <data name="lblUserRole" xml:space="preserve">
+    <value>Роль пользователя 
+</value>
+  </data>
+  <data name="lblUtilizationAmount" xml:space="preserve">
+    <value>Использование Сумма </value>
+  </data>
+  <data name="lblUtilizationType" xml:space="preserve">
+    <value>Использование Тип 
+</value>
+  </data>
+  <data name="lblValidChequeDays" xml:space="preserve">
+    <value>Срок действия чеков </value>
+  </data>
+  <data name="lblValidFrom" xml:space="preserve">
+    <value>Действует с 
+</value>
+  </data>
+  <data name="lblValidTo" xml:space="preserve">
+    <value>Действительна для 
+</value>
+  </data>
+  <data name="lblValuationDate" xml:space="preserve">
+    <value>Дата оценки </value>
+  </data>
+  <data name="lblValue" xml:space="preserve">
+    <value>Стоимость </value>
+  </data>
+  <data name="lblValueDate" xml:space="preserve">
+    <value>Стоимость Дата 
+</value>
+  </data>
+  <data name="lblValuedBy" xml:space="preserve">
+    <value>Ценятся </value>
+  </data>
+  <data name="lblvalueID" xml:space="preserve">
+    <value>Стоимость ID 
+</value>
+  </data>
+  <data name="lblValueOfCurrency" xml:space="preserve">
+    <value>Ценность валюты 
+</value>
+  </data>
+  <data name="lblValueType" xml:space="preserve">
+    <value>Стоимость Тип 
+</value>
+  </data>
+  <data name="lblValueTypeID" xml:space="preserve">
+    <value>Значение типа ID 
+</value>
+  </data>
+  <data name="lblVariable" xml:space="preserve">
+    <value>Переменная </value>
+  </data>
+  <data name="lblVATatSource" xml:space="preserve">
+    <value>НДС вычитается на источник</value>
+  </data>
+  <data name="lblVendorID" xml:space="preserve">
+    <value>Поставщик ID </value>
+  </data>
+  <data name="lblVerifiedBy" xml:space="preserve">
+    <value>Проверено 
+</value>
+  </data>
+  <data name="lblVerifiedOn" xml:space="preserve">
+    <value>Проверяться на </value>
+  </data>
+  <data name="lblVillage" xml:space="preserve">
+    <value>Село </value>
+  </data>
+  <data name="lblVoucherCode" xml:space="preserve">
+    <value>Ваучер кодекс 
+</value>
+  </data>
+  <data name="lblVoucherFormatType" xml:space="preserve">
+    <value>Ваучер формат типа </value>
+  </data>
+  <data name="lblVoucherTotal" xml:space="preserve">
+    <value>Ваучер Итого 
+</value>
+  </data>
+  <data name="lblWaiveChanges" xml:space="preserve">
+    <value>Отказаться от изменения 
+</value>
+  </data>
+  <data name="lblWaiveCharges" xml:space="preserve">
+    <value>Отказаться от сборов 
+</value>
+  </data>
+  <data name="lblWebsite" xml:space="preserve">
+    <value>WebSite </value>
+  </data>
+  <data name="lblWednesday" xml:space="preserve">
+    <value>Среда </value>
+  </data>
+  <data name="lblWeekDay" xml:space="preserve">
+    <value>День недели </value>
+  </data>
+  <data name="lblWeeklyOff" xml:space="preserve">
+    <value>Еженедельник Off 
+</value>
+  </data>
+  <data name="lblWillBeExpired" xml:space="preserve">
+    <value>Будет истек 
+</value>
+  </data>
+  <data name="lblWithdrawnDate" xml:space="preserve">
+    <value>Снятый Дата </value>
+  </data>
+  <data name="lblWithdrawnReason" xml:space="preserve">
+    <value>Снятый Разум 
+</value>
+  </data>
+  <data name="lblWithinDays" xml:space="preserve">
+    <value>В течение (дней)</value>
+  </data>
+  <data name="lblWorkflowStage" xml:space="preserve">
+    <value>Рабочий этап </value>
+  </data>
+  <data name="lblWorkFlowTypeID" xml:space="preserve">
+    <value>Тип рабочего ID 
+</value>
+  </data>
+  <data name="lblWorkingDate" xml:space="preserve">
+    <value>Рабочая Дата 
+</value>
+  </data>
+  <data name="lblWorkingSince" xml:space="preserve">
+    <value>Рабочая С 
+</value>
+  </data>
+  <data name="lblWorkPermitNo" xml:space="preserve">
+    <value>Разрешение на работу нет </value>
+  </data>
+  <data name="lblWrittenDownValue" xml:space="preserve">
+    <value>Записаны значения 
+</value>
+  </data>
+  <data name="lblYear" xml:space="preserve">
+    <value>Год (ы) 
+</value>
+  </data>
+  <data name="lblYes" xml:space="preserve">
+    <value>Да </value>
+  </data>
+  <data name="lblZeroBalance" xml:space="preserve">
+    <value>Нулевой баланс </value>
+  </data>
+  <data name="lblZipCode" xml:space="preserve">
+    <value>Почтовый индекс </value>
+  </data>
+  <data name="lbNewlRoleName" xml:space="preserve">
+    <value>Новая роль имя</value>
+  </data>
+  <data name="lblTotalFund" xml:space="preserve">
+    <value>Общий фонд</value>
+  </data>
+  <data name="lblRepaidFund" xml:space="preserve">
+    <value>Возвращенной фонд</value>
+  </data>
+  <data name="lblAllocatedFund" xml:space="preserve">
+    <value>Выделенные фонд</value>
+  </data>
+  <data name="lblAvailableFund" xml:space="preserve">
+    <value>Доступные фонд</value>
+  </data>
+  <data name="lblGroupLoanCycleRequired" xml:space="preserve">
+    <value>Группа Цикл кредит обязательно</value>
+  </data>
+  <data name="lblBRNetResource" xml:space="preserve">
+    <value>BRNET поддержание ресурса</value>
+  </data>
+  <data name="lblDescription1" xml:space="preserve">
+    <value>Описание 1</value>
+  </data>
+  <data name="lblDescription2" xml:space="preserve">
+    <value>Описание 2</value>
+  </data>
+  <data name="lblDescription3" xml:space="preserve">
+    <value>Описание 3</value>
+  </data>
+  <data name="lblResourceTable" xml:space="preserve">
+    <value>Таблица ресурсов</value>
+  </data>
+  <data name="lblResourceType" xml:space="preserve">
+    <value>Тип ресурса</value>
+  </data>
+  <data name="lblRecovery" xml:space="preserve">
+    <value>Восстановление</value>
+  </data>
+  <data name="lblMaxLoanCycle" xml:space="preserve">
+    <value>Максимальный кредит цикла</value>
+  </data>
+  <data name="lblCyclewiseGroupLoanMenu" xml:space="preserve">
+    <value>Цикл мудрым группы займа меню</value>
+  </data>
+  <data name="lblloanAmountRestricted" xml:space="preserve">
+    <value>Сумма кредита ограничена</value>
+  </data>
+  <data name="lblDefaultLoanAmount1" xml:space="preserve">
+    <value>По умолчанию размер кредита</value>
+  </data>
+  <data name="lblGrpLoanApplnDetails" xml:space="preserve">
+    <value>Группа займов Подробности применения</value>
+  </data>
+</root>
