@@ -1,0 +1,9 @@
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\bin\Debug\DNBMigration.exe.config
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\bin\Debug\DNBMigration.exe
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\bin\Debug\DNBMigration.pdb
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\bin\Debug\DbUp.dll
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\bin\Debug\DbUp.pdb
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\bin\Debug\DbUp.xml
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\obj\Debug\DBMigration.csprojResolveAssemblyReference.cache
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\obj\Debug\DNBMigration.exe
+C:\Users\an060sa\Documents\Visual Studio 2013\Projects\MasterFarm\DNBMigration\obj\Debug\DNBMigration.pdb

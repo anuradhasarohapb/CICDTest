@@ -2484,6 +2484,7 @@
     <Content Include="custom\Images\ReportImages\vssver2.scc" />
     <Content Include="custom\Images\vssver2.scc" />
     <Content Include="WebForm1.aspx" />
+    <Content Include=".ebextensions\15_run_migrations.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -2516,7 +2517,9 @@
     <Content Include="Global.asax" />
     <Content Include="test.aspx" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
